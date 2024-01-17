@@ -19,7 +19,7 @@ heritage_arvanite = {
 }
 
 heritage_chaldean = {
-    INVALIDATED_BY = { heritage_chaldean }
+    INVALIDATED_BY = { heritage_chaldean heritage_aramean }
 	type = heritage
 }
 

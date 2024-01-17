@@ -139,7 +139,7 @@ language_albanian = {
 }
 
 language_kemetic = {
-    INVALIDATED_BY = { language_kemetic }
+    INVALIDATED_BY = { language_kemetic language_coptic }
     
 	type = language
 	is_shown = {
