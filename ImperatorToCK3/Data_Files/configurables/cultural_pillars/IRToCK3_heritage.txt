@@ -14,12 +14,12 @@ heritage_hittite = {
 }
 
 heritage_arvanite = {
-    INVALIDATED_BY = { heritage_arvanite heritage_arberian }
+    INVALIDATED_BY = { heritage_arvanite }
 	type = heritage
 }
 
 heritage_chaldean = {
-    INVALIDATED_BY = { heritage_chaldean heritage_aramean }
+    INVALIDATED_BY = { heritage_chaldean }
 	type = heritage
 }
 
