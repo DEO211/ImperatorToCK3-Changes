@@ -136,10 +136,12 @@ link = { ck3 = galatian ir = galatian }
 ## Aryan
 @ir_aryan_cultures = "ir=vidharban ir=mulaka ir=saurashtran ir=kaccha ir=lankan ir=maharashtran ir=rathikan ir=gandhari ir=sivi ir=shauraseni ir=kosala ir=kuru ir=avanti ir=matsya ir=cedi ir=dhivehi ir=sindhi ir=dardic ir=purus ir=mitanni"
 # TFE
-link = { ck3 = med @ir_aryan_cultures @culture_splitting_region_M }
+link = { ck3 = makrani @ir_aryan_cultures @culture_splitting_region_M }
 link = { ck3 = saurashtri ir = saurashtran }
 link = { ck3 = gandhari ir = gandhari }
 link = { ck3 = nuristani ir = dardic }
+# CE 
+link = { ck3 = med @ir_aryan_cultures @culture_splitting_region_M }
 # Vanilla CK3
 link = { ck3 = marathi ir = vidharban ir = maharashtran }
 link = { ck3 = gujarati ir = saurashtran }
@@ -159,6 +161,9 @@ link = { ck3 = hindustani ir = kosala ir = kuru }
 link = { ck3=sinhala ir=dhivehi }
 
 ## Bactrian
+# CE
+link = { ck3 = pamiri ir = phryni }
+# Vanilla CK3
 link = { ck3 = pecheneg ir = pecheneg } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
 link = { ck3 = bactrian ir = bactrian ir = yuezhi }
 link = { ck3 = pecheneg ir = wusun }
@@ -243,6 +248,8 @@ link = { ck3 = belgae ir = ubian }
 @ir_cornish_cultures = "ir=dumnonian ir=cornish" # cornish comes from https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
 # TFE
 link = { ck3 = briton @ir_cumbrian_cultures @ir_welsh_cultures @ir_south_east_briton_cultures @ir_cornish_cultures }
+# CE
+link = { ck3 = old_brythonic @ir_south_east_briton_cultures }
 # vanilla CK3
 link = { ck3 = pictish ir = caledonian ir = votadinian ir = taexalian }
 link = { ck3 = cumbrian @ir_cumbrian_cultures }
@@ -266,6 +273,13 @@ link = { ck3 = colchian ir = colchian }
 link = { ck3 = caspian ir = caspian }
 link = { ck3 = ciscaucasian ir = maeotian ir = legian }
 link = { ck3 = kartvelian ir = albanian ir = ibero @ir_georgian_cultures }
+# CE
+link = { ck3 = lazi ir = lazi }
+link = { ck3 = circassian ir = maeotian ir = sindi }
+link = { ck3 = dagestani ir = ir = legian }
+link = { ck3 = abkhaz ir = abasgoi ir = suani }
+link = { ck3 = udi ir = albanian }
+link = { ck3 = tat ir = caspian }
 # Vanilla CK3
 link = { ck3 = persian ir = caspian } # TODO: create a separate culture for Caspians
 link = { ck3 = georgian ir = albanian ir = ibero @ir_georgian_cultures }
@@ -588,6 +602,12 @@ link = { ck3=numidian ir=capariensian ir=lotophagoi ir=abannaean }
 link = { ck3 = persian ir = persian } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
 link = { ck3 = daylamite ir = daylamite } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
 link = { ck3 = baloch ir = baloch } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
+# CE
+link = { ck3 = mazandarani ir = amardian }
+link = { ck3 = paradani ir = parecanian }
+link = { ck3 = tokhari ir = sattagydian }
+link = { ck3 = adhari ir = cadusian }
+# Vanilla CK3
 link = { ck3 = persian ir = carmanian ir = sagartian ir = cadusian ir = cossian ir = sarangian ir = amardian ir = uxian ir = utian ir = pasargadi }
 link = { ck3 = baloch ir = gedrosian ir = parecanian }
 link = { ck3 = daylamite ir = hyrcanian }
@@ -636,6 +656,9 @@ link = { ck3 = ciscaucasian ir = sarmatian ir = legian ir = thyssagetaen ir = ma
 link = { ck3 = hephthalite ir = huna }
 link = { ck3 = hun ir = hunnic }
 link = { ck3 = khwarezmian ir = kharesmian ir = derbiccan }
+# CE
+link = { ck3 = huna ir = huna }
+link = { ck3 = khotanese ir = ir=khotanese }
 ## Scythian - As a weird replacement for Turks
 link = { ck3 = avar ir = scythian ir = derbiccan ir = sakan ir = agathyrsian ir = sarmatian ir = legian ir = thyssagetaen ir = maeotian ir = sindi ir = siraci irRegion = pannonia_region irRegion = dacia_region }
 # Vanilla CK3
@@ -674,6 +697,9 @@ link = { ck3 = bedouin ir = bedouin } # https://steamcommunity.com/sharedfiles/f
 link = { ck3 = egyptian ir = egyptians } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
 link = { ck3 = levantine ir = mashriqi } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
 link = { ck3 = yemeni ir = yemen } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
+# CE
+link = { ck3 = south_arabian ir = himjar ir = minaean ir = qatabanian ir = sheban ir = kindite mahri ir = adite ir = samad ir = hadhrami irProvince = 7530}
+link = { ck3 = mahri ir = adite ir = samad ir = hadhrami }
 # TFE
 link = { ck3 = himyarite ir = himjar ir = minaean ir = qatabanian ir = sheban ir = kindite }
 link = { ck3 = south_arabian ir = adite ir = samad ir = hadhrami }
