@@ -383,9 +383,9 @@ link = { ck3 = norse ir = rugian @culture_splitting_region_D }
 # Invictus
 link = { ck3 = got ir = scandian irProvince = 6010 } 
 link = { ck3 = dane ir = scandian ck3Region = d_sjaelland ck3Region = d_skane } 
-link = { ck3 = jute ir = scandian ck3Region = d_holstein ck3Region = d_slevig ck3Region = d_jylland } 
-link = { ck3 = geat ir = scandian ck3Region = d_vastergotland ck3Region = d_smaland ck3Region = d_ostergotland } 
-link = { ck3 = svear ir = scandian ck3Region = d_bergslagen ck3Region = d_norrland ck3Region = d_svealand } 
+link = { ck3 = jute ir = scandian ck3Region = d_holstein ck3Region = d_slesvig ck3Region = d_jylland } 
+link = { ck3 = geat ir = scandian ck3Region = d_vastergotland ck3Region = d_smaland } 
+link = { ck3 = svear ir = scandian ck3Region = d_bergslagen ck3Region = d_norrland ck3Region = d_svealand ck3Region = d_ostergotland } 
 
 # East Germanic mappings
 # Tag culture first so they don't get overwritten
@@ -416,6 +416,7 @@ link = { ck3 = gepid @ir_gothic_cultures
 	@culture_splitting_region_J2
 }
 link = { ck3 = gothic @ir_gothic_cultures }
+link = { ck3 = vandalic @ir_vandal_cultures } # CE
 link = { ck3 = vandal @ir_vandal_cultures }
 link = { ck3 = vandilian @ir_vandilian_cultures }
 
@@ -728,7 +729,6 @@ link = { ck3 = egyptian ir = egyptians } # https://steamcommunity.com/sharedfile
 link = { ck3 = levantine ir = mashriqi } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
 link = { ck3 = yemeni ir = yemen } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
 # CE
-link = { ck3 = south_arabian ir = himjar ir = minaean ir = qatabanian ir = sheban ir = kindite mahri ir = adite ir = samad ir = hadhrami irProvince = 7530}
 link = { ck3 = mahri ir = adite ir = samad ir = hadhrami }
 # TFE
 link = { ck3 = himyarite ir = himjar ir = minaean ir = qatabanian ir = sheban ir = kindite }
