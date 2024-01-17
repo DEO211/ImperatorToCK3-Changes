@@ -367,6 +367,20 @@ link = { ck3 = sami @ir_all_germanic_cultures ck3Province = 430 ck3Province = 42
 link = { ck3 = finnish @ir_all_germanic_cultures ck3Province = 454 ck3Province = 171 ck3Province = 172 ck3Province = 173 ck3Province = 174 ck3Province = 175 ck3Province = 176 ck3Province = 177 ck3Province = 178 ck3Province = 179 ck3Province = 180 ck3Province = 181 ck3Province = 182 ck3Province = 183 ck3Province = 184 ck3Province = 185 ck3Province = 186 ck3Province = 187 ck3Province = 188 ck3Province = 189 ck3Province = 190 ck3Province = 191 ck3Province = 192 ck3Province = 193 ck3Province = 194 ck3Province = 195 ck3Province = 196 ck3Province = 197 ck3Province = 198 ck3Province = 199 ck3Province = 200 ck3Province = 201 ck3Province = 202 ck3Province = 203 ck3Province = 204 ck3Province = 205 ck3Province = 206 ck3Province = 207 ck3Province = 208 ck3Province = 209 ck3Province = 210 ck3Province = 211 ck3Province = 212 ck3Province = 213 ck3Province = 214 ck3Province = 215 ck3Province = 216 ck3Province = 217 ck3Province = 218 ck3Province = 219 ck3Province = 442 ck3Province = 443 ck3Province = 444 ck3Province = 445 ck3Province = 446 ck3Province = 447 ck3Province = 448 ck3Province = 449 ck3Province = 450 ck3Province = 451 ck3Province = 452 ck3Province = 453 }
 # Karelian, Vepsian skipped because out of scope
 
+# CE
+link = { ck3 = jute @ir_ingvaeonic_cultures irRegion = ultima_thule_area irRegion = cimbrica_superioris_area irRegion = west_gothia_area irRegion = herulia_area irRegion = east_gothia_area irRegion = scandia_insula_area } # Used rather than splitting region for angle exception
+link = { ck3 = dane ir = herulian @culture_splitting_region_D } 
+link = { ck3 = got @ir_gothic_cultures irProvince = 6010 } 
+link = { ck3 = geat ir = raumarician @ir_gothic_cultures @culture_splitting_region_D } 
+link = { ck3 = svear ir = suiones } 
+link = { ck3 = norse ir = rugian @culture_splitting_region_D } 
+# Invictus
+link = { ck3 = got ir = scandian irProvince = 6010 } 
+link = { ck3 = dane ir = scandian ck3Region = d_sjaelland ck3Region = d_skane } 
+link = { ck3 = jute ir = scandian ck3Region = d_holstein ck3Region = d_slevig ck3Region = d_jylland } 
+link = { ck3 = geat ir = scandian ck3Region = d_vastergotland ck3Region = d_smaland ck3Region = d_ostergotland } 
+link = { ck3 = svear ir = scandian ck3Region = d_bergslagen ck3Region = d_norrland ck3Region = d_svealand } 
+
 # East Germanic mappings
 # Tag culture first so they don't get overwritten
 link = { ck3 = burgundian @ir_vandilian_cultures historicalTag=BUR } # TFE
@@ -508,7 +522,7 @@ link = { ck3 = norman ir = norman } # https://steamcommunity.com/sharedfiles/fil
 # The Glory of Rome
 link = { ck3 = roman @ir_latin_cultures historicalTag=ROM }
 
-# TFE -splitting according to regions
+# TFE - splitting according to regions
 link = { ck3 = hiberno_roman @ir_latin_cultures @culture_splitting_region_A } 
 link = { ck3 = caledo_roman @ir_latin_cultures @culture_splitting_region_B } # hiberno and caledo roman have been commented out
 link = { ck3 = britano_roman @ir_latin_cultures @culture_splitting_region_C @culture_splitting_region_B @culture_splitting_region_A }
@@ -532,12 +546,20 @@ link = { ck3 = hispano_roman @ir_latin_cultures
 link = { ck3 = mauro_roman @ir_latin_cultures irRegion = mauretainia_region irRegion = atlas_region irRegion = numidia_region }
 link = { ck3 = afro_roman @ir_latin_cultures @culture_splitting_region_O }
 
+# CE - splitting according to regions
+link = { ck3 = venetian_ce @ir_latin_cultures @culture_splitting_region_I historicalTag=ERE } 
+link = { ck3 = venetian_ce @ir_latin_cultures ck3Region = d_venice } 
+link = { ck3 = dalmatian_ce @ir_latin_cultures @culture_splitting_region_J1 } 
+link = { ck3 = pannonian_romance @ir_latin_cultures @culture_splitting_region_J2 } 
+link = { ck3 = african_roman @ir_latin_cultures @culture_splitting_region_O } 
+link = { ck3 = arpitan_ce @ir_latin_cultures ck3Region = d_upper_burgundy ck3Region = c_forez ck3Region = c_lyon ck3Region = c_viennois ck3Region = d_savoie ck3Region = d_transjurania } 
+
 # Vanilla CK3 - splitting according to regions, TODO: rework this
 link = { ck3 = breathanach @ir_latin_cultures @culture_splitting_region_A }
 link = { ck3 = transadrianic @ir_latin_cultures @culture_splitting_region_B }
 link = { ck3 = brythenig @ir_latin_cultures @culture_splitting_region_C }
 link = { ck3 = laessin @ir_latin_cultures @culture_splitting_region_D @culture_splitting_region_G }
-link = { ck3 = norman @ir_latin_cultures @culture_splitting_region_E }
+link = { ck3 = french @ir_latin_cultures @culture_splitting_region_E }
 link = { ck3 = occitan @ir_latin_cultures @culture_splitting_region_F }
 link = { ck3 = wenedyk @ir_latin_cultures @culture_splitting_region_H }
 link = { ck3 = cisalpine @ir_latin_cultures @culture_splitting_region_I }
