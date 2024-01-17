@@ -14,7 +14,7 @@ heritage_hittite = {
 }
 
 heritage_arvanite = {
-    INVALIDATED_BY = { heritage_arvanite }
+    INVALIDATED_BY = { heritage_arvanite heritage_arberian }
 	type = heritage
 }
 
