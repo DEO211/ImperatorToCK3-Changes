@@ -689,7 +689,7 @@ link = { ck3 = hun ir = hunnic }
 link = { ck3 = khwarezmian ir = kharesmian ir = derbiccan }
 # CE
 link = { ck3 = huna ir = huna }
-link = { ck3 = khotanese ir = ir=khotanese }
+link = { ck3 = khotanese ir = khotanese }
 ## Scythian - As a weird replacement for Turks
 link = { ck3 = avar ir = scythian ir = derbiccan ir = sakan ir = agathyrsian ir = sarmatian ir = legian ir = thyssagetaen ir = maeotian ir = sindi ir = siraci irRegion = pannonia_region irRegion = dacia_region }
 # Vanilla CK3
