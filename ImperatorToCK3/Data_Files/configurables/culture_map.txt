@@ -249,6 +249,9 @@ link = { ck3 = belgae ir = ubian }
 # TFE
 link = { ck3 = briton @ir_cumbrian_cultures @ir_welsh_cultures @ir_south_east_briton_cultures @ir_cornish_cultures }
 # CE
+link = { ck3 = wylish ir=iceni ir=coritani } # Fenlands Britons 
+link = { ck3 = cornish ir=dumnonian ck3Region = c_cornwall }
+link = { ck3 = dumnonian ir=dumnonian }
 link = { ck3 = old_brythonic @ir_south_east_briton_cultures }
 # vanilla CK3
 link = { ck3 = pictish ir = caledonian ir = votadinian ir = taexalian }
