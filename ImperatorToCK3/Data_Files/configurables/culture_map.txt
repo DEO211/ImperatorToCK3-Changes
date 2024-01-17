@@ -313,6 +313,9 @@ link = { ck3 = thracian ir = triballoi ir = moesi ir = odrysi ir = paeonian }
 ## East Levantine
 # TFE
 link = { ck3 = aramean ir = aramaic }
+# CE
+link = { ck3 = syriac ir = aramaic }
+link = { ck3 = mandaic ir = babylonian }
 # Vanilla CK3
 link = { ck3 = assyrian ir = assyrian }
 link = { ck3 = hebrew ir = aramaic historicalTag=JUD } # Historical assimilation
@@ -600,6 +603,8 @@ link = { ck3 = rhaetian ir = rhaetian }
 @ir_egyptian_cultures = "ir=egyptian ir=upper_egyptian ir=middle_egyptian ir=oasis_egyptian"
 # TFE
 link = { ck3 = kemetic @ir_egyptian_cultures }
+# CE
+link = { ck3 = ce_copt @ir_egyptian_cultures }
 # Vanilla CK3
 link = { ck3 = old_egyptian @ir_egyptian_cultures }
 
