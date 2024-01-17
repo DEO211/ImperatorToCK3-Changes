@@ -119,7 +119,7 @@ language_phrygian = {
 }
 
 language_albanian = {
-    INVALIDATED_BY = { language_albanian language_arberian }
+    INVALIDATED_BY = { language_albanian }
     
 	type = language
 	is_shown = {
