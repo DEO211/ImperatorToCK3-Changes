@@ -276,6 +276,9 @@ l_english:
  judajca: "Judajca"
  judajca_collective_noun: "Judajcas"
  judajca_prefix: "Judajca"
+ galilean: "Galilean"
+ galilean_collective_noun: "Galileans"
+ galilean_prefix: "Galilean"
  hittite_group: "Hittite"
  hittite_group_collective_noun: "Hittites"
  #hittite_group_prefix: "Hittito" # found 'Hittito-Egyptian'
