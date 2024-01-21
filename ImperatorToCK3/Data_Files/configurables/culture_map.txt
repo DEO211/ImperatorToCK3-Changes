@@ -48,7 +48,7 @@
 ## I:
 @culture_splitting_region_I = "irRegion = rhaetia_region irRegion = cisalpine_gaul_region"
 ## J:
-@culture_splitting_region_J1 = "irRegion=moesia_s_region irRegion=illyria_region irRegion=noricum_mediterranum_area"
+@culture_splitting_region_J1 = "irRegion=moesia_s_region irRegion=illyria_region"
 @culture_splitting_region_J2 = "irRegion=pannonia_region irRegion=transcarpathia_centralis_area"
 @culture_splitting_region_J = "@culture_splitting_region_J1 @culture_splitting_region_J2"
 ## K:
