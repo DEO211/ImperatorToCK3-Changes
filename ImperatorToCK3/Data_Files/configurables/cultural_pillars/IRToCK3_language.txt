@@ -238,44 +238,24 @@ language_hebrew = {
 	color = rgb { 99 193 217 }
 }
 
-language_oscan = {
-    INVALIDATED_BY = { language_oscan }
+language_osco_umbrian = {
+    INVALIDATED_BY = { language_osco_umbrian }
     
 	type = language
 	is_shown = {
 		language_is_shown_trigger = {
-		LANGUAGE = language_oscan
+		LANGUAGE = osco_umbrian
 		}
 	}
 	ai_will_do = {
 		value = 10
 		if = {
-			limit = { has_cultural_pillar = language_oscan }
+			limit = { has_cultural_pillar = osco_umbrian }
 			multiply = 10
 		}
 	}
 
 	color = { 117 131 50 }
-}
-
-language_samnite = {
-    INVALIDATED_BY = { language_samnite }
-    
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-		LANGUAGE = language_samnite
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_samnite }
-			multiply = 10
-		}
-	}
-
-	color = { 117 131 150 }
 }
 
 language_ligustic = {
