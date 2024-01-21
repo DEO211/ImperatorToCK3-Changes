@@ -885,6 +885,37 @@ judajca = {
 	unit_gfx = { eastern_unit_gfx }
 }
 
+galilean = {
+    INVALIDATED_BY = { galilean }
+    
+	color = { 0.0 0.4 0.8 }
+
+	parents = { roman aramaic }
+	created = 20.1.1
+
+	heritage = heritage_chaldean
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_warriors_of_the_dry
+		tradition_hereditary_hierarchy
+	}
+	ethos = ethos_bureaucratic
+
+	name_list = name_list_roman
+	name_list = name_list_aramaic
+
+	ethnicities = {
+		10 = arab
+		10 = mediterranean_byzantine
+	}
+
+	coa_gfx = { israelite_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+}
+
 vandilian = { # https://en.wikipedia.org/wiki/East_Germanic_peoples
     INVALIDATED_BY = { vandilian }
     
@@ -1600,7 +1631,7 @@ oscan = {
 	color = { 117 131 50 }
 	# heritage = heritage_proto_italic
 	heritage = heritage_latin
-	language = language_oscan
+	language = language_osco_umbrian
 	martial_custom = martial_custom_male_only
 
 	name_list = name_list_roman
@@ -1624,7 +1655,7 @@ samnite = {
     
 	# heritage = heritage_proto_italic
 	heritage = heritage_latin
-	language = language_samnite
+	language = language_osco_umbrian
 	martial_custom = martial_custom_equal
 
 	name_list = name_list_roman
@@ -1637,6 +1668,32 @@ samnite = {
 	unit_gfx = { western_unit_gfx }
 
 	color = { 117 131 150 }
+
+	ethnicities = {
+		10 = mediterranean
+	}
+	traditions = {
+		tradition_only_the_strong
+	}
+}
+umbrian = {
+    INVALIDATED_BY = { umbrian }
+    
+	# heritage = heritage_proto_italic
+	heritage = heritage_latin
+	language = language_osco_umbrian
+	martial_custom = martial_custom_equal
+
+	name_list = name_list_roman
+
+	ethos = ethos_stoic
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	color = { 117 131 100 }
 
 	ethnicities = {
 		10 = mediterranean
