@@ -2265,7 +2265,7 @@ getian = {
 	created = 2.1.1
 
 	heritage = heritage_thracian
-	language = language_thracian
+	language = language_dacian
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_stand_and_fight
