@@ -338,6 +338,9 @@ l_english:
  samnite: "Samnite"
  samnite_collective_noun: "Samnites"
  samnite_prefix: "Samnito" # found 'Acta Provinciae Samnito-Hirpinae'
+ umbrian: "Umbrian"
+ umbrian_collective_noun: "Umbrians"
+ umbrian_prefix: "Umbrian"
  venetic: "Venetic"
  venetic_collective_noun: "Veneti"
  venetic_prefix: "Veneto" # found 'Veneto-Illyrian tribes'
