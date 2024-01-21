@@ -136,12 +136,12 @@ link = { ck3 = galatian ir = galatian }
 ## Aryan
 @ir_aryan_cultures = "ir=vidharban ir=mulaka ir=saurashtran ir=kaccha ir=lankan ir=maharashtran ir=rathikan ir=gandhari ir=sivi ir=shauraseni ir=kosala ir=kuru ir=avanti ir=matsya ir=cedi ir=dhivehi ir=sindhi ir=dardic ir=purus ir=mitanni"
 # TFE
-link = { ck3 = makrani @ir_aryan_cultures @culture_splitting_region_M }
+link = { ck3 = med @ir_aryan_cultures @culture_splitting_region_M }
 link = { ck3 = saurashtri ir = saurashtran }
 link = { ck3 = gandhari ir = gandhari }
 link = { ck3 = nuristani ir = dardic }
 # CE 
-link = { ck3 = med @ir_aryan_cultures @culture_splitting_region_M }
+link = { ck3 = makrani @ir_aryan_cultures @culture_splitting_region_M }
 # Vanilla CK3
 link = { ck3 = marathi ir = vidharban ir = maharashtran }
 link = { ck3 = gujarati ir = saurashtran }
