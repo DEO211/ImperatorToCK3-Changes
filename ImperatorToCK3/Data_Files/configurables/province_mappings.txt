@@ -2074,7 +2074,7 @@ imperator_invictus = {
 	link = { imp = 6014 ck3 = 300 } # Finnaithae -> LIONGBY
 	link = { imp = 6013 ck3 = 8725 ck3 = 301 } # Gautigothia -> Kindaholm, WANNAMO
 	link = { imp = 6023 ck3 = 317 ck3 = 8723 } # Gothalia -> LODOSE, Lacko
-	link = { imp = 6022 ck3 = 319 ck3 = 8724 } # Hio -> FALKÖPING, Opensten
+	link = { imp = 6022 ck3 = 319 ck3 = 8724 } # Hio -> FALKÃPING, Opensten
 	link = { imp = 6024 ck3 = 316 ck3 = 320 } # Rane -> SKARA, VARNHEM
 	link = { imp = 6027 ck3 = 328 } # Tivedia -> RISEBERGA
 	link = { imp = 6028 ck3 = 334 ck3 = 327 } # Arbugae -> VRETA, ORABRO
@@ -2283,7 +2283,7 @@ imperator_invictus = {
 	link = { imp = 2109 ck3 = 1680 ck3 = 1685 ck3 = 1684 } # Novantae -> MAYBOLE, GIRVAN, WIGTOWN
 	link = { imp = 2112 ck3 = 1686 ck3 = 1737 ck3 = 1683 } # Damnonii -> KYLE, LANARK, SANQUHAR
 	link = { imp = 2111 ck3 = 1728 ck3 = 1676 ck3 = 1675 ck3 = 1729 } # Otadini -> HADDINGTON, DUNBAR, BERWICK, GALASHIELS
-	link = { imp = 2114 ck3 = 1731 ck3 = 1732 ck3 = 1730 ck3 = 1739 } # Veluniate -> LINLITHGOW, QUEENSFERRY, PENICUICK, BIGGAR
+	link = { imp = 2114 ck3 = 1731 ck3 = 1732 ck3 = 1730 ck3 = 1739 ck3 = 1727 } # Veluniate -> LINLITHGOW, QUEENSFERRY, PENICUICK, BIGGAR
 	link = { imp = 2124 ck3 = 1687 ck3 = 1688 ck3 = 1738 } # Lindon -> STRATHGRYTE, CUNNINGHAM, CADYOU
 	link = { imp = 2127 ck3 = 1691 ck3 = 1689 } # Malaios -> MULL, ISLAY
 	link = { imp = 2118 ck3 = 1711 ck3 = 35 } # Creones Boreales -> GLENFINNAN, ARDNAMURCHON
@@ -2825,7 +2825,7 @@ imperator_invictus = {
 	link = { imp = 3498 imp = 3502 imp = 5055 ck3 = 2663 } # Makopsis, Lesa, IMPASSIBLE TERRAIN 055 -> ARDARA
 	link = { imp = 3491 imp = 3495 ck3 = 2661 } # Lacon, Hydata -> ISILI
 	link = { imp = 3504 imp = 3506 imp = 3505 ck3 = 2658 } # Phausiane, Longones, Tibula -> OLBIA
-	link = { imp = 3489 imp = 3503 ck3 = 2657 } # Kares, Thorp� -> GALTELLI
+	link = { imp = 3489 imp = 3503 ck3 = 2657 } # Kares, Thorpè -> GALTELLI
 	link = { imp = 3488 ck3 = 2656 } # Sulki Tyrsen -> TORTOLI
 	link = { imp = 3499 imp = 3500 ck3 = 2664 } # Nure, Libisonis -> PORTO TORRES
 	link = { imp = 3494 imp = 3497 ck3 = 2665 } # Sanaphar, Carbia -> ALGHERO
@@ -5841,7 +5841,7 @@ imperator_vanilla = {
 	link = { imp = 6014 ck3 = 300 } # Finnaithae -> LIONGBY
 	link = { imp = 6013 ck3 = 8725 ck3 = 301 } # Gautigothia -> Kindaholm, WANNAMO
 	link = { imp = 6023 ck3 = 317 ck3 = 8723 } # Gothalia -> LODOSE, Lacko
-	link = { imp = 6022 ck3 = 319 ck3 = 8724 } # Hio -> FALKÖPING, Opensten
+	link = { imp = 6022 ck3 = 319 ck3 = 8724 } # Hio -> FALKÃPING, Opensten
 	link = { imp = 6024 ck3 = 316 ck3 = 320 } # Rane -> SKARA, VARNHEM
 	link = { imp = 6027 ck3 = 328 } # Tivedia -> RISEBERGA
 	link = { imp = 6028 ck3 = 334 ck3 = 327 } # Arbugae -> VRETA, ORABRO
@@ -6050,7 +6050,7 @@ imperator_vanilla = {
 	link = { imp = 2109 ck3 = 1680 ck3 = 1685 ck3 = 1684 } # Novantae -> MAYBOLE, GIRVAN, WIGTOWN
 	link = { imp = 2112 ck3 = 1686 ck3 = 1737 ck3 = 1683 } # Damnonii -> KYLE, LANARK, SANQUHAR
 	link = { imp = 2111 ck3 = 1728 ck3 = 1676 ck3 = 1675 ck3 = 1729 } # Otadini -> HADDINGTON, DUNBAR, BERWICK, GALASHIELS
-	link = { imp = 2114 ck3 = 1731 ck3 = 1732 ck3 = 1730 ck3 = 1739 } # Veluniate -> LINLITHGOW, QUEENSFERRY, PENICUICK, BIGGAR
+	link = { imp = 2114 ck3 = 1731 ck3 = 1732 ck3 = 1730 ck3 = 1739 ck3 = 1727 } # Veluniate -> LINLITHGOW, QUEENSFERRY, PENICUICK, BIGGAR
 	link = { imp = 2124 ck3 = 1687 ck3 = 1688 ck3 = 1738 } # Lindon -> STRATHGRYTE, CUNNINGHAM, CADYOU
 	link = { imp = 2127 ck3 = 1691 ck3 = 1689 } # Malaios -> MULL, ISLAY
 	link = { imp = 2118 ck3 = 1711 ck3 = 35 } # Creones Boreales -> GLENFINNAN, ARDNAMURCHON
@@ -6722,7 +6722,7 @@ imperator_vanilla = {
 	link = { imp = 3498 imp = 3502 imp = 5055 ck3 = 2663 } # Makopsis, Lesa, IMPASSIBLE TERRAIN 055 -> ARDARA
 	link = { imp = 3491 imp = 3495 ck3 = 2661 } # Lacon, Hydata -> ISILI
 	link = { imp = 3504 imp = 3506 imp = 3505 ck3 = 2658 } # Phausiane, Longones, Tibula -> OLBIA
-	link = { imp = 3489 imp = 3503 ck3 = 2657 } # Kares, Thorp� -> GALTELLI
+	link = { imp = 3489 imp = 3503 ck3 = 2657 } # Kares, Thorpè -> GALTELLI
 	link = { imp = 3488 ck3 = 2656 } # Sulki Tyrsen -> TORTOLI
 	link = { imp = 3499 imp = 3500 ck3 = 2664 } # Nure, Libisonis -> PORTO TORRES
 	link = { imp = 3494 imp = 3497 ck3 = 2665 } # Sanaphar, Carbia -> ALGHERO
