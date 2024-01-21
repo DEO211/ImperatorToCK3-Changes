@@ -531,13 +531,13 @@ link = { ck3 = norman ir = norman } # https://steamcommunity.com/sharedfiles/fil
 
 @ir_latin_cultures = "ir = roman ir = osco_umbrian ir = umbrian ir = samnite ir = ligurian ir = lucanian ir = bruttian ir = sardonian ir = siculian"
 # The Glory of Rome
-link = { ck3 = roman @ir_latin_cultures historicalTag=ROM }
+link = { ck3 = roman ir = roman historicalTag=ROM }
 
 # TFE - splitting according to regions
 link = { ck3 = hiberno_roman @ir_latin_cultures @culture_splitting_region_A } 
 link = { ck3 = caledo_roman @ir_latin_cultures @culture_splitting_region_B } # hiberno and caledo roman have been commented out
 link = { ck3 = britano_roman @ir_latin_cultures @culture_splitting_region_C @culture_splitting_region_B @culture_splitting_region_A }
-link = { ck3 = rhaetio_roman @ir_latin_cultures irRegion = rhaetia_region }
+link = { ck3 = rhaetio_roman ir = roman irRegion = rhaetia_region }
 link = { ck3 = illyro_roman @ir_latin_cultures @culture_splitting_region_J1 } 
 link = { ck3 = dacio_roman @ir_latin_cultures @culture_splitting_region_J2 } 
 link = { ck3 = thracio_roman @ir_latin_cultures @culture_splitting_region_K1 }
@@ -558,8 +558,8 @@ link = { ck3 = mauro_roman @ir_latin_cultures irRegion = mauretainia_region irRe
 link = { ck3 = afro_roman @ir_latin_cultures @culture_splitting_region_O }
 
 # CE - splitting according to regions
-link = { ck3 = venetian_ce @ir_latin_cultures @culture_splitting_region_I historicalTag=ERE } 
-link = { ck3 = venetian_ce @ir_latin_cultures ck3Region = d_venice } 
+link = { ck3 = venetian_ce ir = roman @culture_splitting_region_I historicalTag=ERE } 
+link = { ck3 = venetian_ce ir = roman ck3Region = d_venice } 
 link = { ck3 = dalmatian_ce @ir_latin_cultures @culture_splitting_region_J1 } 
 link = { ck3 = pannonian_romance @ir_latin_cultures @culture_splitting_region_J2 } 
 link = { ck3 = african_roman @ir_latin_cultures @culture_splitting_region_O } 
@@ -573,13 +573,14 @@ link = { ck3 = laessin @ir_latin_cultures @culture_splitting_region_D @culture_s
 link = { ck3 = french @ir_latin_cultures @culture_splitting_region_E }
 link = { ck3 = occitan @ir_latin_cultures @culture_splitting_region_F }
 link = { ck3 = wenedyk @ir_latin_cultures @culture_splitting_region_H }
-link = { ck3 = cisalpine @ir_latin_cultures @culture_splitting_region_I }
+link = { ck3 = cisalpine ir = roman @culture_splitting_region_I }
 link = { ck3 = vlach @ir_latin_cultures @culture_splitting_region_K }
 link = { ck3 = bazramani @ir_latin_cultures @culture_splitting_region_M }
-link = { ck3 = judajca @ir_latin_cultures @culture_splitting_region_N }
+link = { ck3 = galilean @ir_latin_cultures @culture_splitting_region_N1 }
+link = { ck3 = judajca @ir_latin_cultures @culture_splitting_region_N2 }
 link = { ck3 = sardinian @ir_latin_cultures @culture_splitting_region_S }
-link = { ck3 = italian @ir_latin_cultures @culture_splitting_region_P }
-link = { ck3 = sicilian @ir_latin_cultures @culture_splitting_region_Q }
+link = { ck3 = italian ir = roman @culture_splitting_region_P }
+link = { ck3 = sicilian ir = roman @culture_splitting_region_Q }
 link = { ck3 = catalan @ir_latin_cultures @culture_splitting_region_T }
 link = { ck3 = aragonese @ir_latin_cultures @culture_splitting_region_U }
 link = { ck3 = asturleonese @ir_latin_cultures @culture_splitting_region_V }
