@@ -49,7 +49,7 @@
 @culture_splitting_region_I = "irRegion = rhaetia_region irRegion = cisalpine_gaul_region"
 ## J:
 @culture_splitting_region_J1 = "irRegion=moesia_s_region irRegion=illyria_region irRegion=noricum_mediterranum_area"
-@culture_splitting_region_J2 = "irRegion=pannonia_region irRegion=transcarpathia_centralis_area irRegion=celamantia_area"
+@culture_splitting_region_J2 = "irRegion=pannonia_region irRegion=transcarpathia_centralis_area"
 @culture_splitting_region_J = "@culture_splitting_region_J1 @culture_splitting_region_J2"
 ## K:
 @culture_splitting_region_K1 = "irRegion=moesia_region irRegion=macedonia_region irRegion=thrace_region irRegion=macedonia_region"
@@ -80,13 +80,13 @@
 ## U:
 @culture_splitting_region_U = "ck3Region = d_aragon ck3Region = c_tudela ck3Region = c_navarra ck3Region = c_ipuskoa"
 ## V:
-@culture_splitting_region_V = "ck3Region = k_leon ck3Region = k_castille ck3Region = k_navarra"
+@culture_splitting_region_V = "ck3Region = d_leon ck3Region = d_asturias ck3Region = d_castilla ck3Region = d_navarra ck3Region = d_cantabria ck3Region = d_viscaya"
 ## W:
 @culture_splitting_region_W = "ck3Region = d_galicia"
 ## X:
 @culture_splitting_region_X = "ck3Region = d_sevilla ck3Region = d_badajoz ck3Region = d_cordoba ck3Region = d_granada ck3Region = d_murcia ck3Region = d_toledo ck3Region = d_valencia"
 ## Y:
-@culture_splitting_region_Y = "ck3Region = k_portugal ck3Region = d_beja ck3Region = d_algarve"
+@culture_splitting_region_Y = "ck3Region = d_porto ck3Region = d_coimbra ck3Region = d_beja ck3Region = d_algarve"
 
 ## Aksumite
 link = { ck3 = afar ir = puntic ir = aksumite ck3Province = 8286 ck3Province = 8326 ck3Province = 8344 ck3Province = 8334 ck3Province = 8332 ck3Province = 8339 ck3Province = 8342 }
