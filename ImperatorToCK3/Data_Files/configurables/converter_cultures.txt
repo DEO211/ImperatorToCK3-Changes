@@ -2144,6 +2144,36 @@ laessin = {
 
 	ethos = ethos_stoic
 }
+jelbazech = {
+    INVALIDATED_BY = { jelbazech }
+    
+	color = rgb { 200 160 148 }
+	parents = { roman german }
+	created = 20.1.1
+
+	heritage = heritage_romano_germanic
+	language = language_laessin
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_martial_admiration
+	}
+
+	name_list = name_list_wenedyk
+
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	ethos = ethos_stoic
+}
 wenedyk = {
     INVALIDATED_BY = { wenedyk }
     
