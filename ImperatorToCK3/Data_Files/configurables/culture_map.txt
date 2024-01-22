@@ -41,8 +41,10 @@
 @culture_splitting_region_E = "irRegion = armorica_region irRegion = central_gaul_region irRegion = belgica_region irRegion = mediomatricia_area irRegion = tribocia_area irRegion = leucia_area"
 ## F:
 @culture_splitting_region_F = "irRegion = aquitaine_region irRegion = transalpine_gaul_region"
-## G:
-@culture_splitting_region_G = "irRegion=germania_superior_region irRegion=germania_region irRegion=bohemia_region irRegion=germania_magna_region irRegion=chattia_orientalis_area irRegion=marcomannia_maiores_area irRegion=marcomannia_minores_area irRegion=boioa_meridionalis_area irRegion=boioa_septentrionalis_area irRegion=marsignia_area irRegion=viadria_area"
+## G (overlaps with E, so put it AFTER):
+@culture_splitting_region_G1 = "irRegion=germania_region"
+@culture_splitting_region_G2 = "irRegion=germania_superior_region irRegion=chattia_orientalis_area irRegion=marcomannia_maiores_area irRegion=marcomannia_minores_area irRegion=boioa_meridionalis_area irRegion=boioa_septentrionalis_area irRegion=marsignia_area irRegion=viadria_area"
+@culture_splitting_region_G = "@culture_splitting_region_G1 @culture_splitting_region_G2"
 ## H:
 @culture_splitting_region_H = "irRegion = venedia_region irRegion = vistulia_region"
 ## I:
@@ -570,10 +572,12 @@ link = { ck3 = breathanach @ir_latin_cultures @culture_splitting_region_A }
 link = { ck3 = transadrianic @ir_latin_cultures @culture_splitting_region_B }
 link = { ck3 = brythenig @ir_latin_cultures @culture_splitting_region_C }
 link = { ck3 = french @ir_latin_cultures @culture_splitting_region_E }
-link = { ck3 = laessin @ir_latin_cultures @culture_splitting_region_D @culture_splitting_region_G }
+link = { ck3 = laessin @ir_latin_cultures @culture_splitting_region_D @culture_splitting_region_G1 }
+link = { ck3 = jelbazech @ir_latin_cultures @culture_splitting_region_G2 }
 link = { ck3 = occitan @ir_latin_cultures @culture_splitting_region_F }
 link = { ck3 = wenedyk @ir_latin_cultures @culture_splitting_region_H }
 link = { ck3 = cisalpine ir = roman @culture_splitting_region_I }
+link = { ck3 = pannonian @ir_latin_cultures @culture_splitting_region_J2 } 
 link = { ck3 = vlach @ir_latin_cultures @culture_splitting_region_K }
 link = { ck3 = bazramani @ir_latin_cultures @culture_splitting_region_M }
 link = { ck3 = galilean @ir_latin_cultures @culture_splitting_region_N1 }
