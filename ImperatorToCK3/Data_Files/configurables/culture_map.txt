@@ -43,7 +43,7 @@
 @culture_splitting_region_F = "irRegion = aquitaine_region irRegion = transalpine_gaul_region"
 ## G (overlaps with E, so put it AFTER):
 @culture_splitting_region_G1 = "irRegion=germania_region"
-@culture_splitting_region_G2 = "irRegion=germania_superior_region irRegion=chattia_orientalis_area irRegion=marcomannia_maiores_area irRegion=marcomannia_minores_area irRegion=boioa_meridionalis_area irRegion=boioa_septentrionalis_area irRegion=marsignia_area irRegion=viadria_area"
+@culture_splitting_region_G2 = "irRegion=germania_superior_region irRegion=chattia_orientalis_area irRegion=marcomannia_maiores_area irRegion=marcomannia_minores_area irRegion=boioa_meridionalis_area irRegion=boioa_septentrionalis_area irRegion=marsignia_area irRegion=viadria_area irRegion=helvetia_inferioris_area irRegion=helvetia_superioris_area irRegion=tulingia_area irRegion=helvetia_orientalis_area irRegion=lauriacum_area"
 @culture_splitting_region_G = "@culture_splitting_region_G1 @culture_splitting_region_G2"
 ## H:
 @culture_splitting_region_H = "irRegion = venedia_region irRegion = vistulia_region"
