@@ -2156,6 +2156,7 @@ jelbazech = {
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_martial_admiration
+		tradition_artisans
 	}
 
 	name_list = name_list_wenedyk
@@ -2250,6 +2251,7 @@ dalmatesku = {
 	traditions = {
 		tradition_martial_admiration
 		tradition_hit_and_run
+		tradition_xenophilic 
 	}
 
 	name_list = name_list_roman
@@ -2291,6 +2293,7 @@ xliponian = {
 	
 	traditions = {
 		tradition_swords_for_hire
+		tradition_isolationist 
 	}
 	ethos = ethos_communal
 }
