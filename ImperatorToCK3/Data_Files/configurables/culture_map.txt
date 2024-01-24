@@ -283,7 +283,7 @@ link = { ck3 = kartvelian ir = albanian ir = ibero @ir_georgian_cultures }
 # CE
 link = { ck3 = lazi ir = lazi }
 link = { ck3 = circassian ir = maeotian ir = sindi }
-link = { ck3 = dagestani ir = ir = legian }
+link = { ck3 = dagestani ir = legian }
 link = { ck3 = abkhaz ir = abasgoi ir = suani }
 link = { ck3 = udi ir = albanian }
 link = { ck3 = tat ir = caspian }
