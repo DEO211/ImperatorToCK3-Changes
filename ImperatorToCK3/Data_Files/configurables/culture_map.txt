@@ -577,6 +577,7 @@ link = { ck3 = jelbazech @ir_latin_cultures @culture_splitting_region_G2 }
 link = { ck3 = occitan @ir_latin_cultures @culture_splitting_region_F }
 link = { ck3 = wenedyk @ir_latin_cultures @culture_splitting_region_H }
 link = { ck3 = cisalpine ir = roman @culture_splitting_region_I }
+link = { ck3 = dalmatesku @ir_latin_cultures @culture_splitting_region_J1 } 
 link = { ck3 = pannonian @ir_latin_cultures @culture_splitting_region_J2 } 
 link = { ck3 = vlach @ir_latin_cultures @culture_splitting_region_K }
 link = { ck3 = bazramani @ir_latin_cultures @culture_splitting_region_M }
