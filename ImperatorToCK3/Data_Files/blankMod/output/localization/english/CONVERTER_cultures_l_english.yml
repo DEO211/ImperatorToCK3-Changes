@@ -264,6 +264,9 @@ l_english:
  pannonian: "Pannonian"
  pannonian_collective_noun: "Pannonians"
  pannonian_prefix: "Pannono" # found 'Pannono-Dacian military centres' in https://books.google.pl/books?id=fcj1DwAAQBAJ&dq=pannono-roman&hl=pl&source=gbs_navlinks_s
+ dalmatesku: "Dalmatian"
+ dalmatesku_collective_noun: "Dalmatians"
+ dalmatesku_prefix: "Dalmato"
  salinatorian: "Salinatorian"
  salinatorian_collective_noun: "Saltmen"
  salinatorian_prefix: "Halio" # Iohannes: The prefix for Salinatorian would be Halio-, I forgot to research it
