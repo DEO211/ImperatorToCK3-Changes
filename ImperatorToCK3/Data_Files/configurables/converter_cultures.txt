@@ -2206,6 +2206,8 @@ wenedyk = {
 }
 
 pannonian = {
+    INVALIDATED_BY = { pannonian }
+
 	color = rgb { 159 134 93 }
 	parents = { roman celtic_pannonian }
 	created = 20.1.1
@@ -2231,6 +2233,37 @@ pannonian = {
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { northern_clothing_gfx } 
 	unit_gfx = { western_unit_gfx } 
+	
+	ethos = ethos_stoic
+}
+
+dalmatesku = {
+    INVALIDATED_BY = { dalmatesku }
+
+	color = rgb { 255 255 230 }
+	parents = { roman dalmatian }
+	created = 20.1.1
+
+	heritage = heritage_latin
+	language = language_wallachian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_martial_admiration
+		tradition_hit_and_run
+	}
+
+	name_list = name_list_roman
+	name_list = name_list_illyrian
+	name_list = name_list_albanian
+
+	ethnicities = {	
+		10 = mediterranean_byzantine
+	}
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
 	
 	ethos = ethos_stoic
 }
