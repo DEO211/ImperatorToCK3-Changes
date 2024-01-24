@@ -2268,6 +2268,33 @@ dalmatesku = {
 	ethos = ethos_stoic
 }
 
+xliponian = {
+    INVALIDATED_BY = { xliponian }
+
+	parents = { roman greek }
+	created = 20.1.1
+	heritage = heritage_byzantine
+	language = language_latin
+	coa_gfx = { byzantine_group_coa_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	color = { 0.8 0.3 0.0 }
+
+	name_list = name_list_greek
+	name_list = name_list_vlach
+	ethnicities = {
+		10 = mediterranean_byzantine
+	}
+	martial_custom = martial_custom_male_only
+	
+	traditions = {
+		tradition_swords_for_hire
+	}
+	ethos = ethos_communal
+}
+
 shan = {  # https://en.wikipedia.org/wiki/Shan_people
     INVALIDATED_BY = { shan }
     
