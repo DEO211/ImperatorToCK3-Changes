@@ -586,6 +586,7 @@ link = { ck3 = judajca @ir_latin_cultures @culture_splitting_region_N2 }
 link = { ck3 = sardinian @ir_latin_cultures @culture_splitting_region_S }
 link = { ck3 = italian ir = roman @culture_splitting_region_P }
 link = { ck3 = sicilian ir = roman @culture_splitting_region_Q }
+link = { ck3 = xliponian @ir_latin_cultures @culture_splitting_region_R }
 link = { ck3 = catalan @ir_latin_cultures @culture_splitting_region_T }
 link = { ck3 = aragonese @ir_latin_cultures @culture_splitting_region_U }
 link = { ck3 = asturleonese @ir_latin_cultures @culture_splitting_region_V }
