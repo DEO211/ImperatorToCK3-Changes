@@ -33,14 +33,15 @@
 
   <ItemGroup>
     <PackageReference Include="ColorHashSharp" Version="1.0.0" />
-    <PackageReference Include="CsvHelper" Version="30.0.1" />
+    <PackageReference Include="CsvHelper" Version="30.1.0" />
     <PackageReference Include="Magick.NET-Q16-AnyCPU" Version="13.5.0" />
     <PackageReference Include="Meziantou.Analyzer" Version="2.0.138">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="PGCG.commonItems" Version="11.0.0" />
+    <PackageReference Include="PGCG.commonItems" Version="11.1.0" />
     <PackageReference Include="PGCG.commonItems.SourceGenerators" Version="1.0.5" />
+    <PackageReference Include="Polly" Version="8.2.1" />
     <PackageReference Include="SixLabors.ImageSharp" Version="3.1.2" />
   </ItemGroup>
 
