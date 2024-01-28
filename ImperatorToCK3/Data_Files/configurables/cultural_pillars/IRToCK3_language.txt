@@ -244,13 +244,13 @@ language_osco_umbrian = {
 	type = language
 	is_shown = {
 		language_is_shown_trigger = {
-		LANGUAGE = osco_umbrian
+		LANGUAGE = language_osco_umbrian
 		}
 	}
 	ai_will_do = {
 		value = 10
 		if = {
-			limit = { has_cultural_pillar = osco_umbrian }
+			limit = { has_cultural_pillar = language_osco_umbrian }
 			multiply = 10
 		}
 	}
