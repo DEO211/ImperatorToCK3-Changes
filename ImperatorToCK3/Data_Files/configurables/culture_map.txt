@@ -216,7 +216,6 @@ link = {
 	@ir_baltic_cultures
 	ck3Province = 104 ck3Province = 105 ck3Province = 106 ck3Province = 107 ck3Province = 121 ck3Province = 110 ck3Province = 112 ck3Province = 117 ck3Province = 111 ck3Province = 113 ck3Province = 114 ck3Province = 116 ck3Province = 133 ck3Province = 150 ck3Province = 102 ck3Province = 109 ck3Province = 142 ck3Province = 103 ck3Province = 139 ck3Province = 134 ck3Province = 135 ck3Province = 136 ck3Province = 137 ck3Province = 138 ck3Province = 140 ck3Province = 141 }
 link = { ck3 = prussian @ir_baltic_cultures }
-@ir_baltic_cultures = "ir=aestian ir=baltics_tribs"
 
 ## Slavic
 link = { ck3=polabian ir=polabian } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
