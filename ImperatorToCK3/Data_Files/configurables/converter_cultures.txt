@@ -438,7 +438,7 @@ dalmatian = {
 albanian = {
     INVALIDATED_BY = {
 		tfe = { albanian }
-		vanilla = { albanian }
+		vanilla = { arberian albanian }
 	}
     
 	color = { 0.4 0.01 0.02 }
@@ -533,7 +533,7 @@ numidian = {
 brythonic = {
     INVALIDATED_BY = {
 		tfe = { brythonic }
-		vanilla = { brythonic }
+		vanilla = { old_brythonic brythonic }
 	}
     
 	color = hsv { 0.57 0.7 0.4 }
@@ -816,6 +816,37 @@ pemis = {
 		15 = caucasian_ginger
 		35 = caucasian_brown_hair
 		25 = caucasian_dark_hair
+	}
+}
+
+assyrian = { # override of vanilla culture
+    INVALIDATED_BY = {
+		tfe = { assyrian }
+		vanilla = { assyrian }
+	}
+
+	color = assyrian
+	ethos = ethos_communal
+	heritage = heritage_byzantine
+	language = language_aramaic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_zealous_people
+		tradition_loyal_soldiers
+		tradition_philosopher_culture
+		tradition_caravaneers
+	}
+	
+	name_list = name_list_assyrian
+
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mena_building_gfx } 
+	clothing_gfx = { byzantine_clothing_gfx } 
+	clothing_gfx = { mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 		
+
+	ethnicities = {
+		10 = arab
 	}
 }
 
@@ -1112,7 +1143,7 @@ gepid = { # https://en.wikipedia.org/wiki/Gepids
 vandal = { # https://en.wikipedia.org/wiki/Vandals
     INVALIDATED_BY = {
 		tfe = { vandal }
-		vanilla = { vandal }
+		vanilla = { vandalic vandal }
 	}
     
 	heritage = heritage_east_germanic
