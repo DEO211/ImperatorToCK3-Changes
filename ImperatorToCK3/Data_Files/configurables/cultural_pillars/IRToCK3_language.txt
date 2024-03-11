@@ -139,7 +139,7 @@ language_phrygian = {
 language_albanian = {
     REPLACED_BY = {
 		tfe = { language_albanian }
-		vanilla = { language_albanian }
+		vanilla = { language_arberian language_albanian }
 	}
     
 	type = language
