@@ -43,7 +43,7 @@ heritage_hittite = {
 heritage_arvanite = {
     REPLACED_BY = {
 		tfe = { heritage_arvanite }
-		vanilla = { heritage_arvanite }
+		vanilla = { heritage_arberian heritage_arvanite }
 	}
 	type = heritage
 	is_shown = {
@@ -57,7 +57,7 @@ heritage_arvanite = {
 heritage_chaldean = {
     REPLACED_BY = {
 		tfe = { heritage_chaldean }
-		vanilla = { heritage_chaldean }
+		vanilla = { heritage_aramean heritage_chaldean }
 	}
 	type = heritage
 	is_shown = {
