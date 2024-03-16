@@ -827,7 +827,7 @@ assyrian = { # override of vanilla culture
 
 	color = assyrian
 	ethos = ethos_communal
-	heritage = heritage_byzantine
+	heritage = heritage_chaldean
 	language = language_aramaic
 	martial_custom = martial_custom_male_only
 	traditions = {
