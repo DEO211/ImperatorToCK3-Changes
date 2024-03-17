@@ -1,7 +1,6 @@
 ﻿using commonItems;
 using commonItems.Mods;
-using CsvHelper;
-using CsvHelper.Configuration;
+using Microsoft.VisualBasic.FileIO;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.PixelFormats;
 using System;
@@ -184,7 +183,7 @@ public sealed class MapData {
 
 		var xDiff = province1Position.X - province2Position.X;
 		var yDiff = province1Position.Y - province2Position.Y;
-		return Math.Sqrt(xDiff * xDiff + yDiff * yDiff);
+		return Math.Sqrt((xDiff * xDiff) + (yDiff * yDiff));
 	}
 
 	public IReadOnlySet<ulong> GetNeighborProvinceIds(ulong provinceId) {
@@ -280,7 +279,6 @@ public sealed class MapData {
 		}
 	}
 
-
 	private static Rgb24 GetCenterColor(Point position, Image<Rgb24> provincesMap) {
 		return GetPixelColor(position, provincesMap);
 	}
@@ -349,10 +347,10 @@ public sealed class MapData {
 
 	/// Function for checking if two provinces are directly neighboring or border the same static water body.
 	public bool AreProvinceGroupsAdjacent(HashSet<ulong> group1, HashSet<ulong> group2) {
-		return AreProvincesGroupsAdjacentByLand(group1, group2) || AreProvincesConnectedByWaterBody(group1, group2);
+		return AreProvinceGroupsAdjacentByLand(group1, group2) || AreProvinceGroupsConnectedByWaterBody(group1, group2);
 	}
 
-	private bool AreProvincesGroupsAdjacentByLand(HashSet<ulong> group1, HashSet<ulong> group2) {
+	public bool AreProvinceGroupsAdjacentByLand(HashSet<ulong> group1, HashSet<ulong> group2) {
 		var group1Neighbors = new HashSet<ulong>();
 		foreach (var province in group1) {
 			if (NeighborsDict.TryGetValue(province, out var neighbors)) {
@@ -385,7 +383,7 @@ public sealed class MapData {
 	}
 	
 	// Function for checking if two land provinces are connected to the same water body.
-	private bool AreProvincesConnectedByWaterBody(HashSet<ulong> group1, HashSet<ulong> group2) {
+	public bool AreProvinceGroupsConnectedByWaterBody(HashSet<ulong> group1, HashSet<ulong> group2) {
 		var group1WaterNeighbors = new HashSet<ulong>();
 		foreach (var provId in group1) {
 			if (!NeighborsDict.TryGetValue(provId, out var neighbors)) {
@@ -419,42 +417,41 @@ public sealed class MapData {
 			Logger.Warn($"Adjacencies file {adjacenciesFilename} not found!");
 			return;
 		}
+		Logger.Debug($"Loading adjacencies from \"{adjacenciesPath}\"...");
 		
-		var reader = new StreamReader(adjacenciesPath);
-		
-		var csvConfig = new CsvConfiguration(CultureInfo.InvariantCulture) {
-			Delimiter = ";",
-			HasHeaderRecord = true,
-			AllowComments = true,
-			TrimOptions = TrimOptions.Trim,
-			IgnoreBlankLines = true,
-			ShouldSkipRecord = (args => {
-				string? cell = args.Row[0];
-				if (cell is null) {
-					return true;
+		int count = 0;
+		using (var parser = new TextFieldParser(adjacenciesPath)) {
+			parser.TextFieldType = FieldType.Delimited;
+			parser.SetDelimiters(";");
+			parser.CommentTokens = ["#"];
+			parser.TrimWhiteSpace = true;
+			
+			// Skip the header row.
+			parser.ReadFields();
+			
+			while (!parser.EndOfData) {
+				string[]? fields = parser.ReadFields();
+				if (fields is null) {
+					continue;
 				}
 
-				cell = cell.Trim();
-				return cell.Length == 0 || cell[0] == '#';
-			}),
-		};
-		using CsvReader csv = new(reader, csvConfig);
-		var adjacency = new {
-			From = default(long),
-			To = default(long),
-		};
-		var records = csv.GetRecords(adjacency);
-
-		int count = 0;
-		foreach (var record in records) {
-			if (record.From == -1) {
-				continue;
+				if (fields.Length < 2) {
+					continue;
+				}
+				
+				var fromStr = fields[0];
+				if (fromStr == "-1") {
+					continue;
+				}
+				
+				var toStr = fields[1];
+				if (toStr == "-1") {
+					continue;
+				}
+				
+				AddAdjacency(ulong.Parse(fromStr, CultureInfo.InvariantCulture), ulong.Parse(toStr, CultureInfo.InvariantCulture));
+				++count;
 			}
-			if (record.To == -1) {
-				continue;
-			}
-			AddAdjacency((ulong)record.From, (ulong)record.To);
-			++count;
 		}
 		Logger.Debug($"Loaded {count} province adjacencies.");
 	}
@@ -473,7 +470,6 @@ public sealed class MapData {
 		}
 		adjacencies.Add(province1);
 	}
-	
 	
 	private void DetermineMapEdgeProvinces(ModFilesystem modFS) {
 		Logger.Debug("Determining map edge provinces...");
