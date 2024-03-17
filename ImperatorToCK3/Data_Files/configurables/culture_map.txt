@@ -245,7 +245,7 @@ link = { ck3 = pommeranian @ir_urslavic_cultures ck3Region = d_pommerania ck3Reg
 link = { ck3 = polabian @ir_urslavic_cultures ck3Region = d_ostmark ck3Region = d_nordmark ck3Region = c_stendal } #Vanilla culture, may need CE link
 link = { ck3 = silesian @ir_urslavic_cultures ck3Region = d_lower_silesia ck3Region = d_upper_silesia ck3Region = c_opava }
 link = { ck3 = czech @ir_urslavic_cultures ck3Region = d_bohemia ck3Region = d_nordgau } #Vanilla culture, may need CE link
-link = { ck3 = opolan @ir_urslavic_cultures ck3Region = d_wielkopolska ck3Region = d_kuyavia }
+link = { ck3 = polish @ir_urslavic_cultures ck3Region = d_wielkopolska ck3Region = d_kuyavia }
 link = { ck3 = masovian @ir_urslavic_cultures ck3Region = d_mazovia ck3Region = d_masuria }
 link = { ck3 = lendian @ir_urslavic_cultures ck3Region = d_cherven_cities ck3Region = c_tarnowska ck3Region = c_lubelska }
 link = { ck3 = vistulan @ir_urslavic_cultures ck3Region = d_lesser_poland }
