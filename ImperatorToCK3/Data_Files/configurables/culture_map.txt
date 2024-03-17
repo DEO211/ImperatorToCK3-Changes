@@ -237,44 +237,44 @@ link = {
 }
 # CE 
 # West
-link = { ck3 = nitravan @ir_urslavic_cultures ck3Region = c_komarom ck3Region = c_esztergom ck3Region = c_poszony ck3Region = c_nyitra ck3Region = c_hont ck3Region = c_zolyom ck3Region = c_bars ck3Region = c_trenscen ck3Region = c_lipto ck3Region = c_orava ck3Region = c_gemer }
-link = { ck3 = slovien @ir_urslavic_cultures ck3Region = c_gemer ck3Region = c_spis ck3Region = c_lipto } #Vanilla culture, may need CE link
+link = { ck3 = nitravan @ir_urslavic_cultures ck3Region = c_komarom ck3Region = c_esztergom ck3Region = c_poszony ck3Region = c_nyitra ck3Region = c_hont ck3Region = c_zolyom ck3Region = c_bars ck3Region = c_trenscen ck3Region = c_lipto ck3Region = c_orava ck3Region = c_gemer ck3Region = c_spis }
+link = { ck3 = slovien @ir_urslavic_cultures ck3Region = d_moravia } #Vanilla culture, may need CE link
 link = { ck3 = obotrite @ir_urslavic_cultures ck3Region = c_mecklenburg ck3Region = d_holstein ck3Region = c_brunswick ck3Region = c_dannenberg ck3Region = c_luneburg ck3Region = c_hamburg }
 link = { ck3 = sorbian @ir_urslavic_cultures ck3Region = d_thuringa ck3Region = d_anhalt ck3Region = d_meissen ck3Region = d_lausitz }
-link = { ck3 = pommeranian @ir_urslavic_cultures ck3Region = d_pommerania ck3Region = d_pomerelia ck3Region = c_torun } #Vanilla culture, may need CE link
+link = { ck3 = pommeranian @ir_urslavic_cultures ck3Region = d_pommerania ck3Region = d_pomerelia ck3Region = c_torun ck3Region = d_prussia } #Vanilla culture, may need CE link
 link = { ck3 = polabian @ir_urslavic_cultures ck3Region = d_ostmark ck3Region = d_nordmark ck3Region = c_stendal } #Vanilla culture, may need CE link
 link = { ck3 = silesian @ir_urslavic_cultures ck3Region = d_lower_silesia ck3Region = d_upper_silesia ck3Region = c_opava }
 link = { ck3 = czech @ir_urslavic_cultures ck3Region = d_bohemia ck3Region = d_nordgau } #Vanilla culture, may need CE link
 link = { ck3 = opolan @ir_urslavic_cultures ck3Region = d_wielkopolska ck3Region = d_kuyavia }
-link = { ck3 = masovian @ir_urslavic_cultures ck3Region = d_mazovia }
+link = { ck3 = masovian @ir_urslavic_cultures ck3Region = d_mazovia ck3Region = d_masuria }
 link = { ck3 = lendian @ir_urslavic_cultures ck3Region = d_cherven_cities ck3Region = c_tarnowska ck3Region = c_lubelska }
 link = { ck3 = vistulan @ir_urslavic_cultures ck3Region = d_lesser_poland }
 # East
-link = { ck3 = polyan @ir_urslavic_cultures ck3Region = c_zvyahel ck3Region = c_kiev ck3Region = c_chornobyl ck3Region = c_korsun ck3Region = c_zhytomyr }
+link = { ck3 = polyan @ir_urslavic_cultures ck3Region = c_zvyahel ck3Region = c_kiev ck3Region = c_chornobyl ck3Region = c_korsun ck3Region = c_zhytomyr ck3Region = d_yedisan }
 link = { ck3 = volhynian @ir_urslavic_cultures ck3Region = c_volodymyr ck3Region = c_peresopnytsia ck3Region = c_lviv ck3Region = c_zaslavl } #Vanilla culture, may need CE link
-link = { ck3 = tiverian @ir_urslavic_cultures ck3Region = c_terebovl ck3Region = c_cetatea_alba ck3Region = c_barlad ck3Region = c_lapusna ck3Region = c_chilia ck3Region = c_tigheci ck3Region = c_galati ck3Region = c_ushytsia ck3Region = c_hotin ck3Region = c_soroca ck3Region = c_orhei ck3Region = c_dorohoi ck3Region = c_iasi }
+link = { ck3 = tiverian @ir_urslavic_cultures ck3Region = c_terebovl ck3Region = c_ushytsia ck3Region = d_bugeac ck3Region = d_moldova ck3Region = d_bukovina ck3Region = c_chilia ck3Region = c_tigheci ck3Region = c_galati ck3Region = c_hotin ck3Region = c_soroca ck3Region = c_orhei ck3Region = c_dorohoi ck3Region = c_iasi }
 link = { ck3 = drevlian @ir_urslavic_cultures ck3Region = c_pinsk ck3Region = c_novogrudok ck3Region = c_volkovysk ck3Region = c_berestye ck3Region = c_dorohychyn ck3Region = c_turov ck3Region = c_korosten ck3Region = c_dubrovytsia }
 link = { ck3 = dregovich @ir_urslavic_cultures ck3Region = c_minsk ck3Region = c_kletsk ck3Region = c_slutsk ck3Region = c_orsha }
 link = { ck3 = poloch @ir_urslavic_cultures ck3Region = c_vitebsk ck3Region = c_lukoml ck3Region = c_polotsk }
 link = { ck3 = ilmenian @ir_urslavic_cultures ck3Region = c_sebezh ck3Region = c_pskov ck3Region = c_luki ck3Region = c_rusa ck3Region = c_novgorod ck3Region = c_valdai ck3Region = c_bezichi ck3Region = c_tikhvin } #Vanilla culture, may need CE link
-link = { ck3 = severian @ir_urslavic_cultures ck3Region = c_chernigov ck3Region = c_pereyaslavl ck3Region = c_voin ck3Region = c_hradyzk ck3Region = c_romen ck3Region = c_novgorod_seversky ck3Region = c_putyvl ck3Region = c_kursk } #Vanilla culture, may need CE link
+link = { ck3 = severian @ir_urslavic_cultures ck3Region = c_chernigov ck3Region = c_pereyaslavl ck3Region = c_voin ck3Region = c_hradyzk ck3Region = c_romen ck3Region = c_novgorod_seversky ck3Region = c_putyvl ck3Region = c_kursk ck3Region = d_levedia } #Vanilla culture, may need CE link
 link = { ck3 = krivich @ir_urslavic_cultures ck3Region = c_toropets ck3Region = c_gnezdovo }
-link = { ck3 = vyatichi @ir_urslavic_cultures ck3Region = c_starodub ck3Region = c_babruysk ck3Region = c_sevsk ck3Region = c_roslavl ck3Region = c_smolensk ck3Region = c_karachev ck3Region = c_kozelsk }
+link = { ck3 = vyatichi @ir_urslavic_cultures ck3Region = c_starodub ck3Region = c_babruysk ck3Region = c_sevsk ck3Region = c_roslavl ck3Region = c_smolensk ck3Region = c_karachev ck3Region = c_kozelsk ck3Region = d_novosil }
 link = { ck3 = belocroat @ir_urslavic_cultures ck3Region = c_saris ck3Region = c_abauj ck3Region = c_zemplen ck3Region = c_ungvar ck3Region = c_bereg ck3Region = c_marmaros ck3Region = c_halych ck3Region = c_spis ck3Region = c_borsod }
 # South
-link = { ck3 = blatno_slavic @ir_urslavic_cultures ck3Region = c_tolna ck3Region = c_szekesfehervar ck3Region = c_somogy ck3Region = c_veszprem ck3Region = c_visegrad ck3Region = c_baranya }
+link = { ck3 = blatno_slavic @ir_urslavic_cultures ck3Region = c_tolna ck3Region = c_szekesfehervar ck3Region = c_somogy ck3Region = c_veszprem ck3Region = d_visegrad ck3Region = c_baranya ck3Region = d_bihar ck3Region = d_transylvania }
 link = { ck3 = dudlebian @ir_urslavic_cultures ck3Region = c_vas ck3Region = c_kolon }
-link = { ck3 = abotrite @ir_urslavic_cultures ck3Region = c_krasso ck3Region = c_keve ck3Region = c_szerem ck3Region = c_bacs ck3Region = c_severin }
+link = { ck3 = abotrite @ir_urslavic_cultures ck3Region = d_syrmia ck3Region = d_bacs ck3Region = d_temes }
 link = { ck3 = slavonian @ir_urslavic_cultures ck3Region = c_vodica ck3Region = c_vrbas ck3Region = c_vukovar ck3Region = c_zagreb ck3Region = c_pozega ck3Region = c_zagorje }
-link = { ck3 = branichian @ir_urslavic_cultures ck3Region = c_beograd ck3Region = c_branicevo }
+link = { ck3 = branichian @ir_urslavic_cultures ck3Region = c_beograd ck3Region = c_branicevo ck3Region = d_vidin }
 link = { ck3 = neretljanian @ir_urslavic_cultures ck3Region = c_pagania ck3Region = c_ragusa }
 link = { ck3 = zachlumian @ir_urslavic_cultures ck3Region = c_zachlumia ck3Region = c_zelengora }
-link = { ck3 = doclean @ir_urslavic_cultures ck3Region = c_duklja ck3Region = c_pomorje }
+link = { ck3 = doclean @ir_urslavic_cultures ck3Region = c_duklja ck3Region = c_pomorje ck3Region = d_dyrrachion }
 link = { ck3 = travunian @ir_urslavic_cultures ck3Region = c_travunia }
-link = { ck3 = carantanian @ir_urslavic_cultures ck3Region = c_sopron ck3Region = c_gyor } #Vanilla culture, may need CE link
-link = { ck3 = croatian @ir_urslavic_cultures ck3Region = c_zavrsje ck3Region = c_donjikraji ck3Region = c_pset } #Vanilla culture, may need CE link
-link = { ck3 = serbian @ir_urslavic_cultures ck3Region = c_rama ck3Region = c_vhrbosna } #Vanilla culture, may need CE link
-link = { ck3 = bulgarian @ir_urslavic_cultures ck3Region = c_braila ck3Region = c_buzau ck3Region = c_calarasi ck3Region = c_bucuresti ck3Region = c_giurgiu ck3Region = c_burgas ck3Region = c_beroe ck3Region = c_philippopolis } #Vanilla culture, may need CE link
+link = { ck3 = carantanian @ir_urslavic_cultures ck3Region = c_sopron ck3Region = d_steyermark ck3Region = d_carinthia ck3Region = d_krain ck3Region = d_friuli } #Vanilla culture, may need CE link
+link = { ck3 = croatian @ir_urslavic_cultures ck3Region = c_zavrsje ck3Region = c_donjikraji ck3Region = c_pset ck3Region = d_croatia ck3Region = d_dalmatia ck3Region = d_istria } #Vanilla culture, may need CE link
+link = { ck3 = serbian @ir_urslavic_cultures ck3Region = c_rama ck3Region = c_vhrbosna ck3Region = d_rashka ck3Region = c_macva ck3Region = d_lower_bosna } #Vanilla culture, may need CE link
+link = { ck3 = bulgarian @ir_urslavic_cultures ck3Region = d_strymon ck3Region = d_thrace ck3Region = d_bulgaria ck3Region = d_turnovo ck3Region = d_oltenia ck3Region = d_transylvanian_alps ck3Region = d_muntenia ck3Region = d_philippopolis ck3Region = d_thessalonika ck3Region = d_dobrudja } #Vanilla culture, may need CE link
 # Vanilla CK3
 link = {
     ck3=urslavic
