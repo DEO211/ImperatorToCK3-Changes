@@ -38,22 +38,22 @@
 ## D:
 @culture_splitting_region_D = "irRegion = scandinavia_region"
 ## E:
-@culture_splitting_region_E = "irRegion = armorica_region irRegion = central_gaul_region"
+@culture_splitting_region_E = "irRegion = armorica_region irRegion = central_gaul_region irRegion = belgica_region irRegion = mediomatricia_area irRegion = tribocia_area irRegion = leucia_area"
 ## F:
 @culture_splitting_region_F = "irRegion = aquitaine_region irRegion = transalpine_gaul_region"
 ## G:
 @culture_splitting_region_G = "irRegion=germania_superior_region irRegion=belgica_region irRegion=germania_region irRegion=bohemia_area irRegion=bohemia_region irRegion=germania_magna_region"
 ## H:
-@culture_splitting_region_H = "irRegion = venedia_region"
+@culture_splitting_region_H = "irRegion = venedia_region irRegion = vistulia_region"
 ## I:
 @culture_splitting_region_I = "irRegion = rhaetia_region irRegion = cisalpine_gaul_region"
 ## J:
-@culture_splitting_region_J1 = "irRegion=pannonia_prima_occidentalis_area irRegion=pannonia_prima_orientalis_area irRegion=pannonia_valeria_area irRegion=noricum_mediterranum_area irRegion=pannonia_secunda_area irRegion=illyria_region"
-@culture_splitting_region_J2 = "irRegion=pannonia_terminus_area irRegion=transcarpathia_occidentalis_area irRegion=carnuntia_area irRegion=dacia_region"
+@culture_splitting_region_J1 = "irRegion=moesia_s_region irRegion=illyria_region"
+@culture_splitting_region_J2 = "irRegion=pannonia_region irRegion=transcarpathia_centralis_area"
 @culture_splitting_region_J = "@culture_splitting_region_J1 @culture_splitting_region_J2"
 ## K:
-@culture_splitting_region_K1 = "irRegion=moesia_region irRegion=moesia_s_region irRegion=thrace_region irRegion=macedonia_region"
-@culture_splitting_region_K2 = "irRegion = vistulia_region irRegion = sarmatia_europea_region"
+@culture_splitting_region_K1 = "irRegion=moesia_region irRegion=macedonia_region irRegion=thrace_region irRegion=macedonia_region"
+@culture_splitting_region_K2 = "irRegion = dacia_region irRegion = zargidava_area irRegion = muradava_area irRegion = clepia_area"
 @culture_splitting_region_K = "@culture_splitting_region_K1 @culture_splitting_region_K2"
 ## L:
 @culture_splitting_region_L1 = "irRegion = sarmatia_asiatica_region irRegion = taurica_region"
@@ -74,17 +74,17 @@
 ## S:
 @culture_splitting_region_S = "ck3Province = 2650 ck3Province = 2649 ck3Province = 2647 ck3Province = 2648 ck3Province = 2652 ck3Province = 2651 ck3Province = 2653 ck3Province = 2654 ck3Province = 2660 ck3Province = 2659 ck3Province = 2661 ck3Province = 2658 ck3Province = 2657 ck3Province = 2662 ck3Province = 2665 ck3Province = 2664 ck3Province = 2663 ck3Province = 2656 ck3Province = 2655"
 ## T:
-@culture_splitting_region_T = "ck3Province = 1862 ck3Province = 1878 ck3Province = 1868 ck3Province = 1866 ck3Province = 1881 ck3Province = 1860 ck3Province = 1892 ck3Province = 1855 ck3Province = 1857 ck3Province = 1937 ck3Province = 1854 ck3Province = 1853 ck3Province = 2000 ck3Province = 8735 ck3Province = 2002"
+@culture_splitting_region_T = "ck3Region = d_barcelona ck3Region = d_mallorca ck3Region = c_castellon ck3Region = c_alcaniz ck3Region = c_fraga"
 ## U:
-@culture_splitting_region_U = "ck3Province = 3221 ck3Province = 1882 ck3Province = 3221  ck3Province = 1806 ck3Province = 1811 ck3Province = 1803 ck3Province = 1805"
+@culture_splitting_region_U = "ck3Region = d_aragon ck3Region = c_tudela ck3Region = c_navarra ck3Region = c_ipuskoa"
 ## V:
-@culture_splitting_region_V = "ck3Province = 1773 ck3Province = 1816 ck3Province = 1826 ck3Province = 1894 ck3Province = 1913 ck3Province = 1912 ck3Province = 1797 ck3Province = 1795 ck3Province = 1831 ck3Province = 1915"
+@culture_splitting_region_V = "ck3Region = d_leon ck3Region = d_asturias ck3Region = d_castilla ck3Region = d_navarra ck3Region = d_cantabria ck3Region = d_viscaya"
 ## W:
-@culture_splitting_region_W = "ck3Province = 1787 ck3Province = 1788 ck3Province = 1789 ck3Province = 1790 ck3Province = 1785 ck3Province = 1786 ck3Province = 1791 ck3Province = 1783 ck3Province = 1784 ck3Province = 1781 ck3Province = 1782 ck3Province = 1821 ck3Province = 1792 ck3Province = 1799 ck3Province = 1819 ck3Province = 1820 ck3Province = 1818 ck3Province = 1800"
+@culture_splitting_region_W = "ck3Region = d_galicia"
 ## X:
-@culture_splitting_region_X = "irRegion = contestania_region irRegion = baetica_region"
+@culture_splitting_region_X = "ck3Region = d_sevilla ck3Region = d_badajoz ck3Region = d_cordoba ck3Region = d_granada ck3Region = d_murcia ck3Region = d_toledo ck3Region = d_valencia"
 ## Y:
-@culture_splitting_region_Y = "irRegion = lusitania_region"
+@culture_splitting_region_Y = "ck3Region = d_porto ck3Region = d_coimbra ck3Region = d_beja ck3Region = d_algarve"
 
 ## Aksumite
 link = { ck3 = afar ir = puntic ir = aksumite ck3Province = 8286 ck3Province = 8326 ck3Province = 8344 ck3Province = 8334 ck3Province = 8332 ck3Province = 8339 ck3Province = 8342 }
@@ -614,8 +614,8 @@ link = { ck3 = arpitan_ce @ir_latin_cultures ck3Region = d_upper_burgundy ck3Reg
 link = { ck3 = breathanach @ir_latin_cultures @culture_splitting_region_A }
 link = { ck3 = transadrianic @ir_latin_cultures @culture_splitting_region_B }
 link = { ck3 = brythenig @ir_latin_cultures @culture_splitting_region_C }
+link = { ck3 = french @ir_latin_cultures @culture_splitting_region_E }
 link = { ck3 = laessin @ir_latin_cultures @culture_splitting_region_D @culture_splitting_region_G }
-link = { ck3 = norman @ir_latin_cultures @culture_splitting_region_E }
 link = { ck3 = occitan @ir_latin_cultures @culture_splitting_region_F }
 link = { ck3 = wenedyk @ir_latin_cultures @culture_splitting_region_H }
 link = { ck3 = cisalpine @ir_latin_cultures @culture_splitting_region_I }
