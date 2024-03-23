@@ -1,6 +1,6 @@
 ﻿language_gothic = { # https://en.wikipedia.org/wiki/East_Germanic_languages
     REPLACED_BY = {
-		tfe = { language_gothic }
+		tfe = { language_vandalic language_gothic }
 		vanilla = { language_gothic }
 	}
 
