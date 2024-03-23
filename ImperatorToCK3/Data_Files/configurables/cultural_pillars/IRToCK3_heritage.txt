@@ -14,7 +14,7 @@
 
 heritage_anatolian = {
     REPLACED_BY = {
-		tfe = { heritage_anatolian }
+		tfe = { heritage_hellenistic heritage_anatolian }
 		vanilla = { heritage_anatolian }
 	}
 	type = heritage
@@ -42,7 +42,7 @@ heritage_hittite = {
 
 heritage_arvanite = {
     REPLACED_BY = {
-		tfe = { heritage_arvanite }
+		tfe = { heritage_balkanic heritage_arvanite }
 		vanilla = { heritage_arberian heritage_arvanite }
 	}
 	type = heritage
@@ -56,7 +56,7 @@ heritage_arvanite = {
 
 heritage_chaldean = {
     REPLACED_BY = {
-		tfe = { heritage_chaldean }
+		tfe = { heritage_semitic heritage_chaldean }
 		vanilla = { heritage_aramean heritage_chaldean }
 	}
 	type = heritage
@@ -70,7 +70,7 @@ heritage_chaldean = {
 
 heritage_gaulish = {
     REPLACED_BY = {
-		tfe = { heritage_gaulish }
+		tfe = { heritage_celtic heritage_gaulish }
 		vanilla = { heritage_gaulish }
 	}
 	type = heritage
@@ -84,7 +84,7 @@ heritage_gaulish = {
 
 heritage_iberian_celtic = { # https://en.wikipedia.org/wiki/List_of_ancient_Celtic_peoples_and_tribes#Hispano-Celts_/_Celts_of_Hispania
     REPLACED_BY = {
-		tfe = { heritage_iberian_celtic }
+		tfe = { heritage_celtiberian heritage_iberian_celtic }
 		vanilla = { heritage_iberian_celtic }
 	}
 	type = heritage
@@ -98,7 +98,7 @@ heritage_iberian_celtic = { # https://en.wikipedia.org/wiki/List_of_ancient_Celt
 
 heritage_punic = {
     REPLACED_BY = {
-		tfe = { heritage_punic }
+		tfe = { heritage_levantine heritage_punic }
 		vanilla = { heritage_punic }
 	}
 	type = heritage
@@ -168,7 +168,7 @@ heritage_south_germanic = {
 
 heritage_thracian = {
     REPLACED_BY = {
-		tfe = { heritage_thracian }
+		tfe = { heritage_daco_thracian heritage_thracian }
 		vanilla = { heritage_thracian }
 	}
 	type = heritage
@@ -182,7 +182,7 @@ heritage_thracian = {
 
 heritage_tyrrhenian = {
     REPLACED_BY = {
-		tfe = { heritage_tyrrhenian }
+		tfe = { heritage_latin heritage_tyrrhenian }
 		vanilla = { heritage_tyrrhenian }
 	}
 	type = heritage
