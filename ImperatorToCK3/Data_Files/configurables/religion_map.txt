@@ -32,6 +32,7 @@ link = { ck3 = guanche_pagan ir = berber_religion ck3Province = 8713 ck3Province
 link = { ck3 = amazigh_pagan ir = berber_religion }
 link = { ck3 = scythian_pagan ir = indo_iranian_religion }
 link = { ck3 = carthage_pagan ir = carthaginian_pantheon }
+link = { ck3 = south_mesopotamian_pagan ir = mesopotamian_religion }
 # Vanilla CK3
 link = { ck3 = kushitism_pagan ir = egyptian_pantheon irRegion = nubia_region irRegion = punt_region }
 link = { ck3 = egyptian_pagan ir = egyptian_pantheon }
