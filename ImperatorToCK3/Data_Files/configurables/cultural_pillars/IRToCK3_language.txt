@@ -230,7 +230,7 @@ language_babylonian = {
 
 language_gaulish = {
     REPLACED_BY = {
-		tfe = { language_gaulish }
+		tfe = { language_celtic language_gaulish }
 		vanilla = { language_gaulish }
 	}
     
