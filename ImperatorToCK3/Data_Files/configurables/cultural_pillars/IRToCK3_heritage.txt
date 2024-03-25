@@ -70,7 +70,7 @@ heritage_chaldean = {
 
 heritage_gaulish = {
     REPLACED_BY = {
-		tfe = { heritage_celtic heritage_gaulish }
+		tfe = { heritage_gaulish }
 		vanilla = { heritage_gaulish }
 	}
 	type = heritage
