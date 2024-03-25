@@ -87,6 +87,11 @@
 @culture_splitting_region_Y = "ck3Region = d_porto ck3Region = d_coimbra ck3Region = d_beja ck3Region = d_algarve"
 
 ## Aksumite
+#CE
+link = { ck3=tigray ir=ona }
+link = { ck3=harla ir=berberian }
+link = { ck3=agaw ir=athagaun }
+# Vanilla CK3
 link = { ck3 = afar ir = puntic ir = aksumite ck3Province = 8286 ck3Province = 8326 ck3Province = 8344 ck3Province = 8334 ck3Province = 8332 ck3Province = 8339 ck3Province = 8342 }
 link = { ck3=somali ir=puntic }
 link = { ck3=ethiopian ir=aksumite }
@@ -188,12 +193,15 @@ link = { ck3 = karluk ir = karluk } # https://steamcommunity.com/sharedfiles/fil
 ## Baltic & Balto-Finnic
 @ir_baltic_cultures = "ir=aestian ir=baltics_tribs" # baltics_tribs comes from https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
 # CE
+link = { ck3 = goliad @ir_baltic_cultures irRegion = borysthenia_region irRegion = scythia_region }
+link = { ck3 = galindian @ir_baltic_cultures historicalTag=AES }
+link = { ck3 = sudovian @ir_baltic_cultures historicalTag=SUD } # https://en.wikipedia.org/wiki/Yotvingians
 link = { ck3 = sudovian @ir_baltic_cultures ck3Region = c_volkovysk ck3Region = c_lomzynska ck3Region = c_angerburg ck3Region = c_yatvyagi }
 link = { ck3 = galindian @ir_baltic_cultures ck3Region = d_masuria }
 link = { ck3 = curonian @ir_baltic_cultures ck3Region = c_palanga ck3Region = c_grobin }
 link = { ck3 = zemgalian @ir_baltic_cultures ck3Region = c_zemigalians ck3Region = c_vanemane }
 link = { ck3 = selonian @ir_baltic_cultures ck3Region = c_selpils }
-link = { ck3 = goliad @ir_baltic_cultures irRegion = borysthenia_region irRegion = scythia_region }
+
 # TFE
 link = { ck3 = aestian @ir_baltic_cultures }
 # vanilla CK3
@@ -286,7 +294,7 @@ link = {
 ## Belgea (sic)
 link = { ck3 = belgae ir = sennonian ir = bellovacian ir = veliocassian ir = morinian ir = nervian ir = eburonian ir = belgae ir = belgic ir = treverian ir = aduatacian }
 # Invictus mod
-link = { ck3 = belgae ir = ubian }
+link = { ck3 = belgae ir = ubian ir=teurian }
 
 ## Britannic
 @ir_south_east_briton_cultures = "ir=britannic ir=brigantic ir=cornovian ir=coritani ir=iceni ir=trinovantian ir=cantian ir=durotrigan ir=dobunnian ir=parisian ir=monapian"
@@ -377,7 +385,7 @@ link = { ck3 = gaelic @ir_gaelic_cultures }
 link = { ck3=gaelic @ir_irish_cultures }
 
 ## Gallic
-@ir_gallic_cultures = "ir=volcae ir=salluvian ir=arverni ir=aulercian ir=pictonian ir=lemovician ir=santonian ir=carnuti ir=haedui ir=biturigan ir=lepontic ir=vindelician ir=helvetian ir=allobrogian ir=teurian"
+@ir_gallic_cultures = "ir=volcae ir=salluvian ir=arverni ir=aulercian ir=pictonian ir=lemovician ir=santonian ir=carnuti ir=haedui ir=biturigan ir=lepontic ir=vindelician ir=helvetian ir=allobrogian"
 @ir_breton_cultures = "ir=aremorican ir=breton" # breton comes from https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
 link = { ck3 = gaul @ir_gallic_cultures } # TFE
 link = { ck3 = gallic @ir_gallic_cultures }
