@@ -441,9 +441,8 @@ link = { ck3 = dane ir = scandian ck3Region = d_sjaelland ck3Region = d_skane }
 link = { ck3 = jute ir = scandian ck3Region = d_holstein ck3Region = d_slesvig ck3Region = d_jylland } 
 link = { ck3 = geat ir = scandian ck3Region = d_vastergotland ck3Region = d_smaland } 
 link = { ck3 = svear ir = scandian ck3Region = d_bergslagen ck3Region = d_norrland ck3Region = d_svealand ck3Region = d_ostergotland } 
+link = { ck3 = gutish ir = scandian ir = raumarician @ir_gothic_cultures irProvince = 6010 } # TFE
 link = { ck3 = norse ir = scandian @culture_splitting_region_D } 
-# TFE
-link = { ck3 = gutish ir = scandian ir = raumarician @ir_gothic_cultures irProvince = 6010 } 
 link = { ck3 = rugian ir = scandian } # TFE: Rugian represents proto-norwegian / norse in base imperator so reverse is true in TFE
 # Vanilla CK3
 link = { ck3 = norwegian ir = norwegian } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
