@@ -612,14 +612,14 @@ link = { ck3 = mauro_roman @ir_latin_cultures irRegion = mauretainia_region irRe
 link = { ck3 = afro_roman @ir_latin_cultures @culture_splitting_region_O }
 
 # Default
-link = { ck3 = ligustic ir = ligurian @ir_latin_cultures @culture_splitting_region_I @ir_latin_cultures @culture_splitting_region_S @ir_latin_cultures @culture_splitting_region_P @ir_latin_cultures @culture_splitting_region_Q }
+link = { ck3 = ligustic ir = ligurian }
 link = { ck3 = venetic ir = venetic ir=histrian } # histrian moved to italic in Invictus
-link = { ck3 = roman ir = roman @ir_latin_cultures @culture_splitting_region_I @ir_latin_cultures @culture_splitting_region_S @ir_latin_cultures @culture_splitting_region_P @ir_latin_cultures @culture_splitting_region_Q }
-link = { ck3 = samnite ir = samnite @ir_latin_cultures @culture_splitting_region_I @ir_latin_cultures @culture_splitting_region_S @ir_latin_cultures @culture_splitting_region_P @ir_latin_cultures @culture_splitting_region_Q }
-link = { ck3 = oscan ir = osco_umbrian ir = umbrian @ir_latin_cultures @culture_splitting_region_I @ir_latin_cultures @culture_splitting_region_S @ir_latin_cultures @culture_splitting_region_P @ir_latin_cultures @culture_splitting_region_Q }
+link = { ck3 = samnite ir = samnite }
+link = { ck3 = oscan ir = osco_umbrian ir = umbrian }
 link = { ck3 = messapic ir = lucanian ir = bruttian ir = messapian }
 link = { ck3 = sardonian ir = sardonian }
-link = { ck3 = siculian ir = siculian @ir_latin_cultures @culture_splitting_region_I @ir_latin_cultures @culture_splitting_region_S @ir_latin_cultures @culture_splitting_region_P @ir_latin_cultures @culture_splitting_region_Q }
+link = { ck3 = siculian ir = siculian }
+#link = { ck3 = siculian ir = siculian @culture_splitting_region_I @culture_splitting_region_S @culture_splitting_region_P @culture_splitting_region_Q } for future refence
 
 # The Glory of Rome
 link = { ck3 = roman @ir_latin_cultures historicalTag=ROM }
@@ -653,6 +653,8 @@ link = { ck3 = asturleonese @ir_latin_cultures @culture_splitting_region_V }
 link = { ck3 = galician @ir_latin_cultures @culture_splitting_region_W }
 link = { ck3 = castilian @ir_latin_cultures @culture_splitting_region_X }
 link = { ck3 = portuguese @ir_latin_cultures @culture_splitting_region_Y }
+
+link = { ck3 = roman ir = roman }
 
 # Tyrrenic
 link = { ck3 = rhaetian ir = etruscan ir = rhaetian @culture_splitting_region_G @culture_splitting_region_H @culture_splitting_region_D irRegion = rhaetia_region }
