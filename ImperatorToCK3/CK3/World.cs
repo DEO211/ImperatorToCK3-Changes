@@ -180,8 +180,10 @@ public class World {
 				Logger.Warn($"No base mapping found for I:R culture {irCultureId}!");
 			}
 		}
+		
+		Cultures.ImportTechnology(impWorld.Countries, cultureMapper, provinceMapper, impWorld.InventionsDB, impWorld.LocDB);
 
-		var traitMapper = new TraitMapper(Path.Combine("configurables", "trait_map.txt"), ModFS);
+		var traitMapper = new TraitMapper("configurables/trait_map.txt", ModFS);
 
 		Logger.Info("Initializing DNA factory...");
 		var dnaFactory = new DNAFactory(impWorld.ModFS, ModFS);
@@ -284,7 +286,7 @@ public class World {
 		Characters.ImportLegions(LandedTitles, impWorld.Units, impWorld.Characters, CorrectedDate, unitTypeMapper, MenAtArmsTypes, provinceMapper, config);
 
 		Characters.RemoveEmployerIdFromLandedCharacters(LandedTitles, CorrectedDate);
-		Characters.PurgeUnneededCharacters(LandedTitles, config.CK3BookmarkDate);
+		Characters.PurgeUnneededCharacters(LandedTitles, Dynasties, config.CK3BookmarkDate);
 		
 		// Check if any muslim religion exists in Imperator. Otherwise, remove Islam from the entire CK3 map.
 		var possibleMuslimReligionNames = new List<string> { "muslim", "islam", "sunni", "shiite" };
