@@ -319,6 +319,15 @@ link = { ck3 = brythonic @ir_south_east_briton_cultures }
 # caspian comes from Invictus https://en.wikipedia.org/wiki/Caspians
 # abasgoi, suani (Svans), sasperian and lazi come from Invictus
 # georgian comes from https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
+# WTWSMS
+link = { ck3 = corduenian ir = cardukoi }
+link = { ck3 = colchiscan ir = colchian }
+link = { ck3 = lazic ir = lazi }
+link = { ck3 = caucasian_albanian ir = albanian }
+link = { ck3 = nakh ir = legian }
+link = { ck3 = awaral ir = caspian }
+link = { ck3 = abaza ir = abasgoi }
+link = { ck3 = adyghes ir = maeotian ir = sindi }
 # TFE
 link = { ck3 = arran ir = albanian }
 link = { ck3 = circassian ir = sindi }
@@ -528,6 +537,18 @@ link = { ck3 = german @ir_all_germanic_cultures }
 
 ## Hellenic
 @ir_greek_cultures = "ir=greek ir=athenian ir=peloponnesian ir=massalian ir=cyrenaican ir=bosporan ir=thessalian ir=cypriot ir=bithynian ir=ionian ir=troan ir=aeolian ir=greco_pontic ir=aegean ir=aetolian ir=euboean ir=boeotian ir=epirote ir=arcadian ir=argolian ir=parthinian ir=cretan ir=achaean"
+# WTWSMS
+link = { ck3 = bosporan ir = bosporan }
+link = { ck3 = massalian ir = massalian }
+link = { ck3 = spartan ir = peloponnesian historicalTag = SPA }
+link = { ck3 = tsakonian ir = cretan ir = argolian ir = achaean ir = peloponnesian }
+link = { ck3 = helleno_aramean ir = cypriot }
+link = { ck3 = helleno_aramean ir=macedonian ir=hellenistic ir=syracusan ir=thracian @ir_greek_cultures @culture_splitting_region_N irRegion = cyprus_area }
+link = { ck3 = helleno_libyan ir = cyrenaican }
+link = { ck3 = helleno_coptic ir=macedonian ir=hellenistic ir=syracusan ir=thracian @ir_greek_cultures irRegion = lower_egypt_region irRegion = upper_egypt_region }
+link = { ck3 = helleno_libyan ir=macedonian ir=hellenistic ir=syracusan ir=thracian @ir_greek_cultures @culture_splitting_region_O }
+link = { ck3 = helleno_thracian ir = thracian }
+link = { ck3 = helleno_thracian ir=macedonian ir=hellenistic ir=syracusan ir=thracian @ir_greek_cultures irRegion = moesia_region irRegion = macedonia_salutaris_area irRegion = moesia_s_region irRegion = thracia_area }
 # TFE
 link = { ck3 = pontic ir = greco_pontic }
 link = { ck3 = syrian ir=macedonian ir=hellenistic ir=syracusan ir=thracian @ir_greek_cultures @culture_splitting_region_N  }
@@ -610,6 +631,30 @@ link = { ck3 = hispano_roman @ir_latin_cultures
 }
 link = { ck3 = mauro_roman @ir_latin_cultures irRegion = mauretainia_region irRegion = atlas_region irRegion = numidia_region }
 link = { ck3 = afro_roman @ir_latin_cultures @culture_splitting_region_O }
+
+# WTWSMS -splitting according to regions
+link = { ck3 = corsican @ir_latin_cultures irRegion = corsica_area }
+link = { ck3 = romano_british @ir_latin_cultures @culture_splitting_region_C @culture_splitting_region_B @culture_splitting_region_A }
+link = { ck3 = romano_noric @ir_latin_cultures irRegion = alpes_raetiae_orientalis irRegion = lauriacum_area irRegion = helvetia_orientalis_area irRegion = tulingia_area irRegion = helvetia_superioris_area }
+link = { ck3 = romano_raetian @ir_latin_cultures irRegion = rhaetia_region }
+link = { ck3 = romano_illyrian @ir_latin_cultures @culture_splitting_region_J1 } 
+link = { ck3 = romano_pannonian @ir_latin_cultures @culture_splitting_region_J2 } 
+link = { ck3 = romano_thracian @ir_latin_cultures @culture_splitting_region_K1 }
+link = { ck3 = romano_dacian @ir_latin_cultures @culture_splitting_region_K2 }
+link = { ck3 = romano_gallic @ir_latin_cultures
+    @culture_splitting_region_E
+    @culture_splitting_region_F
+}
+link = { ck3 = romano_hispanic @ir_latin_cultures
+    @culture_splitting_region_T
+    @culture_splitting_region_U
+    @culture_splitting_region_V
+    @culture_splitting_region_W
+    @culture_splitting_region_X
+    @culture_splitting_region_Y
+}
+link = { ck3 = romano_african @ir_latin_cultures @culture_splitting_region_O }
+link = { ck3 = romano_aramean @ir_latin_cultures @culture_splitting_region_N }
 
 # Default
 link = { ck3 = ligustic ir = ligurian }
@@ -791,15 +836,26 @@ link = { ck3 = levantine ir = mashriqi } # https://steamcommunity.com/sharedfile
 link = { ck3 = yemeni ir = yemen } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
 # CE
 link = { ck3 = mahri ir = adite ir = samad ir = hadhrami irRegion = arabia_region irRegion = arabia_felix_region}
+#WTWSMS
+link = { ck3 = hadhramaut ir = hadhrami }
+link = { ck3 = sabaean ir = sheban }
+link = { ck3 = minaean ir = minaean ir = kindite }
+link = { ck3 = khalan ir = samad ir = makan }
+link = { ck3 = qatarye ir = gerrhan }
+link = { ck3 = yathribi ir = taif ir = thamudi }
+link = { ck3 = himyarite ir = himjar ir = qatabanian }
+link = { ck3 = tribal_arab ir = hadhrami ir = himjar ir = minaean ir = qatabanian ir = sheban ir = samad ir = adite ir = kindite irRegion = aromata_area }
+link = { ck3 = tribal_arab ir = hadhrami ir = himjar ir = minaean ir = qatabanian ir = sheban ir = samad ir = adite ir = kindite } #Fallback
 # TFE
 link = { ck3 = himyarite ir = himjar ir = minaean ir = qatabanian ir = sheban ir = kindite }
-link = { ck3 = south_arabian ir = adite ir = samad ir = hadhrami }
+link = { ck3 = south_arabian ir = hadhrami ir = himjar ir = minaean ir = qatabanian ir = sheban ir = samad ir = adite ir = kindite } #Fallback
 # Vanilla CK3
 link = {
 	ck3 = adnanite  # Pre-Islamic North Arabian
 	ir = thamudi
 	ir = qedarite
 	ir = taif
+	ir = makan
 	# Invictus mod
 	ir = gerrhan
 	ir = yamama
@@ -811,7 +867,6 @@ link = {
 	ir = minaean
 	ir = qatabanian
 	ir = sheban
-	ir = makan
 	# Invictus mod
 	ir = samad
 	ir = adite
