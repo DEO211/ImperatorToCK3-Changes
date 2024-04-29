@@ -49,7 +49,7 @@
 @culture_splitting_region_I = "irRegion = rhaetia_region irRegion = cisalpine_gaul_region"
 ## J:
 @culture_splitting_region_J1 = "irRegion=moesia_s_region irRegion=illyria_region irRegion=pannonia_secunda_area irRegion=savia_occidentalis_area"
-@culture_splitting_region_J2 = "irRegion=pannonia_region irRegion=transcarpathia_centralis_area irRegion=celamantia_area"
+@culture_splitting_region_J2 = "irRegion=pannonia_region irRegion=transcarpathia_centralis_area irRegion=celamantia_area irRegion=iazygia_minoris_area irRegion=iazygia_majoris_area irRegion=transcarpathia_orientalis_area"
 @culture_splitting_region_J = "@culture_splitting_region_J1 @culture_splitting_region_J2"
 ## K:
 @culture_splitting_region_K1 = "irRegion=moesia_region irRegion=macedonia_region irRegion=thrace_region irRegion=macedonia_region"
