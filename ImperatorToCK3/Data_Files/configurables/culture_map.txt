@@ -74,17 +74,17 @@
 ## S:
 @culture_splitting_region_S = "ck3Province = 2650 ck3Province = 2649 ck3Province = 2647 ck3Province = 2648 ck3Province = 2652 ck3Province = 2651 ck3Province = 2653 ck3Province = 2654 ck3Province = 2660 ck3Province = 2659 ck3Province = 2661 ck3Province = 2658 ck3Province = 2657 ck3Province = 2662 ck3Province = 2665 ck3Province = 2664 ck3Province = 2663 ck3Province = 2656 ck3Province = 2655"
 ## T:
-@culture_splitting_region_T = "ck3Region = d_barcelona ck3Region = d_mallorca ck3Region = c_castellon ck3Region = c_alcaniz ck3Region = c_fraga"
+@culture_splitting_region_T = "ck3Province = 1862 ck3Province = 1878 ck3Province = 1868 ck3Province = 1866 ck3Province = 1881 ck3Province = 1860 ck3Province = 1892 ck3Province = 1855 ck3Province = 1857 ck3Province = 1937 ck3Province = 1854 ck3Province = 1853 ck3Province = 2000 ck3Province = 8735 ck3Province = 2002"
 ## U:
-@culture_splitting_region_U = "ck3Region = d_aragon ck3Region = c_tudela ck3Region = c_navarra ck3Region = c_ipuskoa"
+@culture_splitting_region_U = "ck3Province = 3221 ck3Province = 1882 ck3Province = 3221  ck3Province = 1806 ck3Province = 1811 ck3Province = 1803 ck3Province = 1805"
 ## V:
-@culture_splitting_region_V = "ck3Region = d_leon ck3Region = d_asturias ck3Region = d_castilla ck3Region = d_navarra ck3Region = d_cantabria ck3Region = d_viscaya"
+@culture_splitting_region_V = "ck3Province = 1773 ck3Province = 1816 ck3Province = 1826 ck3Province = 1894 ck3Province = 1913 ck3Province = 1912 ck3Province = 1797 ck3Province = 1795 ck3Province = 1831 ck3Province = 1915"
 ## W:
-@culture_splitting_region_W = "ck3Region = d_galicia"
+@culture_splitting_region_W = "ck3Province = 1787 ck3Province = 1788 ck3Province = 1789 ck3Province = 1790 ck3Province = 1785 ck3Province = 1786 ck3Province = 1791 ck3Province = 1783 ck3Province = 1784 ck3Province = 1781 ck3Province = 1782 ck3Province = 1821 ck3Province = 1792 ck3Province = 1799 ck3Province = 1819 ck3Province = 1820 ck3Province = 1818 ck3Province = 1800"
 ## X:
-@culture_splitting_region_X = "ck3Region = d_sevilla ck3Region = d_badajoz ck3Region = d_cordoba ck3Region = d_granada ck3Region = d_murcia ck3Region = d_toledo ck3Region = d_valencia"
+@culture_splitting_region_X = "irRegion = contestania_region irRegion = baetica_region"
 ## Y:
-@culture_splitting_region_Y = "ck3Region = d_porto ck3Region = d_coimbra ck3Region = d_beja ck3Region = d_algarve"
+@culture_splitting_region_Y = "irRegion = lusitania_region"
 
 ## Aksumite
 #CE
