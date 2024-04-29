@@ -201,7 +201,6 @@ link = { ck3 = galindian @ir_baltic_cultures ck3Region = d_masuria }
 link = { ck3 = curonian @ir_baltic_cultures ck3Region = c_palanga ck3Region = c_grobin }
 link = { ck3 = zemgalian @ir_baltic_cultures ck3Region = c_zemigalians ck3Region = c_vanemane }
 link = { ck3 = selonian @ir_baltic_cultures ck3Region = c_selpils }
-
 # TFE
 link = { ck3 = aestian @ir_baltic_cultures }
 # vanilla CK3
@@ -233,18 +232,22 @@ link = { ck3=polish ir=polish } # https://steamcommunity.com/sharedfiles/filedet
 link = { ck3=slovien ir=slovien } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
 link = { ck3=bulgarian ir=bulgarian } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
 @ir_urslavic_cultures = "ir=sporic ir=chernolian ir=melanchlaenian ir=androphagian ir=budinian ir=neuric"
+# WTWSMS
+link = { ck3=vistula_veneti ir=androphagian ir=budinian ir=melanchlaenian irRegion=vistulia_region }
+link = { ck3=dnieper_baltic ir=androphagian }
+link = { ck3=old_slavic ir=sporic ir=neuric ir=chernolian }
 # TFE
 link = { ck3=venedian ir=androphagian ir=chernolian ir=budinian ir=melanchlaenian @culture_splitting_region_H }
 link = { ck3=dnieper ir=androphagian }
 link = { ck3=east_galindian ir=melanchlaenian }
-link = { ck3=kolochin ir=chernolian ir=budinian }
+link = { ck3=kolochin ir=budinian }
 link = {
     ck3=slavic
-    ir=sporic ir=neuric
+    ir=sporic ir=neuric ir=chernolian
     ir=illyrian # note on illyrian: NOT an error! illyrian comes from https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649 and is actually South Slavic
 }
 # CE 
-# West
+## West
 link = { ck3 = nitravan @ir_urslavic_cultures ck3Region = c_komarom ck3Region = c_esztergom ck3Region = c_poszony ck3Region = c_nyitra ck3Region = c_hont ck3Region = c_zolyom ck3Region = c_bars ck3Region = c_trenscen ck3Region = c_lipto ck3Region = c_orava ck3Region = c_gemer ck3Region = c_spis }
 link = { ck3 = slovien @ir_urslavic_cultures ck3Region = d_moravia } #Vanilla culture, may need CE link
 link = { ck3 = obotrite @ir_urslavic_cultures ck3Region = c_mecklenburg ck3Region = d_holstein ck3Region = c_brunswick ck3Region = c_dannenberg ck3Region = c_luneburg ck3Region = c_hamburg }
@@ -257,7 +260,7 @@ link = { ck3 = polish @ir_urslavic_cultures ck3Region = d_wielkopolska ck3Region
 link = { ck3 = masovian @ir_urslavic_cultures ck3Region = d_mazovia ck3Region = d_masuria }
 link = { ck3 = lendian @ir_urslavic_cultures ck3Region = d_cherven_cities ck3Region = c_tarnowska ck3Region = c_lubelska }
 link = { ck3 = vistulan @ir_urslavic_cultures ck3Region = d_lesser_poland }
-# East
+## East
 link = { ck3 = polyan @ir_urslavic_cultures ck3Region = c_zvyahel ck3Region = c_kiev ck3Region = c_chornobyl ck3Region = c_korsun ck3Region = c_zhytomyr ck3Region = d_yedisan }
 link = { ck3 = volhynian @ir_urslavic_cultures ck3Region = c_volodymyr ck3Region = c_peresopnytsia ck3Region = c_lviv ck3Region = c_zaslavl } #Vanilla culture, may need CE link
 link = { ck3 = tiverian @ir_urslavic_cultures ck3Region = c_terebovl ck3Region = c_ushytsia ck3Region = d_bugeac ck3Region = d_moldova ck3Region = d_bukovina ck3Region = c_chilia ck3Region = c_tigheci ck3Region = c_galati ck3Region = c_hotin ck3Region = c_soroca ck3Region = c_orhei ck3Region = c_dorohoi ck3Region = c_iasi }
@@ -269,7 +272,7 @@ link = { ck3 = severian @ir_urslavic_cultures ck3Region = c_chernigov ck3Region 
 link = { ck3 = krivich @ir_urslavic_cultures ck3Region = c_toropets ck3Region = c_gnezdovo }
 link = { ck3 = vyatichi @ir_urslavic_cultures ck3Region = c_starodub ck3Region = c_babruysk ck3Region = c_sevsk ck3Region = c_roslavl ck3Region = c_smolensk ck3Region = c_karachev ck3Region = c_kozelsk ck3Region = d_novosil }
 link = { ck3 = belocroat @ir_urslavic_cultures ck3Region = c_saris ck3Region = c_abauj ck3Region = c_zemplen ck3Region = c_ungvar ck3Region = c_bereg ck3Region = c_marmaros ck3Region = c_halych ck3Region = c_spis ck3Region = c_borsod }
-# South
+## South
 link = { ck3 = blatno_slavic @ir_urslavic_cultures ck3Region = c_tolna ck3Region = c_szekesfehervar ck3Region = c_somogy ck3Region = c_veszprem ck3Region = d_visegrad ck3Region = c_baranya ck3Region = d_bihar ck3Region = d_transylvania }
 link = { ck3 = dudlebian @ir_urslavic_cultures ck3Region = c_vas ck3Region = c_kolon }
 link = { ck3 = abotrite @ir_urslavic_cultures ck3Region = d_syrmia ck3Region = d_bacs ck3Region = d_temes }
@@ -351,15 +354,17 @@ link = { ck3 = persian ir = caspian } # TODO: create a separate culture for Casp
 link = { ck3 = georgian ir = albanian ir = ibero @ir_georgian_cultures }
 
 ## Celtiberian
+# WTWSMS
+link = { ck3 = astures ir = asturian }
+link = { ck3 = gallaecian ir = callaecian }
+link = { ck3 = lusitanian ir = lusitanian ir = vettonian }
 # TFE
-link = { ck3 = aquitanian ir = caristian ir = vardulian ir = sedetanian }
 link = { ck3 = asturian ir = asturian }
 link = { ck3 = castran ir = callaecian }
 link = { ck3 = cantabrian ir = autrigonian ir = cantabrian }
+link = { ck3 = cantabrian ir = asturian ir = vaccaeian ir = sedetanian ir = lobetanian ir = celtiberian ir = celtician ir = carpetanian ir = oppidanian ir = caristian ir = vardulian } # Fallback
 # Vanilla CK3
-link = { ck3 = basque ir = basque } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
-link = { ck3 = basque ir = caristian ir = vardulian }
-link = { ck3 = celtiberian ir = asturian ir = vaccaeian ir = sedetanian ir = lobetanian ir = celtiberian ir = celtician ir = carpetanian ir = oppidanian }
+link = { ck3 = celtiberian ir = asturian ir = vaccaeian ir = sedetanian ir = lobetanian ir = celtiberian ir = celtician ir = carpetanian ir = oppidanian ir = caristian ir = vardulian }
 link = { ck3 = lusoiberian ir = callaecian ir = lusitanian ir = vettonian }
 
 ## Celto Pannonian
@@ -396,6 +401,7 @@ link = { ck3=gaelic @ir_irish_cultures }
 ## Gallic
 @ir_gallic_cultures = "ir=volcae ir=salluvian ir=arverni ir=aulercian ir=pictonian ir=lemovician ir=santonian ir=carnuti ir=haedui ir=biturigan ir=lepontic ir=vindelician ir=helvetian ir=allobrogian"
 @ir_breton_cultures = "ir=aremorican ir=breton" # breton comes from https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
+link = { ck3 = armorican ir=aremorican }
 link = { ck3 = gaul @ir_gallic_cultures } # TFE
 link = { ck3 = gallic @ir_gallic_cultures }
 link = { ck3 = breton @ir_breton_cultures }
@@ -437,19 +443,25 @@ link = { ck3 = finnish @ir_all_germanic_cultures ck3Province = 454 ck3Province =
 # Karelian, Vepsian skipped because out of scope
 
 # Norse mappings
-# CE
+link = { ck3 = auiones @ir_gothic_cultures @ir_norse_cultures @ir_ingvaeonic_cultures irProvince = 6009 } 
+link = { ck3 = reudignian @ir_norse_cultures @ir_ingvaeonic_cultures ir = herulian irProvince = 3884 } 
 link = { ck3 = jute @ir_ingvaeonic_cultures irRegion = ultima_thule_area irRegion = cimbrica_superioris_area irRegion = west_gothia_area irRegion = herulia_area irRegion = east_gothia_area irRegion = scandia_insula_area } # Used rather than splitting region for angle exception
 link = { ck3 = dane ir = herulian @culture_splitting_region_D } 
 link = { ck3 = got ir = raumarician @ir_gothic_cultures irProvince = 6010 } 
+link = { ck3 = gutnish ir = raumarician @ir_gothic_cultures irProvince = 6010 } 
 link = { ck3 = geat ir = raumarician @ir_gothic_cultures @culture_splitting_region_D } 
+link = { ck3 = geatish ir = raumarician @ir_gothic_cultures @culture_splitting_region_D } 
 link = { ck3 = svear ir = suiones } 
+link = { ck3 = swede ir = suiones } 
 link = { ck3 = norse ir = rugian @culture_splitting_region_D } 
 # Invictus
 link = { ck3 = got ir = scandian irProvince = 6010 } 
 link = { ck3 = dane ir = scandian ck3Region = d_sjaelland ck3Region = d_skane } 
 link = { ck3 = jute ir = scandian ck3Region = d_holstein ck3Region = d_slesvig ck3Region = d_jylland } 
 link = { ck3 = geat ir = scandian ck3Region = d_vastergotland ck3Region = d_smaland } 
+link = { ck3 = geatish ir = scandian ck3Region = d_vastergotland ck3Region = d_smaland } 
 link = { ck3 = svear ir = scandian ck3Region = d_bergslagen ck3Region = d_norrland ck3Region = d_svealand ck3Region = d_ostergotland } 
+link = { ck3 = swede ir = scandian ck3Region = d_bergslagen ck3Region = d_norrland ck3Region = d_svealand ck3Region = d_ostergotland } 
 link = { ck3 = gutish ir = scandian ir = raumarician @ir_gothic_cultures irProvince = 6010 } # TFE
 link = { ck3 = norse ir = scandian @culture_splitting_region_D } 
 link = { ck3 = rugian ir = scandian } # TFE: Rugian represents proto-norwegian / norse in base imperator so reverse is true in TFE
@@ -463,15 +475,24 @@ link = { ck3 = norse @ir_norse_cultures }
 # Tag culture first so they don't get overwritten
 link = { ck3 = burgundian @ir_vandilian_cultures historicalTag=BUR } # TFE
 link = { ck3 = scirian @ir_vandilian_cultures historicalTag=SCI } # TFE 
+link = { ck3 = skirian @ir_vandilian_cultures historicalTag=SCI }
+link = { ck3 = gustow @ir_gothic_cultures ck3Province = 2810 ck3Province = 2811 }
 link = { ck3 = varinian @ir_vandilian_cultures @ir_irminonic_cultures historicalTag=VRI } # TFE - Central Germanic in Imperator yet East Germanic in CK3, so use both
-link = { ck3 = rugian @ir_vandilian_cultures historicalTag=RGG } # TFE
-link = { ck3 = herulian @ir_vandilian_cultures historicalTag=HRE } # TFE
+link = { ck3 = rugian @ir_gothic_cultures historicalTag=RGG } # TFE
+link = { ck3 = herulian ir=cimbrian historicalTag=HRE } # TFE
+link = { ck3 = heruli ir=cimbrian historicalTag=HRE }
+link = { ck3 = vidivarii @ir_gothic_cultures irRegion = galindia_area irRegion = chrononis_area irRegion = turuntia_area ck3Region = c_danzig ck3Region = c_berent ck3Region = c_slupsk ck3Region = c_miastko ck3Region = c_pila ck3Region = c_poloniae ck3Region = c_kujawy ck3Region = c_gnieznienska ck3Region = c_poznanska } # Baltic Weilbark mix
+link = { ck3 = denziner @ir_gothic_cultures ck3Region = d_pommerania ck3Region = d_nordmark ck3Region = d_pomerelia ck3Region = d_ostmark ck3Region = d_wielkopolska }
+link = { ck3 = rygir @ir_gothic_cultures historicalTag=RGG } # TFE
 link = { ck3 = herulian ir = herulian } # TFE
+link = { ck3 = heruli ir = herulian }
 link = { ck3 = bastarnian ir = bastarnae } # TFE
 link = { ck3 = rugian ir = rugian } # TFE
+link = { ck3 = rygir ir = rugian } # TFE
 link = { ck3 = gothonic @ir_gothic_cultures ck3Region = d_pommerania ck3Region = d_nordmark ck3Region = d_pomerelia ck3Region = d_ostmark ck3Region = d_wielkopolska } # TFE - Archaeological complex associated with the goths: https://en.wikipedia.org/wiki/Wielbark_culture#:~:text=The%20Wielbark%20culture%20(German%3A%20Wielbark,to%20the%205th%20century%20AD.
 link = { ck3 = przeworsk @ir_vandal_cultures ck3Region = d_lesser_poland ck3Region = d_wielkopolska ck3Region = d_mazovia ck3Region = d_kuyavia ck3Region = d_pommerania ck3Region = d_pomerelia } # TFE - Mixed archaeological complex that contained the vandals: https://en.wikipedia.org/wiki/Przeworsk_culture#:~:text=The%20Przeworsk%20culture%20was,%5B14%5D%5B15%5D
-link = { ck3 = crimean_gothic @ir_gothic_cultures irRegion = taurica_region } #CE
+link = { ck3 = thracian_gothic @ir_gothic_cultures @culture_splitting_region_K1 }
+link = { ck3 = crimean_gothic @ir_gothic_cultures irRegion = taurica_region }
 link = { ck3 = visigothic @ir_gothic_cultures
  	@culture_splitting_region_A @culture_splitting_region_B @culture_splitting_region_C
 	@culture_splitting_region_E @culture_splitting_region_F
@@ -489,7 +510,7 @@ link = { ck3 = gepid @ir_gothic_cultures
 	@culture_splitting_region_J2
 }
 link = { ck3 = gothic @ir_gothic_cultures }
-link = { ck3 = vandalic @ir_vandal_cultures } # CE
+link = { ck3 = vandalic @ir_vandal_cultures }
 link = { ck3 = vandal @ir_vandal_cultures }
 link = { ck3 = vandilian @ir_vandilian_cultures }
 
@@ -500,14 +521,23 @@ link = { ck3 = franconian ir = franconian }
 link = { ck3 = scottish ir = scots } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
 link = { ck3 = english ir = english } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
 link = { ck3 = angle @ir_ingvaeonic_cultures historicalTag=ANG }
+link = { ck3 = anglo @ir_ingvaeonic_cultures historicalTag=ANG }
+link = { ck3 = reudignian @ir_ingvaeonic_cultures historicalTag=REU }
+link = { ck3 = cheruscii @ir_ingvaeonic_cultures historicalTag=CHC }
+link = { ck3 = old_frisian @ir_ingvaeonic_cultures historicalTag=SXS }
 link = { ck3 = frisa @ir_ingvaeonic_cultures historicalTag=SXS } # TFE
 link = { ck3 = frisian @ir_ingvaeonic_cultures historicalTag=SXS }
 link = { ck3 = jute @ir_ingvaeonic_cultures ck3Province = 82 ck3Province = 221 ck3Province = 223 ck3Province = 225 ck3Province = 222 ck3Province = 56 ck3Province = 58 ck3Province = 57 ck3Province = 226 ck3Province = 224 ck3Province = 81 ck3Province = 55 } # TFE
+link = { ck3 = reudignian ir = reudingian }
 link = { ck3 = old_saxon @ir_old_saxon_cultures }
 link = { ck3 = angle @ir_angle_cultures }
+link = { ck3 = anglo @ir_angle_cultures }
+link = { ck3 = old_frisian @ir_frisian_cultures }
 link = { ck3 = frisian @ir_frisian_cultures }
 link = { ck3 = old_saxon @ir_ingvaeonic_cultures } # fallback for Ingvaeonic cultures
 # Istvaeonic mappings
+link = { ck3 = chatti @ir_frankish_cultures historicalTag=CHA }
+link = { ck3 = old_frankish @ir_frankish_cultures }
 link = { ck3 = salian @ir_frankish_cultures ck3Region = dlc_fp1_region_western_adventure_targets_frisia } # TFE
 link = { ck3 = ripurian @ir_frankish_cultures } # TFE
 link = { ck3 = dutch ir = dutch }
@@ -518,9 +548,14 @@ link = { ck3 = bavarian ir = bavarian }
 link = { ck3 = langobard @ir_irminonic_cultures @culture_splitting_region_I @culture_splitting_region_P @culture_splitting_region_Q }
 link = { ck3 = langobard @ir_irminonic_cultures historicalTag=LGB }
 link = { ck3 = marcomannic @ir_irminonic_cultures historicalTag=MCM } # TFE
+link = { ck3 = marcomanni @ir_irminonic_cultures historicalTag=MCM }
+link = { ck3 = warnic @ir_irminonic_cultures historicalTag=VRI }
+link = { ck3 = lebus @ir_irminonic_cultures historicalTag=SMN }
 link = { ck3 = old_suebi @ir_suebian_cultures } # TFE
 link = { ck3 = alamannic @ir_irminonic_cultures irRegion = germania_superior_region } # TFE
+link = { ck3 = alamannian @ir_irminonic_cultures irRegion = germania_superior_region }
 link = { ck3 = old_suebi @ir_irminonic_cultures } # TFE fallback for Irminonic cultures
+link = { ck3 = danube_suebi @ir_irminonic_cultures @culture_splitting_region_I @culture_splitting_region_H @culture_splitting_region_G } # Suebi that stayed in Germany
 link = { ck3 = suebi @ir_suebian_cultures }
 link = { ck3 = swabian @ir_irminonic_cultures ck3Province = 2055 ck3Province = 2053 ck3Province = 2051 ck3Province = 2721 ck3Province = 2751 ck3Province = 2717 ck3Province = 2057 ck3Province = 2768 ck3Province = 2773 ck3Province = 2748 ck3Province = 2746 ck3Province = 2763 ck3Province = 2759 ck3Province = 2757 ck3Province = 2778 ck3Province = 2782 ck3Province = 2783 ck3Province = 2786 ck3Province = 2777 ck3Province = 2778 ck3Province = 2782 ck3Province = 2783 ck3Province = 2786 ck3Province = 2777 ck3Province = 2046 ck3Province = 2049 ck3Province = 2460 }
 link = { ck3 = bavarian @ir_irminonic_cultures ck3Province = 2964 ck3Province = 2945 ck3Province = 2949 ck3Province = 2942 ck3Province = 2957 ck3Province = 2959 ck3Province = 2956 ck3Province = 2883 ck3Province = 2960 ck3Province = 2878 ck3Province = 2990 ck3Province = 2987 ck3Province = 2989 ck3Province = 2975 ck3Province = 2977 ck3Province = 3135 ck3Province = 3131 ck3Province = 2971 ck3Province = 3117 ck3Province = 3092 ck3Province = 3109 ck3Province = 3121 ck3Province = 3086 ck3Province = 3081 ck3Province = 3089 ck3Province = 3073 ck3Province = 3093 ck3Province = 3088 ck3Province = 2950 ck3Province = 2955 ck3Province = 3134 ck3Province = 3105 ck3Province = 3128 ck3Province = 3125 ck3Province = 3099 }
@@ -718,6 +753,16 @@ link = { ck3 = ancient_egyptian @ir_egyptian_cultures }
 ## Numidian
 link = { ck3 = baranis ir = baranis } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
 link = { ck3 = butr ir = butr } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
+# WTWSMS
+link = { ck3 = riffian ir = berber ir = massaesylian ir = numidian irRegion = rif_area irProvince = 3080 }
+link = { ck3 = libyan ir = libyan ir = psyllic ir = nasamonian }
+link = { ck3 = nafusi ir = gyzantian ir = lotophagoi }
+link = { ck3 = tamazight ir = nectiberean ir = autolalean ir = cetianian ir = numidian }
+link = { ck3 = tashellhit ir = lixitoi ir = perorsian }
+link = { ck3 = shenwa ir = massaesylian }
+link = { ck3 = tacawit ir = massylian }
+link = { ck3 = taqbaylit ir = massylian ir = massaesylian ck3Region = d_sitifensis }
+link = { ck3 = mzab_wargla ir = massylian ir = massaesylian ir = gaetulian ir = abannaean ir = capariensian }
 # TFE
 link = { ck3 = garamantian ir = nasamonian ir = macaean ir = psyllic ir = garamantic ir = libyan ir = berber ir = phazani ir = lotophagoi ir = gyzantian }
 link = { ck3 = autoleles ir = nectiberean ir = autolalean ir = cetianian }
@@ -739,6 +784,10 @@ link = { ck3=numidian ir=capariensian ir=lotophagoi ir=abannaean }
 link = { ck3 = persian ir = persian } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
 link = { ck3 = daylamite ir = daylamite } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
 link = { ck3 = baloch ir = baloch } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
+# WTWSMS
+link = { ck3 = parthian ir = parthian irRegion = ariana_region }
+link = { ck3 = median ir = median }
+link = { ck3 = cyrtian ir = uxian ir = cossian }
 # CE
 link = { ck3 = mazandarani ir = amardian }
 link = { ck3 = paradani ir = parecanian }
@@ -776,15 +825,22 @@ link = { ck3 = oriya ir = savara }
 link = { ck3 = nepali ir = kasi ir = vrji ir = malla }
 
 ## Proto European
+# WTWSMS - Vanilla culture and TFE conflict, may need WTWSMS link
+link = { ck3 = aquitanian ir = aquitani }
+link = { ck3 = basque ir = ilergetian ir = autrigonian ir = vasconian }
 # TFE
 link = { ck3 = aquitanian ir = cantabrian ir = ilergetian ir = autrigonian ir = vasconian ir = aquitani ir = talaiotic }
 # Vanilla CK3
+link = { ck3 = basque ir = basque } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
 link = { ck3 = basque ir = cantabrian ir = ilergetian ir = autrigonian ir = vasconian ir = aquitani ir = talaiotic }
 link = { ck3 = nuragic ir = nuragic ir = corsian }
 
 ## Scythian
 link = { ck3 = cuman ir = cuman } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
 link = { ck3 = kimek ir = kimek } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
+# WTWSMS
+link = { ck3 = iazyges ir = sarmatian historicalTag=IAZ }
+link = { ck3 = dahi_scythian ir = derbiccan }
 # TFE
 link = { ck3 = roxolan ir = sarmatian historicalTag=ROX }
 link = { ck3 = yazige ir = sarmatian historicalTag=IAZ } # https://en.wikipedia.org/wiki/Iazyges#:~:text=The%20Iazyges%27%20name,sacrifices.%5B22%5D
@@ -882,6 +938,9 @@ link = { ck3 = bodpa ir = yarlung }
 link = { ck3 = tsangpa ir = tsang }
 
 ## West Levantine
+# WTWSMS
+link = { ck3 = juhuro ir = hebrew @culture_splitting_region_M }
+link = { ck3 = kochinim ir = hebrew irRegion = karnata_region irRegion = dravida_region }
 # TFE
 link = { ck3 = punic ir = carthaginian }
 # Vanilla CK3
