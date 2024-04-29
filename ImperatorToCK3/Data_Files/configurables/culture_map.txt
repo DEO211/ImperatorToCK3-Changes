@@ -48,8 +48,8 @@
 ## I:
 @culture_splitting_region_I = "irRegion = rhaetia_region irRegion = cisalpine_gaul_region"
 ## J:
-@culture_splitting_region_J1 = "irRegion=moesia_s_region irRegion=illyria_region"
-@culture_splitting_region_J2 = "irRegion=pannonia_region irRegion=transcarpathia_centralis_area"
+@culture_splitting_region_J1 = "irRegion=moesia_s_region irRegion=illyria_region irRegion=pannonia_secunda_area irRegion=savia_occidentalis_area"
+@culture_splitting_region_J2 = "irRegion=pannonia_region irRegion=transcarpathia_centralis_area irRegion=celamantia_area"
 @culture_splitting_region_J = "@culture_splitting_region_J1 @culture_splitting_region_J2"
 ## K:
 @culture_splitting_region_K1 = "irRegion=moesia_region irRegion=macedonia_region irRegion=thrace_region irRegion=macedonia_region"
@@ -74,11 +74,11 @@
 ## S:
 @culture_splitting_region_S = "ck3Province = 2650 ck3Province = 2649 ck3Province = 2647 ck3Province = 2648 ck3Province = 2652 ck3Province = 2651 ck3Province = 2653 ck3Province = 2654 ck3Province = 2660 ck3Province = 2659 ck3Province = 2661 ck3Province = 2658 ck3Province = 2657 ck3Province = 2662 ck3Province = 2665 ck3Province = 2664 ck3Province = 2663 ck3Province = 2656 ck3Province = 2655"
 ## T:
-@culture_splitting_region_T = "ck3Province = 1862 ck3Province = 1878 ck3Province = 1868 ck3Province = 1866 ck3Province = 1881 ck3Province = 1860 ck3Province = 1892 ck3Province = 1855 ck3Province = 1857 ck3Province = 1937 ck3Province = 1854 ck3Province = 1853 ck3Province = 2000 ck3Province = 8735 ck3Province = 2002"
+@culture_splitting_region_T = "ck3Province = 1862 ck3Province = 1878 ck3Province = 1868 ck3Province = 1866 ck3Province = 1881 ck3Province = 1860 ck3Province = 1892 ck3Province = 1855 ck3Province = 1857 ck3Province = 1937 ck3Province = 1854 ck3Province = 1853 ck3Province = 2000 ck3Province = 8735 ck3Province = 2002 ck3Province = 1864 ck3Province = 8800"
 ## U:
-@culture_splitting_region_U = "ck3Province = 3221 ck3Province = 1882 ck3Province = 3221  ck3Province = 1806 ck3Province = 1811 ck3Province = 1803 ck3Province = 1805"
+@culture_splitting_region_U = "ck3Province = 3221 ck3Province = 1882 ck3Province = 3221  ck3Province = 1806 ck3Province = 1811 ck3Province = 1803 ck3Province = 1805 ck3Province = 1931 ck3Province = 1902 ck3Province = 1932 ck3Province = 1891 ck3Province = 1887 ck3Province = 1882 ck3Province = 1871 ck3Province = 1874 ck3Province = 8793"
 ## V:
-@culture_splitting_region_V = "ck3Province = 1773 ck3Province = 1816 ck3Province = 1826 ck3Province = 1894 ck3Province = 1913 ck3Province = 1912 ck3Province = 1797 ck3Province = 1795 ck3Province = 1831 ck3Province = 1915"
+@culture_splitting_region_V = "ck3Province = 1816 ck3Province = 1826 ck3Province = 1894 ck3Province = 1913 ck3Province = 1912 ck3Province = 1797 ck3Province = 1795 ck3Province = 1831 ck3Province = 1915 ck3Province = 1896 ck3Province = 1905 ck3Province = 1904 ck3Province = 1815 ck3Province = 1925 ck3Province = 1899"
 ## W:
 @culture_splitting_region_W = "ck3Province = 1787 ck3Province = 1788 ck3Province = 1789 ck3Province = 1790 ck3Province = 1785 ck3Province = 1786 ck3Province = 1791 ck3Province = 1783 ck3Province = 1784 ck3Province = 1781 ck3Province = 1782 ck3Province = 1821 ck3Province = 1792 ck3Province = 1799 ck3Province = 1819 ck3Province = 1820 ck3Province = 1818 ck3Province = 1800"
 ## X:
@@ -251,7 +251,7 @@ link = {
 link = { ck3 = nitravan @ir_urslavic_cultures ck3Region = c_komarom ck3Region = c_esztergom ck3Region = c_poszony ck3Region = c_nyitra ck3Region = c_hont ck3Region = c_zolyom ck3Region = c_bars ck3Region = c_trenscen ck3Region = c_lipto ck3Region = c_orava ck3Region = c_gemer ck3Region = c_spis }
 link = { ck3 = slovien @ir_urslavic_cultures ck3Region = d_moravia } #Vanilla culture, may need CE link
 link = { ck3 = obotrite @ir_urslavic_cultures ck3Region = c_mecklenburg ck3Region = d_holstein ck3Region = c_brunswick ck3Region = c_dannenberg ck3Region = c_luneburg ck3Region = c_hamburg }
-link = { ck3 = sorbian @ir_urslavic_cultures ck3Region = d_thuringa ck3Region = d_anhalt ck3Region = d_meissen ck3Region = d_lausitz }
+link = { ck3 = sorbian @ir_urslavic_cultures ck3Region = d_thuringia ck3Region = d_anhalt ck3Region = d_meissen ck3Region = d_lausitz }
 link = { ck3 = pommeranian @ir_urslavic_cultures ck3Region = d_pommerania ck3Region = d_pomerelia ck3Region = c_torun ck3Region = d_prussia } #Vanilla culture, may need CE link
 link = { ck3 = polabian @ir_urslavic_cultures ck3Region = d_ostmark ck3Region = d_nordmark ck3Region = c_stendal } #Vanilla culture, may need CE link
 link = { ck3 = silesian @ir_urslavic_cultures ck3Region = d_lower_silesia ck3Region = d_upper_silesia ck3Region = c_opava }
