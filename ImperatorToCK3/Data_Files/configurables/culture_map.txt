@@ -46,7 +46,7 @@
 ## H:
 @culture_splitting_region_H = "irRegion = venedia_region irRegion = vistulia_region"
 ## I:
-@culture_splitting_region_I = "irRegion = rhaetia_region irRegion = cisalpine_gaul_region"
+@culture_splitting_region_I = "irRegion = rhaetia_region irRegion = cisalpine_gaul_region irRegion = noricum_mediterranum_area"
 ## J:
 @culture_splitting_region_J1 = "irRegion=moesia_s_region irRegion=illyria_region irRegion=pannonia_secunda_area irRegion=savia_occidentalis_area"
 @culture_splitting_region_J2 = "irRegion=pannonia_region irRegion=transcarpathia_centralis_area irRegion=celamantia_area irRegion=iazygia_minoris_area irRegion=iazygia_majoris_area irRegion=transcarpathia_orientalis_area"
@@ -670,7 +670,7 @@ link = { ck3 = afro_roman @ir_latin_cultures @culture_splitting_region_O }
 # WTWSMS -splitting according to regions
 link = { ck3 = corsican @ir_latin_cultures irRegion = corsica_area }
 link = { ck3 = romano_british @ir_latin_cultures @culture_splitting_region_C @culture_splitting_region_B @culture_splitting_region_A }
-link = { ck3 = romano_noric @ir_latin_cultures irRegion = alpes_raetiae_orientalis irRegion = lauriacum_area irRegion = helvetia_orientalis_area irRegion = tulingia_area irRegion = helvetia_superioris_area }
+link = { ck3 = romano_noric @ir_latin_cultures irRegion = alpes_raetiae_orientalis irRegion = lauriacum_area irRegion = helvetia_orientalis_area irRegion = tulingia_area irRegion = helvetia_superioris_area irRegion = noricum_mediterranum_area }
 link = { ck3 = romano_raetian @ir_latin_cultures irRegion = rhaetia_region }
 link = { ck3 = romano_illyrian @ir_latin_cultures @culture_splitting_region_J1 } 
 link = { ck3 = romano_pannonian @ir_latin_cultures @culture_splitting_region_J2 } 
