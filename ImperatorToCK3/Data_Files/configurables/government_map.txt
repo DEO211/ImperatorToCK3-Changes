@@ -11,6 +11,10 @@
 # multiple entries allowed for: ir, irCulture
 # multiple entries not allowed for: ck3
 
+## WTWSMS
+link = { ck3 = prefeudal_government ir = dictatorship ir = despotic_monarchy ir = aristocratic_monarchy ir = stratocratic_monarchy ir = theocratic_monarchy ir = plutocratic_monarchy ir = imperium ir = imperial_cult }
+link = { ck3 = high_tribal_government ir = tribal_federation }
+
 ## TFE
 link = { ir = oligarchic_republic ir = democratic_republic ck3 = republic_government }
 link = { ir = theocratic_republic ck3 = theocracy_government }
