@@ -79,9 +79,9 @@
 ## U:
 @culture_splitting_region_U = "ck3Province = 3221 ck3Province = 1882 ck3Province = 8793  ck3Province = 1806 ck3Province = 1811 ck3Province = 1803 ck3Province = 1805 ck3Province = 1931 ck3Province = 1902 ck3Province = 1932 ck3Province = 1891 ck3Province = 1887 ck3Province = 1882 ck3Province = 1871 ck3Province = 1874 ck3Province = 1930 ck3Province = 1943 ck3Province = 8795 ck3Province = 1873 ck3Province = 1872 ck3Province = 1936 ck3Province = 1935 ck3Province = 1933 ck3Province = 1807"
 ## V:
-@culture_splitting_region_V = "ck3Province = 1816 ck3Province = 1826 ck3Province = 1894 ck3Province = 1913 ck3Province = 1912 ck3Province = 1797 ck3Province = 1795 ck3Province = 1831 ck3Province = 1915 ck3Province = 1896 ck3Province = 1905 ck3Province = 1904 ck3Province = 1815 ck3Province = 1925 ck3Province = 1899 ck3Province = 1801 ck3Province = 1812 ck3Province = 1813 ck3Province = 1906 ck3Province = 1897 ck3Province = 1924 ck3Province = 1900 ck3Province = 1901 ck3Province = 1814"
+@culture_splitting_region_V = "ck3Province = 1816 ck3Province = 1826 ck3Province = 1894 ck3Province = 1913 ck3Province = 1912 ck3Province = 1797 ck3Province = 1831 ck3Province = 1915 ck3Province = 1896 ck3Province = 1905 ck3Province = 1904 ck3Province = 1815 ck3Province = 1925 ck3Province = 1899 ck3Province = 1801 ck3Province = 1812 ck3Province = 1813 ck3Province = 1906 ck3Province = 1897 ck3Province = 1924 ck3Province = 1900 ck3Province = 1901 ck3Province = 1814"
 ## W:
-@culture_splitting_region_W = "ck3Province = 1787 ck3Province = 1788 ck3Province = 1789 ck3Province = 1790 ck3Province = 1785 ck3Province = 1786 ck3Province = 1791 ck3Province = 1783 ck3Province = 1784 ck3Province = 1781 ck3Province = 1782 ck3Province = 1821 ck3Province = 1792 ck3Province = 1799 ck3Province = 1819 ck3Province = 1820 ck3Province = 1818 ck3Province = 1800"
+@culture_splitting_region_W = "ck3Province = 1787 ck3Province = 1788 ck3Province = 1789 ck3Province = 1790 ck3Province = 1785 ck3Province = 1786 ck3Province = 1791 ck3Province = 1783 ck3Province = 1784 ck3Province = 1781 ck3Province = 1782 ck3Province = 1821 ck3Province = 1792 ck3Province = 1799 ck3Province = 1819 ck3Province = 1820 ck3Province = 1818 ck3Province = 1800 ck3Province = 1795"
 ## X:
 @culture_splitting_region_X = "irRegion = contestania_region irRegion = baetica_region"
 ## Y:
@@ -709,7 +709,6 @@ link = { ck3 = roman @ir_latin_cultures historicalTag=ROM }
 link = { ck3 = venetian_ce ir = roman @culture_splitting_region_I historicalTag=ERE } 
 link = { ck3 = venetian_ce ir = roman ck3Region = d_venice } 
 link = { ck3 = dalmatian_ce @ir_latin_cultures @culture_splitting_region_J1 } 
-link = { ck3 = pannonian_romance @ir_latin_cultures @culture_splitting_region_J2 } 
 link = { ck3 = african_roman @ir_latin_cultures @culture_splitting_region_O } 
 link = { ck3 = arpitan_ce @ir_latin_cultures ck3Region = d_upper_burgundy ck3Region = c_forez ck3Region = c_lyon ck3Region = c_viennois ck3Region = d_savoie ck3Region = d_transjurania } 
 
@@ -722,6 +721,7 @@ link = { ck3 = laessin @ir_latin_cultures @culture_splitting_region_D @culture_s
 link = { ck3 = occitan @ir_latin_cultures @culture_splitting_region_F }
 link = { ck3 = wenedyk @ir_latin_cultures @culture_splitting_region_H }
 link = { ck3 = cisalpine @ir_latin_cultures @culture_splitting_region_I }
+link = { ck3 = pannonian_romance @ir_latin_cultures @culture_splitting_region_J2 } # CE, J2 overlaps with I region so placed bellow
 link = { ck3 = vlach @ir_latin_cultures @culture_splitting_region_K }
 link = { ck3 = bazramani @ir_latin_cultures @culture_splitting_region_M }
 link = { ck3 = judajca @ir_latin_cultures @culture_splitting_region_N }
