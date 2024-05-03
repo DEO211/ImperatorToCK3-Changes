@@ -382,6 +382,7 @@ link = { ck3 = thracian ir = triballoi ir = moesi ir = odrysi ir = paeonian }
 ## East Levantine
 # TFE
 link = { ck3 = aramean ir = aramaic }
+link = { ck3 = chaldean ir = babylonian }
 # CE
 link = { ck3 = syriac ir = aramaic }
 link = { ck3 = mandaic ir = babylonian }
