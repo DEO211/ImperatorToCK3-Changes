@@ -255,6 +255,9 @@ public class Configuration {
 		if (FallenEagleEnabled) {
 			flags.Add("tfe");
 		}
+		else if (WTWSMSEnabled) {
+			flags.Add("wtwsms");
+		}
 		return flags;
 	}
 }
