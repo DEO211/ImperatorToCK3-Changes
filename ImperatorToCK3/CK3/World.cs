@@ -97,6 +97,16 @@ public class World {
 		if (config.FallenEagleEnabled) {
 			Logger.Info($"TFE detected: {tfeMod!.Name}");
 		}
+		var wtwsmsMod = LoadedMods.FirstOrDefault(m => m.Name.StartsWith("When the World Stopped Making Sense", StringComparison.Ordinal));
+		config.WTWSMSEnabled = wtwsmsMod is not null;
+		if (config.WTWSMSEnabled) {
+			Logger.Info($"WTWSMS detected: {wtwsmsMod!.Name}");
+		}
+		var ceMod = LoadedMods.FirstOrDefault(m => m.Name.StartsWith("Culture Expanded", StringComparison.Ordinal));
+		config.CultureExpandedEnabled = ceMod is not null;
+		if (config.CultureExpandedEnabled) {
+			Logger.Info($"CE detected: {ceMod!.Name}");
+		}
 		// Include a fake mod pointing to blankMod.
 		LoadedMods.Add(new Mod("blankMod", "blankMod/output"));
 		ModFS = new ModFilesystem(Path.Combine(config.CK3Path, "game"), LoadedMods);
