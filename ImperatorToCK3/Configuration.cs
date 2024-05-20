@@ -26,6 +26,8 @@ public class Configuration {
 	public LegionConversion LegionConversion { get; set; } = LegionConversion.MenAtArms;
 	public Date CK3BookmarkDate { get; set; } = new(0, 1, 1);
 	public bool FallenEagleEnabled { get; set; }
+	public bool WTWSMSEnabled { get; set; }
+	public bool CultureExpandedEnabled { get; set; }
 
 	public Configuration() { }
 	public Configuration(ConverterVersion converterVersion) {
