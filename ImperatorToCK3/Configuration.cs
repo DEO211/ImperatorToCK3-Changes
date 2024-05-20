@@ -258,6 +258,9 @@ public class Configuration {
 		else if (WTWSMSEnabled) {
 			flags.Add("wtwsms");
 		}
+		else if (CultureExpandedEnabled) {
+			flags.Add("ce");
+		}
 		return flags;
 	}
 }
