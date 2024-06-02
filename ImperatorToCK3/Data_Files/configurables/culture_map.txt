@@ -358,7 +358,7 @@ link = { ck3 = georgian ir = albanian ir = ibero @ir_georgian_cultures }
 # WTWSMS
 link = { ck3 = astures ir = asturian }
 link = { ck3 = gallaecian ir = callaecian }
-link = { ck3 = lusitanian ir = lusitanian ir = vettonian }
+link = { ck3 = lusitanian ir = lusitanian ir = vettonian } # WTWSMS - conflicts with TFE, Needs mod link
 # TFE
 link = { ck3 = asturian ir = asturian }
 link = { ck3 = castran ir = callaecian }
@@ -403,7 +403,7 @@ link = { ck3=gaelic @ir_irish_cultures }
 ## Gallic
 @ir_gallic_cultures = "ir=volcae ir=salluvian ir=arverni ir=aulercian ir=pictonian ir=lemovician ir=santonian ir=carnuti ir=haedui ir=biturigan ir=lepontic ir=vindelician ir=helvetian ir=allobrogian"
 @ir_breton_cultures = "ir=aremorican ir=breton" # breton comes from https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
-link = { ck3 = armorican ir=aremorican }
+link = { ck3 = armorican ir=aremorican } # WTWSMS - conflicts with TFE, Needs mod link
 link = { ck3 = gaul @ir_gallic_cultures } # TFE
 link = { ck3 = gallic @ir_gallic_cultures }
 link = { ck3 = breton @ir_breton_cultures }
