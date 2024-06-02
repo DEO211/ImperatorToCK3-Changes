@@ -27,7 +27,8 @@
 
 link = { ck3 = high_tribal_government ir = tribal_federation }
 link = { ck3 = rajamandala_government ir = dictatorship ir = despotic_monarchy ir = aristocratic_monarchy ir = stratocratic_monarchy ir = theocratic_monarchy ir = plutocratic_monarchy ir = imperium ir = imperial_cult @ir_indian_cultures }
-link = { ck3 = subroman_government ir = dictatorship ir = despotic_monarchy ir = aristocratic_monarchy ir = stratocratic_monarchy ir = theocratic_monarchy ir = plutocratic_monarchy ir = imperium ir = imperial_cult irCulture = roman }
+link = { ck3 = bureaucratic_government ir = imperium ir = spartan_imperium ir = imperial_cult ir = spartan_imperial_cult }
+link = { ck3 = subroman_government ir = dictatorship ir = despotic_monarchy ir = aristocratic_monarchy ir = stratocratic_monarchy ir = theocratic_monarchy ir = plutocratic_monarchy irCulture = roman }
 link = { ck3 = prefeudal_government ir = dictatorship ir = despotic_monarchy ir = aristocratic_monarchy ir = stratocratic_monarchy ir = theocratic_monarchy ir = plutocratic_monarchy ir = imperium ir = imperial_cult }
 
 ## TFE
