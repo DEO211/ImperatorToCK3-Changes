@@ -811,6 +811,10 @@ link = { ck3 = elamite ir = elamite }
 link = { ck3 = afghan ir = afghan } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
 
 ## Pracyan
+# WTWSMS
+link = { ck3 = sambalpuri ir = savara }
+link = { ck3 = old_kamrupan ir = kamarupi }
+link = { ck3 = gond ir = atavi }
 # TFE
 link = { ck3 = radhi ir = vanga }
 link = { ck3 = varendri ir = pandra }
