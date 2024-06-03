@@ -11,11 +11,11 @@
 # multiple entries allowed for: ir, irCulture
 # multiple entries not allowed for: ck3
 
-@ir_aryan_cultures = "ir=vidharban ir=mulaka ir=saurashtran ir=kaccha ir=lankan ir=maharashtran ir=rathikan ir=gandhari ir=sivi ir=shauraseni ir=kosala ir=kuru ir=avanti ir=matsya ir=cedi ir=dhivehi ir=sindhi ir=dardic ir=purus ir=mitanni"
+@ir_aryan_cultures = "irCulture=vidharban irCulture=mulaka irCulture=saurashtran irCulture=kaccha irCulture=lankan irCulture=maharashtran irCulture=rathikan irCulture=gandhari irCulture=sivi irCulture=shauraseni irCulture=kosala irCulture=kuru irCulture=avanti irCulture=matsya irCulture=cedi irCulture=dhivehi irCulture=sindhi irCulture=dardic irCulture=purus irCulture=mitanni"
 
-@ir_dravidian_cultures = "ir=kannadan ir=kuntalan ir=alupan ir=tamil ir=cholan ir=cheran ir=pandyan ir=telugu ir=andhran ir=assaka"
+@ir_dravidian_cultures = "irCulture=kannadan irCulture=kuntalan irCulture=alupan irCulture=tamil irCulture=cholan irCulture=cheran irCulture=pandyan irCulture=telugu irCulture=andhran irCulture=assaka"
 
-@ir_pracyan_cultures = "ir=kalingan ir=savara ir=kamarupi ir=bangli ir=pandra ir=vanga ir=atavi ir=magadhi ir=kasi ir=vrji ir=malla ir=himalayan"
+@ir_pracyan_cultures = "irCulture=kalingan irCulture=savara irCulture=kamarupi irCulture=bangli irCulture=pandra irCulture=vanga irCulture=atavi irCulture=magadhi irCulture=kasi irCulture=vrji irCulture=malla irCulture=himalayan"
 
 @ir_indian_cultures = "@ir_aryan_cultures @ir_dravidian_cultures @ir_pracyan_cultures"
 
