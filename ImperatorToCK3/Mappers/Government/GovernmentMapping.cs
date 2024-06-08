@@ -14,6 +14,12 @@ public class GovernmentMapping {
 		parser.RegisterKeyword("ck3", reader => CK3GovernmentId = reader.GetString());
 		parser.RegisterKeyword("ir", reader => ImperatorGovernmentIds.Add(reader.GetString()));
 		parser.RegisterKeyword("irCulture", reader => ImperatorCultureIds.Add(reader.GetString()));
+		parser.RegisterRegex(CommonRegexes.Variable, (reader, variableName) => {
+			var variableValue = reader.ResolveVariable(variableName)?.ToString() ?? string.Empty;
+			var variableReader = new BufferedReader(variableValue);
+			variableReader.CopyVariables(reader);
+			parser.ParseStream(variableReader);
+		});
 		parser.IgnoreAndLogUnregisteredItems();
 
 		parser.ParseStream(mappingReader);
