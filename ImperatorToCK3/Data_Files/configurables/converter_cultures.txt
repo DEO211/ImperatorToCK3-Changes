@@ -408,6 +408,7 @@ egyptian = {  # override of vanilla culture
 dalmatian = {
     INVALIDATED_BY = {
 		tfe = { dalmatian }
+		wtwsms = { illyrian }
 		vanilla = { dalmatian }
 	}
     
@@ -533,6 +534,7 @@ numidian = {
 brythonic = {
     INVALIDATED_BY = {
 		tfe = { brythonic }
+		wtwsms = { briton }
 		vanilla = { old_brythonic brythonic }
 	}
     
@@ -853,6 +855,7 @@ assyrian = { # override of vanilla culture
 aramaic = {
     INVALIDATED_BY = {
 		tfe = { aramaic }
+		wtwsms = { aramean }
 		vanilla = { aramaic }
 	}
     
@@ -888,6 +891,7 @@ aramaic = {
 babylonian = {
     INVALIDATED_BY = {
 		tfe = { babylonian }
+		wtwsms = { assyrian }
 		vanilla = { babylonian }
 	}
     
@@ -1143,6 +1147,7 @@ gepid = { # https://en.wikipedia.org/wiki/Gepids
 vandal = { # https://en.wikipedia.org/wiki/Vandals
     INVALIDATED_BY = {
 		tfe = { vandal }
+		wtwsms = { vandalic }
 		vanilla = { vandalic vandal }
 	}
     
@@ -1175,6 +1180,7 @@ vandal = { # https://en.wikipedia.org/wiki/Vandals
 urslavic = {
     INVALIDATED_BY = {
 		tfe = { urslavic }
+		wtwsms = { old_slavic }
 		vanilla = { urslavic }
 	}
     
@@ -1335,6 +1341,7 @@ gallic = {
 lusoiberian = { # https://en.wikipedia.org/wiki/Lusitanians
     INVALIDATED_BY = {
 		tfe = { lusoiberian }
+		wtwsms = { lusitanian }
 		vanilla = { lusoiberian }
 	}
     
@@ -2154,6 +2161,7 @@ palaungic = {  # from AsiaExtended mod https://steamcommunity.com/sharedfiles/fi
 carthaginian = {
     INVALIDATED_BY = {
 		tfe = { carthaginian punic }
+		wtwsms = { carthaginian punic }
 		vanilla = { carthaginian punic }
 	}
     
