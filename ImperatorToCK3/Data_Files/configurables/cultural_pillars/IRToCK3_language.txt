@@ -162,7 +162,6 @@ language_albanian = {
 language_kemetic = {
     REPLACED_BY = {
 		tfe = { language_kemetic }
-		wtwsms = { language_coptic }
 		vanilla = { language_kemetic }  # TODO: replace with vanilla Ancient Egyptian ID
 	}
     
