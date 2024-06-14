@@ -386,6 +386,8 @@ link = { ck3 = chaldean ir = babylonian }
 # CE
 link = { ck3 = syriac ir = aramaic }
 link = { ck3 = mandaic ir = babylonian }
+# WTWSMS
+link = { ck3 = aramean ir = babylonian }
 # Vanilla CK3
 link = { ck3 = assyrian ir = assyrian }
 link = { ck3 = hebrew ir = aramaic historicalTag=JUD } # Historical assimilation
