@@ -891,7 +891,7 @@ aramaic = {
 babylonian = {
     INVALIDATED_BY = {
 		tfe = { babylonian }
-		wtwsms = { assyrian }
+		wtwsms = { aramean }
 		vanilla = { babylonian }
 	}
     
