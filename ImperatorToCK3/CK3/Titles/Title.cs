@@ -27,6 +27,7 @@ using System.Collections.Immutable;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace ImperatorToCK3.CK3.Titles;
 
@@ -949,9 +950,12 @@ public sealed partial class Title : IPDXSerializable, IIdentifiable<string> {
 	[SerializedName("ruler_uses_title_name")] public bool RulerUsesTitleName { get; set; } = false;
 
 	[SerializedName("ai_primary_priority")] public StringOfItem? AIPrimaryPriority { get; private set; }
+	[SerializedName("ignore_titularity_for_title_weighting")] public bool? IgnoreTitularityForTitleWeighting { get; private set; }
 	[SerializedName("can_create")] public StringOfItem? CanCreate { get; private set; }
 	[SerializedName("can_create_on_partition")] public StringOfItem? CanCreateOnPartition { get; private set; }
+	[SerializedName("can_destroy")] public StringOfItem? CanDestroy { get; private set; }
 	[SerializedName("destroy_if_invalid_heir")] public bool? DestroyIfInvalidHeir { get; set; }
+	[SerializedName("destroy_on_succession")] public bool? DestroyOnSuccession { get; set; }
 	[SerializedName("no_automatic_claims")] public bool? NoAutomaticClaims { get; set; }
 	[SerializedName("always_follows_primary_heir")] public bool? AlwaysFollowsPrimaryHeir { get; set; }
 	[SerializedName("de_jure_drift_disabled")] public bool? DeJureDriftDisabled { get; set; }
@@ -1019,10 +1023,13 @@ public sealed partial class Title : IPDXSerializable, IIdentifiable<string> {
 		});
 		parser.RegisterKeyword("capital", reader => CapitalCountyId = reader.GetString());
 		parser.RegisterKeyword("ai_primary_priority", reader => AIPrimaryPriority = reader.GetStringOfItem());
+		parser.RegisterKeyword("ignore_titularity_for_title_weighting", reader => IgnoreTitularityForTitleWeighting = reader.GetBool());
 		parser.RegisterKeyword("can_create", reader => CanCreate = reader.GetStringOfItem());
 		parser.RegisterKeyword("can_create_on_partition", reader => CanCreateOnPartition = reader.GetStringOfItem());
+		parser.RegisterKeyword("can_destroy", reader => CanDestroy = reader.GetStringOfItem());
 		parser.RegisterKeyword("province", reader => ProvinceId = reader.GetULong());
 		parser.RegisterKeyword("destroy_if_invalid_heir", reader => DestroyIfInvalidHeir = reader.GetBool());
+		parser.RegisterKeyword("destroy_on_succession", reader => DestroyOnSuccession = reader.GetBool());
 		parser.RegisterKeyword("no_automatic_claims", reader => NoAutomaticClaims = reader.GetBool());
 		parser.RegisterKeyword("always_follows_primary_heir", reader => AlwaysFollowsPrimaryHeir = reader.GetBool());
 		parser.RegisterKeyword("de_jure_drift_disabled", reader => DeJureDriftDisabled = reader.GetBool());
@@ -1068,7 +1075,7 @@ public sealed partial class Title : IPDXSerializable, IIdentifiable<string> {
 		Rank = GetRankForId(Id);
 	}
 
-	public void OutputHistory(StreamWriter writer) {
+	public async Task OutputHistory(StreamWriter writer) {
 		var sb = new StringBuilder();
 		var content = PDXSerializer.Serialize(History, "\t");
 		if (string.IsNullOrWhiteSpace(content)) {
@@ -1077,7 +1084,7 @@ public sealed partial class Title : IPDXSerializable, IIdentifiable<string> {
 		}
 
 		sb.Append(Id).AppendLine("={").Append(content).AppendLine("}");
-		writer.Write(sb);
+		await writer.WriteAsync(sb);
 	}
 
 	public ISet<ulong> GetProvincesInCountry(Date date) {
