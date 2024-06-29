@@ -38,7 +38,7 @@ using System.Linq;
 
 namespace ImperatorToCK3.CK3;
 
-public class World {
+public sealed class World {
 	public OrderedSet<Mod> LoadedMods { get; }
 	public ModFilesystem ModFS { get; }
 	private ScriptValueCollection ScriptValues { get; } = new();
@@ -136,9 +136,6 @@ public class World {
 
 		Logger.Info("Loading map data...");
 		MapData = new MapData(ModFS);
-
-		// Load Imperator CoAs to use them for generated CK3 titles
-		coaMapper = new CoaMapper(impWorld.ModFS);
 
 		// Load vanilla CK3 landed titles and their history
 		LandedTitles.LoadTitles(ModFS);
@@ -238,7 +235,7 @@ public class World {
 			tagTitleMapper,
 			impWorld.LocDB,
 			provinceMapper,
-			coaMapper,
+			impWorld.CoaMapper,
 			governmentMapper,
 			successionLawMapper,
 			definiteFormMapper,
@@ -269,7 +266,7 @@ public class World {
 			provinceMapper,
 			definiteFormMapper,
 			imperatorRegionMapper,
-			coaMapper,
+			impWorld.CoaMapper,
 			countyLevelGovernorships
 		);
 		
@@ -297,6 +294,9 @@ public class World {
 
 		Characters.RemoveEmployerIdFromLandedCharacters(LandedTitles, CorrectedDate);
 		Characters.PurgeUnneededCharacters(LandedTitles, Dynasties, DynastyHouses, config.CK3BookmarkDate);
+		
+		// Now that the title history is basically done, convert officials as council members and courtiers.
+		LandedTitles.ImportImperatorGovernmentOffices(impWorld.JobsDB.OfficeJobs, Religions, config.CK3BookmarkDate);
 		
 		// Check if any muslim religion exists in Imperator. Otherwise, remove Islam from the entire CK3 map.
 		var possibleMuslimReligionNames = new List<string> { "muslim", "islam", "sunni", "shiite" };
@@ -937,7 +937,6 @@ public class World {
 		}
 	}
 
-	private readonly CoaMapper coaMapper;
 	private readonly DeathReasonMapper deathReasonMapper = new();
 	private readonly DefiniteFormMapper definiteFormMapper = new(Path.Combine("configurables", "definite_form_names.txt"));
 	private readonly NicknameMapper nicknameMapper = new(Path.Combine("configurables", "nickname_map.txt"));
