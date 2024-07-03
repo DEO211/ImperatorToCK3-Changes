@@ -19,7 +19,7 @@ public sealed class RulerTerm {
 		Imperator.Countries.RulerTerm imperatorRulerTerm,
 		Characters.CharacterCollection characters,
 		GovernmentMapper governmentMapper,
-		LocDB locDB,
+		LocDB irLocDB,
 		ReligionMapper religionMapper,
 		CultureMapper cultureMapper,
 		NicknameMapper nicknameMapper,
@@ -48,7 +48,7 @@ public sealed class RulerTerm {
 				StartDate,
 				PreImperatorRuler.Country,
 				characters,
-				locDB,
+				irLocDB,
 				religionMapper,
 				cultureMapper,
 				nicknameMapper,
@@ -57,7 +57,7 @@ public sealed class RulerTerm {
 			);
 			if (characters.ContainsKey(character.Id)) {
 				Logger.Warn($"Cannot add pre-Imperator ruler {character.Id} " +
-				            $"- a character with this ID already exists!");
+				            "- a character with this ID already exists!");
 				return;
 			}
 			characters.Add(character);

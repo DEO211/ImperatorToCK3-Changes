@@ -63,7 +63,7 @@ public sealed class World {
 
 	public World(Imperator.World impWorld, Configuration config) {
 		Logger.Info("*** Hello CK3, let's get painting. ***");
-		
+
 		warMapper.DetectUnmappedWarGoals(impWorld.ModFS);
 
 		// Initialize fields that depend on other fields.
@@ -536,8 +536,8 @@ public sealed class World {
 		Country irCountry,
 		IList<KeyValuePair<Country, Dependency?>> countyLevelCountries,
 		CountryCollection irCountries) {
-		var matchingCountyLevelRulers = countyLevelCountries.Where(c => c.Key.Id == irCountry.Id).ToList();
-		if (matchingCountyLevelRulers.Count == 0) {
+		var matchingCountyLevelRulers = countyLevelCountries.Where(c => c.Key.Id == irCountry.Id).ToArray();
+		if (matchingCountyLevelRulers.Length == 0) {
 			return false;
 		}
 		var dependency = matchingCountyLevelRulers[0].Value;
@@ -562,7 +562,7 @@ public sealed class World {
 		Date bookmarkDate = config.CK3BookmarkDate;
 		var year = bookmarkDate.Year;
 
-		var faiths = Religions.Faiths.ToList();
+		var faiths = Religions.Faiths.ToArray();
 		var titleIdsToHandle = new OrderedSet<string> { "d_iceland", "c_faereyar" };
 
 		bool generateHermits = true;
@@ -632,7 +632,7 @@ public sealed class World {
 		}
 
 		if (generateHermits) {
-			var faithId = faithCandidates.First(c => faiths.Exists(f => f.Id == c));
+			var faithId = faithCandidates.First(c => faiths.Any(f => f.Id == c));
 			foreach (var titleId in titleIdsToHandle) {
 				if (!LandedTitles.TryGetValue(titleId, out var title)) {
 					Logger.Warn($"Title {titleId} not found!");
@@ -743,7 +743,7 @@ public sealed class World {
 
 		var fallbackFaith = Religions.Faiths.Except(muslimFaiths).FirstOrDefault();
 		if (fallbackFaith is not null) {
-			foreach (var province in muslimProvinces.ToList()) {
+			foreach (var province in muslimProvinces.ToArray()) {
 				Logger.Debug($"Using fallback faith \"{fallbackFaith.Id}\" for province {province.Id}");
 				province.SetFaithIdAndOverrideExistingEntries(fallbackFaith.Id);
 				muslimProvinces.Remove(province);

@@ -1,5 +1,6 @@
 ﻿using commonItems;
 using commonItems.Collections;
+using commonItems.Localization;
 using commonItems.Mods;
 using commonItems.Serialization;
 using ImperatorToCK3.CK3;
@@ -26,41 +27,44 @@ public static class WorldOutputter {
 
 		CopyBlankModFilesToOutput(outputPath);
 		
+		var ck3LocToOutputDB = new LocDB(ConverterGlobals.PrimaryLanguage, ConverterGlobals.SecondaryLanguages);
+
 		Task.WaitAll(
 			CharactersOutputter.OutputEverything(outputPath, ck3World.Characters, ck3World.CorrectedDate, ck3World.ModFS),
 			DynastiesOutputter.OutputDynastiesAndHouses(outputPath, ck3World.Dynasties, ck3World.DynastyHouses),
-			
+
 			ProvincesOutputter.OutputProvinces(outputPath, ck3World.Provinces, ck3World.LandedTitles),
 			TitlesOutputter.OutputTitles(outputPath, ck3World.LandedTitles),
-			
+
 			PillarOutputter.OutputPillars(outputPath, ck3World.CulturalPillars),
 			CulturesOutputter.OutputCultures(outputPath, ck3World.Cultures, ck3World.CorrectedDate),
-			
-			ReligionsOutputter.OutputReligionsAndHolySites(outputPath, ck3World.Religions),
-			
+
+			ReligionsOutputter.OutputReligionsAndHolySites(outputPath, ck3World.Religions, ck3LocToOutputDB),
+
 			WarsOutputter.OutputWars(outputPath, ck3World.Wars),
-			
+
 			SuccessionTriggersOutputter.OutputSuccessionTriggers(outputPath, ck3World.LandedTitles, config.CK3BookmarkDate),
-			
-			LocalizationOutputter.OutputLocalization(outputPath, ck3World),
-			
+
 			OnActionOutputter.OutputEverything(config, ck3World.ModFS, outputPath),
-			
+
 			WriteDummyStruggleHistory(outputPath),
 			OutputLegendSeeds(outputPath, ck3World.LegendSeeds),
-			
+
 			NamedColorsOutputter.OutputNamedColors(outputPath, imperatorWorld.NamedColors, ck3World.NamedColors),
-			
+
 			CoatOfArmsEmblemsOutputter.CopyEmblems(outputPath, imperatorWorld.ModFS),
 			CoatOfArmsOutputter.OutputCoas(outputPath, ck3World.LandedTitles, ck3World.Dynasties),
 			Task.Run(() => CoatOfArmsOutputter.CopyCoaPatterns(imperatorWorld.ModFS, outputPath)),
-			
-			BookmarkOutputter.OutputBookmark(ck3World, config)
+
+			BookmarkOutputter.OutputBookmark(ck3World, config, ck3LocToOutputDB)
 		);
 
 		if (config.LegionConversion == LegionConversion.MenAtArms) {
 			MenAtArmsOutputter.OutputMenAtArms(outputName, ck3World.ModFS, ck3World.Characters, ck3World.MenAtArmsTypes);
 		}
+
+		// Localization should be output last, as it uses data written by other outputters.
+		LocalizationOutputter.OutputLocalization(outputPath, ck3World, ck3LocToOutputDB);
 
 		OutputPlaysetInfo(ck3World, outputName);
 	}
@@ -76,7 +80,8 @@ public static class WorldOutputter {
 		Logger.Info("Writing legend seeds...");
 		await File.WriteAllTextAsync(
 			Path.Combine(outputPath, "common/legends/legend_seeds/IRtoCK3_all_legend_seeds.txt"),
-			PDXSerializer.Serialize(legendSeeds, indent: "", withBraces: false)
+			PDXSerializer.Serialize(legendSeeds, indent: "", withBraces: false),
+			new UTF8Encoding(encoderShouldEmitUTF8Identifier: true)
 		);
 	}
 
@@ -196,7 +201,7 @@ public static class WorldOutputter {
 		SystemUtils.TryCreateFolder(Path.Combine(outputPath, "gfx", "coat_of_arms", "textured_emblems"));
 		SystemUtils.TryCreateFolder(Path.Combine(outputPath, "gfx", "interface", "bookmarks"));
 		SystemUtils.TryCreateFolder(Path.Combine(outputPath, "gfx", "portraits", "portrait_modifiers"));
-		
+
 		Logger.IncrementProgress();
 	}
 
