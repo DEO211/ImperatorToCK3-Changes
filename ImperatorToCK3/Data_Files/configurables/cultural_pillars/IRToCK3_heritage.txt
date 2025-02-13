@@ -61,6 +61,7 @@ heritage_anatolian = {
 heritage_gaulish = {
     REPLACED_BY = {
 		tfe = { heritage_gaulish }
+		wtwsms = { heritage_continental_celtic }
 		vanilla = { heritage_gaulish }
 	}
 	MOD_DEPENDENT = {
@@ -83,6 +84,7 @@ heritage_gaulish = {
 heritage_iberian_celtic = { # https://en.wikipedia.org/wiki/List_of_ancient_Celtic_peoples_and_tribes#Hispano-Celts_/_Celts_of_Hispania
     REPLACED_BY = {
 		tfe = { heritage_celtiberian }
+		wtwsms = { heritage_continental_celtic }
 		vanilla = { heritage_iberian_celtic }
 	}
 	MOD_DEPENDENT = {
@@ -105,6 +107,7 @@ heritage_iberian_celtic = { # https://en.wikipedia.org/wiki/List_of_ancient_Celt
 heritage_punic = {
     REPLACED_BY = {
 		tfe = { heritage_punic }
+		wtwsms = { heritage_syriac }
 		vanilla = { heritage_punic }
 	}
 	MOD_DEPENDENT = {
@@ -208,6 +211,7 @@ heritage_east_germanic = {
 heritage_thracian = {
     REPLACED_BY = {
 		tfe = { heritage_daco_thracian }
+		wtwsms = { heritage_albanian }
 		vanilla = { heritage_thracian }
 	}
 	MOD_DEPENDENT = {
