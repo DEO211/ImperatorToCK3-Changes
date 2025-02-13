@@ -519,8 +519,6 @@ link = { ck3 = norman ir = norman } # https://steamcommunity.com/sharedfiles/fil
 @sicilian_cultures = "ir = siculian ir = elymian ir = sicanian" # Elymian and Sicanian are Terra-Indomita cultures that go along with vanilla siculian culture
 @picenian_cultures = "ir = south_picena ir = north_picena" # Terra-Indomita cultures, easier to group together since they should be mapped together
 @ir_latin_cultures = "ir = roman ir = osco_umbrian ir = umbrian ir = samnite ir = ligurian ir = lucanian ir = bruttian ir = sardonian @sicilian_cultures @picenian_cultures"
-# The Glory of Rome
-link = { ck3 = roman @ir_latin_cultures historicalTag=ROM }
 
 # TFE -splitting according to regions
 link = { ck3 = hiberno_roman @ir_latin_cultures @culture_splitting_region_A } 
@@ -545,6 +543,26 @@ link = { ck3 = hispano_roman @ir_latin_cultures
 }
 link = { ck3 = mauro_roman @ir_latin_cultures irRegion = mauretainia_region irRegion = atlas_region irRegion = numidia_region }
 link = { ck3 = afro_roman @ir_latin_cultures @culture_splitting_region_O }
+
+# WTWSMS -splitting according to regions
+link = { ck3 = corsican @ir_latin_cultures irRegion = corsica_area }
+link = { ck3 = romano_british @ir_latin_cultures @culture_splitting_region_C @culture_splitting_region_B @culture_splitting_region_A }
+link = { ck3 = romano_noric @ir_latin_cultures irRegion = alpes_raetiae_orientalis irRegion = lauriacum_area irRegion = helvetia_orientalis_area irRegion = tulingia_area irRegion = helvetia_superioris_area irRegion = noricum_mediterranum_area }
+link = { ck3 = romano_raetian @ir_latin_cultures irRegion = rhaetia_region }
+link = { ck3 = romano_illyrian @ir_latin_cultures @culture_splitting_region_J1 } 
+link = { ck3 = romano_pannonian @ir_latin_cultures @culture_splitting_region_J2 } 
+link = { ck3 = romano_thracian @ir_latin_cultures @culture_splitting_region_K1 }
+link = { ck3 = romano_dacian @ir_latin_cultures @culture_splitting_region_K2 }
+link = { ck3 = romano_gallic @ir_latin_cultures
+    @culture_splitting_region_E
+    @culture_splitting_region_F
+}
+link = { ck3 = romano_hispanic @ir_latin_cultures @hispania_regions }
+link = { ck3 = romano_african @ir_latin_cultures @culture_splitting_region_O }
+link = { ck3 = romano_aramean @ir_latin_cultures @culture_splitting_region_N }
+
+# The Glory of Rome
+link = { ck3 = roman @ir_latin_cultures historicalTag=ROM }
 
 # Vanilla CK3 - splitting according to regions, TODO: rework this
 link = { ck3 = breathanach @ir_latin_cultures @culture_splitting_region_A }
