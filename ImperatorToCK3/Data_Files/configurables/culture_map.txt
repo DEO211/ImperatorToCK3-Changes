@@ -49,12 +49,13 @@
 ## I:
 @culture_splitting_region_I = "irRegion = rhaetia_region irRegion = cisalpine_gaul_region irRegion = histria_area" # Added histria_area to better match the image provided for region breakdown
 ## J:
-@culture_splitting_region_J1 = "irRegion=pannonia_prima_occidentalis_area irRegion=pannonia_prima_orientalis_area irRegion=pannonia_valeria_area irRegion=noricum_mediterranum_area irRegion=pannonia_secunda_area irRegion=illyria_region irRegion=moesia_s_region"
-@culture_splitting_region_J2 = "irRegion=pannonia_terminus_area irRegion=transcarpathia_occidentalis_area irRegion=carnuntia_area"
+@culture_splitting_region_J1 = "irRegion=moesia_s_region irRegion=illyria_region irRegion=pannonia_secunda_area irRegion=savia_occidentalis_area"
+@culture_splitting_region_J2 = "irRegion=pannonia_region irRegion=transcarpathia_centralis_area irRegion=celamantia_area irRegion=iazygia_minoris_area irRegion=iazygia_majoris_area"
+# irRegion=transcarpathia_orientalis_area
 @culture_splitting_region_J = "@culture_splitting_region_J1 @culture_splitting_region_J2"
 ## K:
-@culture_splitting_region_K1 = "irRegion=moesia_region irRegion=thrace_region irRegion=macedonia_region"
-@culture_splitting_region_K2 = "irRegion=sarmatia_europea_region irRegion=dacia_region irRegion=scythia_region"
+@culture_splitting_region_K1 = "irRegion=moesia_region irRegion=macedonia_region irRegion=thrace_region irRegion=macedonia_region"
+@culture_splitting_region_K2 = "irRegion = dacia_region irRegion = zargidava_area irRegion = muradava_area irRegion = clepia_area"
 @culture_splitting_region_K = "@culture_splitting_region_K1 @culture_splitting_region_K2"
 ## L:
 @culture_splitting_region_L1 = "irRegion = sarmatia_asiatica_region irRegion = taurica_region"
