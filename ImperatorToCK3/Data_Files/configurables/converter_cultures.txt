@@ -476,6 +476,7 @@ hittite = {
 phrygian = {
     INVALIDATED_BY = {
 		tfe = { phrygian }
+		wtwsms = { phrygian }
 		vanilla = { phrygian }
 	}
     
@@ -511,6 +512,7 @@ phrygian = {
 nabatean = { # https://en.wikipedia.org/wiki/Nabataeans
     INVALIDATED_BY = {
 		tfe = { nabatean }
+		wtwsms = { nabatean }
 		vanilla = { nabatean }
 	}
     
@@ -544,6 +546,7 @@ nabatean = { # https://en.wikipedia.org/wiki/Nabataeans
 adnanite = { # https://en.wikipedia.org/wiki/Adnanites
     INVALIDATED_BY = {
 		tfe = { adnanite }
+		wtwsms = { adnanite }
 		vanilla = { adnanite }
 	}
 
@@ -1027,6 +1030,7 @@ pemis = {
 aramaic = {
     INVALIDATED_BY = {
 		tfe = { aramaic }
+		wtwsms = { aramean }
 		vanilla = { aramaic }
 	}
     
@@ -1201,6 +1205,7 @@ vandilian = { # https://en.wikipedia.org/wiki/East_Germanic_peoples
 gothic = { # https://en.wikipedia.org/wiki/Goths
     INVALIDATED_BY = {
 		tfe = { gothic }
+		wtwsms = { gothic }
 		vanilla = { }
 	}
     
@@ -1228,6 +1233,12 @@ gothic = { # https://en.wikipedia.org/wiki/Goths
 }
 
 visigothic = { # override of vanilla culture
+    INVALIDATED_BY = {
+		tfe = { visigothic }
+		wtwsms = { visigothic }
+		vanilla = { visigothic }
+	}
+
 	color = { 0.55 0.55 0.15 }
 	parents = { gothic }
 	created = 20.1.1
@@ -1257,6 +1268,7 @@ visigothic = { # override of vanilla culture
 ostrogothic = { # https://en.wikipedia.org/wiki/Ostrogoths
     INVALIDATED_BY = {
 		tfe = { ostrogothic }
+		wtwsms = { ostrogothic }
 		vanilla = { ostrogothic }
 	}
     
@@ -1288,6 +1300,7 @@ ostrogothic = { # https://en.wikipedia.org/wiki/Ostrogoths
 gepid = { # https://en.wikipedia.org/wiki/Gepids
     INVALIDATED_BY = {
 		tfe = { gepid }
+		wtwsms = { gepid }
 		vanilla = { gepid }
 	}
     
@@ -1317,6 +1330,7 @@ gepid = { # https://en.wikipedia.org/wiki/Gepids
 vandal = { # https://en.wikipedia.org/wiki/Vandals
     INVALIDATED_BY = {
 		tfe = { vandal }
+		wtwsms = { vandalic }
 		vanilla = { vandal }
 	}
     
@@ -1349,6 +1363,7 @@ vandal = { # https://en.wikipedia.org/wiki/Vandals
 urslavic = {
     INVALIDATED_BY = {
 		tfe = { urslavic }
+		wtwsms = { old_slavic }
 		vanilla = { urslavic }
 	}
     
@@ -1477,6 +1492,7 @@ belgae = {
 gallic = {
     INVALIDATED_BY = {
 		tfe = { gallic gaul }
+		wtwsms = { gallic gaul }
 		vanilla = { gallic gaul }
 	}
     
@@ -1509,6 +1525,7 @@ gallic = {
 lusoiberian = { # https://en.wikipedia.org/wiki/Lusitanians
     INVALIDATED_BY = {
 		tfe = { lusoiberian }
+		wtwsms = { lusitanian }
 		vanilla = { lusoiberian }
 	}
     
@@ -1543,6 +1560,7 @@ lusoiberian = { # https://en.wikipedia.org/wiki/Lusitanians
 galatian = {
     INVALIDATED_BY = {
 		tfe = { galatian }
+		wtwsms = { galatian }
 		vanilla = { galatian }
 	}
     
@@ -1613,6 +1631,7 @@ neo_mitanni = { # IRToCK3: a culture for Invictus revival meme Neo-Mitanni cultu
 bactrian = {
     INVALIDATED_BY = {
 		tfe = { bactrian }
+		wtwsms = { bactrian }
 		vanilla = { bactrian }
 	}
     
@@ -1707,6 +1726,7 @@ scythian = {
 sarmatian = {
     INVALIDATED_BY = {
 		tfe = { sarmatian }
+		wtwsms = { sarmatian }
 		vanilla = { sarmatian }
 	}
     
@@ -1743,6 +1763,7 @@ sarmatian = {
 parthian = {
     INVALIDATED_BY = {
 		tfe = { parthian }
+		wtwsms = { parthian }
 		vanilla = { parthian }
 	}
     
@@ -1820,6 +1841,12 @@ elamite = { # https://en.wikipedia.org/wiki/Elam
 }
 
 alan = { # override of vanilla culture
+    INVALIDATED_BY = {
+		tfe = { alan }
+		wtwsms = { alan }
+		vanilla = { alan }
+	}
+
 	color = { 0.1 0.3 0.7 }
 	# created = 100.1.1 # IRToCK3: disabled the creation date
 
@@ -1853,6 +1880,7 @@ alan = { # override of vanilla culture
 hebrew = { # https://en.wikipedia.org/wiki/Hebrews
     INVALIDATED_BY = {
 		tfe = { hebrew }
+		wtwsms = { hebrew }
 		vanilla = { hebrew }
 	}
     
@@ -2244,6 +2272,7 @@ siculian = {
 roman = {
 	INVALIDATED_BY = {
 		tfe = { roman } # Don't overwrite the TFE Roman culture.
+		wtwsms = { roman }
 	}
 	
 	color = { 0.8 0.1 0.1 }
@@ -2284,6 +2313,7 @@ roman = {
 hunnic = { # fallback in case some mod removes vanilla hunnic culture
 	INVALIDATED_BY = {
 		tfe = { hunnic hun }
+		wtwsms = { hunnic hun }
 		vanilla = { hunnic hun }
 	}
     
@@ -2426,6 +2456,7 @@ palaungic = {  # from AsiaExtended mod https://steamcommunity.com/sharedfiles/fi
 carthaginian = {
     INVALIDATED_BY = {
 		tfe = { carthaginian punic }
+		wtwsms = { carthaginian punic }
 		vanilla = { carthaginian punic }
 	}
     
@@ -2926,6 +2957,7 @@ lemnian = {
 angle = { # https://en.wikipedia.org/wiki/Angles
     INVALIDATED_BY = {
 		tfe = { angle }
+		wtwsms = { angle }
 		vanilla = { angle }
 	}
     
