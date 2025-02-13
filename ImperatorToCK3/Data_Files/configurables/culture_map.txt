@@ -39,7 +39,7 @@
 ## D:
 @culture_splitting_region_D = "irRegion = scandinavia_region"
 ## E:
-@culture_splitting_region_E = "irRegion = armorica_region irRegion = central_gaul_region irRegion = belgica_region irRegion = leucia_area irRegion = mediomaricia_area irRegion = tribocia_area irRegion = raurica_area"
+@culture_splitting_region_E = "irRegion = armorica_region irRegion = central_gaul_region irRegion = belgica_region irRegion = leucia_area irRegion = mediomatricia_area irRegion = tribocia_area"
 ## F:
 @culture_splitting_region_F = "irRegion = aquitaine_region irRegion = transalpine_gaul_region"
 ## G (overlaps with E, so put it AFTER):
