@@ -205,17 +205,21 @@ link = { ck3=indogreek ir=greco_indian }
 
 ## Baltic & Balto-Finnic
 @ir_baltic_cultures = "ir=aestian ir=baltics_tribs" # baltics_tribs comes from https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
+# WTWSMS
+link = { ck3 = galindian @ir_baltic_cultures historicalTag = AES }
+link = { ck3 = sudovian @ir_baltic_cultures historicalTag = SUD }
 # TFE
 link = { ck3 = aestian @ir_baltic_cultures }
 # vanilla CK3
 link = {
-	ck3 = lithuanian
-	@ir_baltic_cultures
-	ck3Province=154 ck3Province=155 ck3Province=149 ck3Province=165 ck3Province=153 ck3Province=130 ck3Province=160 ck3Province=159 ck3Province=156 ck3Province = 158 ck3Province = 157 ck3Province = 163 ck3Province = 166 ck3Province = 151 ck3Province = 124 ck3Province = 123 ck3Province = 129 ck3Province = 131 ck3Province = 120 ck3Province = 119 ck3Province = 118 ck3Province = 125 ck3Province = 115 ck3Province = 126 ck3Province = 128 ck3Province = 127 ck3Province = 132 ck3Province = 152 }
-link = {
 	ck3 = prussian
 	@ir_baltic_cultures
 	ck3Province = 2835 ck3Province = 2834 ck3Province = 3197 ck3Province = 2831 ck3Province = 3220 ck3Province = 3201 ck3Province = 3217 ck3Province = 3218 ck3Province = 3203 ck3Province = 3219 ck3Province = 3216 ck3Province = 122 ck3Province = 3204 ck3Province = 3205 ck3Province = 3206 ck3Province = 3207 }
+link = { ck3 = aesti @ir_baltic_cultures } # WTWSMS - Needs to be bellow prussian so it doesn't overide it
+link = {
+	ck3 = lithuanian
+	@ir_baltic_cultures
+	ck3Province=154 ck3Province=155 ck3Province=149 ck3Province=165 ck3Province=153 ck3Province=130 ck3Province=160 ck3Province=159 ck3Province=156 ck3Province = 158 ck3Province = 157 ck3Province = 163 ck3Province = 166 ck3Province = 151 ck3Province = 124 ck3Province = 123 ck3Province = 129 ck3Province = 131 ck3Province = 120 ck3Province = 119 ck3Province = 118 ck3Province = 125 ck3Province = 115 ck3Province = 126 ck3Province = 128 ck3Province = 127 ck3Province = 132 ck3Province = 152 }
 link = {
 	ck3 = latgalian
 	@ir_baltic_cultures
@@ -239,6 +243,15 @@ link = {
     ir=sporic ir=neuric
     ir=illyrian # note on illyrian: NOT an error! illyrian comes from https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649 and is actually South Slavic
 }
+# WTWSMS
+link = { ck3=vistula_veneti ir=androphagian irRegion=venedia_region } # Androphagians represent the Dnieper-Dvina culture.
+link = { ck3=east_galindian ir=androphagian irRegion=borysthenia_region }
+link = {
+    ck3=old_slavic
+    ir=sporic ir=chernolian ir=melanchlaenian ir=budinian ir=neuric
+    ir=illyrian # note on illyrian: NOT an error! illyrian comes from https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649 and is actually South Slavic
+}
+
 # Vanilla CK3
 link = {
     ck3=urslavic
@@ -355,6 +368,7 @@ link = { ck3=gaelic @ir_irish_cultures }
 ## Gallic
 @ir_gallic_cultures = "ir=volcae ir=salluvian ir=arverni ir=aulercian ir=pictonian ir=lemovician ir=santonian ir=carnuti ir=haedui ir=biturigan ir=lepontic ir=vindelician ir=helvetian ir=allobrogian ir=teurian ir=aremorican" 
 link = { ck3 = gaul @ir_gallic_cultures } # TFE
+link = { ck3 = armorican ir=aremorican }
 link = { ck3 = gallic @ir_gallic_cultures }
 
 
@@ -426,13 +440,37 @@ link = { ck3 = old_frankish @ir_frankish_cultures }
 link = { ck3 = old_frisian @ir_frisian_cultures }
 
 # Saxon
-link = { ck3 = warnic @ir_ingvaeonic_cultures @ir_irminonic_cultures historicalTag=VRI historicalTag=NUI historicalTag=SUA } # WTWSMS - Saxon heritage and irminonic language, so use both. Nuithoni and Suarini replace Varini in Invictus but were also said to be part of the saxon confederation so it still fits.
+link = { ck3 = warnic @ir_ingvaeonic_cultures @ir_irminonic_cultures historicalTag=VRI historicalTag=NUI historicalTag=SUA } # Saxon heritage and irminonic language, so use both. Nuithoni and Suarini replace Varini in Invictus but were also said to be part of the saxon confederation so it still fits.
 
-# TODO
+# Gothic
+link = { ck3 = skirian @ir_vandal_cultures @ir_gothic_cultures ir = bastarnae historicalTag=SCI } # Vandal in base imp, Bastarne in Invictus, Gothic in WTWSMS, so all 3
+link = { ck3 = heruli @ir_vandilian_cultures historicalTag=HRE }
+link = { ck3 = heruli ir = herulian }
+link = { ck3 = thracian_gothic @ir_gothic_cultures @culture_splitting_region_K1 @culture_splitting_region_L2 @culture_splitting_region_R } # Also exist as minorites in anatolia 
+link = { ck3 = crimean_gothic @ir_gothic_cultures irRegion = taurica_region }
+
+# Przeworsk
+link = { ck3 = gustow @ir_irminonic_cultures @ir_vandilian_cultures ck3Province = 2811 ck3Province = 2817 }
+link = { ck3 = gustow @ir_irminonic_cultures historicalTag=RGG } # Rugii expeled by Goths and merged with Elbe Germans
+link = { ck3 = rygir @ir_vandilian_cultures historicalTag=RGG } 
+link = { ck3 = denziner @ir_vandilian_cultures @ir_irminonic_cultures historicalTag=LVA } # Said to be migration age rementants of Lemovii, shown as mix of the elbe Lebus tribe so they count too.
+link = { ck3 = burgundian @ir_vandilian_cultures historicalTag=BUR }
+link = { ck3 = rugian ir = rugian } 
+link = { ck3 = denziner ir = lemovian } 
+link = { ck3 = Vidivarii @ir_vandilian_cultures ck3Region = d_ostpommern ck3Region = k_lithuania } # Balt / Germanic mix
+link = { ck3 = wielbark @ir_gothic_cultures irRegion = vistulia_region irRegion = venedia_region } 
+link = { ck3 = przeworsk ir = vandal irRegion = vistulia_region irRegion = venedia_region } 
+link = { ck3 = vandalic ir = vandal } 
+
+# Suebic
+link = { ck3 = marcomanni @ir_irminonic_cultures historicalTag=MCM } 
+link = { ck3 = alamannian @ir_irminonic_cultures irRegion = germania_superior_region ck3Region = k_vindelica }
+link = { ck3 = danubian_suebi @ir_irminonic_cultures irRegion = rhaetia_region }
+link = { ck3 = lebus @ir_irminonic_cultures ck3Region = k_germania_slavica_prima }
+link = { ck3 = thuringian @ir_irminonic_cultures ck3Region = k_germania }
 
 # East Germanic mappings
 # Tag culture first so they don't get overwritten
-link = { ck3 = burgundian @ir_vandilian_cultures historicalTag=BUR } # TFE
 link = { ck3 = scirian @ir_vandilian_cultures historicalTag=SCI } # TFE 
 link = { ck3 = varinian @ir_vandilian_cultures @ir_irminonic_cultures historicalTag=VRI } # TFE - Central Germanic in Imperator yet East Germanic in CK3, so use both
 link = { ck3 = rugian @ir_vandilian_cultures historicalTag=RGG } # TFE
@@ -465,7 +503,6 @@ link = { ck3 = vandilian @ir_vandilian_cultures }
 
 # Franconian
 link = { ck3 = franconian ir = franconian }
-
 # Ingvaeonic mappings
 link = { ck3 = scottish ir = scots } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
 link = { ck3 = english ir = english } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
@@ -488,12 +525,13 @@ link = { ck3 = bavarian ir = bavarian }
 link = { ck3 = langobard @ir_irminonic_cultures @culture_splitting_region_I @culture_splitting_region_P @culture_splitting_region_Q }
 link = { ck3 = langobard @ir_irminonic_cultures historicalTag=LGB }
 link = { ck3 = marcomannic @ir_irminonic_cultures historicalTag=MCM } # TFE
+link = { ck3 = old_suebi @ir_irminonic_cultures } # TFE fallback for Irminonic cultures
 link = { ck3 = old_suebi @ir_suebian_cultures } # TFE
 link = { ck3 = alamannic @ir_irminonic_cultures irRegion = germania_superior_region } # TFE
 link = { ck3 = old_suebi @ir_irminonic_cultures } # TFE fallback for Irminonic cultures
-link = { ck3 = suebi @ir_suebian_cultures }
 link = { ck3 = swabian @ir_irminonic_cultures ck3Province = 2055 ck3Province = 2053 ck3Province = 2051 ck3Province = 2721 ck3Province = 2751 ck3Province = 2717 ck3Province = 2057 ck3Province = 2768 ck3Province = 2773 ck3Province = 2748 ck3Province = 2746 ck3Province = 2763 ck3Province = 2759 ck3Province = 2757 ck3Province = 2778 ck3Province = 2782 ck3Province = 2783 ck3Province = 2786 ck3Province = 2777 ck3Province = 2778 ck3Province = 2782 ck3Province = 2783 ck3Province = 2786 ck3Province = 2777 ck3Province = 2046 ck3Province = 2049 ck3Province = 2460 }
 link = { ck3 = bavarian @ir_irminonic_cultures ck3Province = 2964 ck3Province = 2945 ck3Province = 2949 ck3Province = 2942 ck3Province = 2957 ck3Province = 2959 ck3Province = 2956 ck3Province = 2883 ck3Province = 2960 ck3Province = 2878 ck3Province = 2990 ck3Province = 2987 ck3Province = 2989 ck3Province = 2975 ck3Province = 2977 ck3Province = 3135 ck3Province = 3131 ck3Province = 2971 ck3Province = 3117 ck3Province = 3092 ck3Province = 3109 ck3Province = 3121 ck3Province = 3086 ck3Province = 3081 ck3Province = 3089 ck3Province = 3073 ck3Province = 3093 ck3Province = 3088 ck3Province = 2950 ck3Province = 2955 ck3Province = 3134 ck3Province = 3105 ck3Province = 3128 ck3Province = 3125 ck3Province = 3099 }
+link = { ck3 = suebi @ir_suebian_cultures } # Needs to be below province mappings for them to work
 link = { ck3 = suebi @ir_irminonic_cultures } # fallback for Irminonic cultures
 
 # Norse mappings
@@ -516,15 +554,29 @@ link = { ck3 = german @ir_all_germanic_cultures }
 @ir_antiquitas_greek_cultures="ir=doric ir=north_western_doric ir=attican ir=western_ionic ir=eastern_ionic ir=elean ir=kerkyran" # # Antiquitas (https://steamcommunity.com/sharedfiles/filedetails/?id=2992438857)
 @ir_greek_cultures = "ir=greek ir=athenian ir=peloponnesian ir=massalian ir=cyrenaican ir=bosporan ir=thessalian ir=cypriot ir=bithynian ir=ionian ir=troan ir=aeolian ir=greco_pontic ir=aegean ir=aetolian ir=euboean ir=boeotian ir=epirote ir=arcadian ir=argolian ir=parthinian ir=achaean ir=enetoian ir=pamphylian ir=ciliciote @ir_antiquitas_greek_cultures"
 
-# The Glory of Rome
-link = { ck3 = greek @ir_greek_cultures @roman_tags } # Modified cultures so base game greek represents the Romanized-Greeks
-link = { ck3 = greek ir = romano_hellenic ir = helleno_roman } # From "Terra Europea - Terra Indomita Sub-Mod". Both represent a sort of Roman-Hellenic hybridized culture, which, as of now, best matches the base game greek culture, so will map to that for now until a better mapping is determined.
+# WTWSMS
+link = { ck3 = bosporan ir = bosporan }
+link = { ck3 = massalian ir = massalian }
+link = { ck3 = spartan ir = peloponnesian historicalTag = SPA }
+link = { ck3 = tsakonian ir = argolian ir = achaean ir = peloponnesian }
+link = { ck3 = cypriot ir = cypriot }
+link = { ck3 = helleno_libyan ir = cyrenaican }
+link = { ck3 = helleno_coptic ir=macedonian ir=hellenistic ir=syracusan ir=thracian @ir_greek_cultures irRegion = lower_egypt_region irRegion = upper_egypt_region }
+link = { ck3 = helleno_libyan ir=macedonian ir=hellenistic ir=syracusan ir=thracian @ir_greek_cultures @culture_splitting_region_O }
+link = { ck3 = helleno_thracian ir = thracian }
+link = { ck3 = helleno_thracian ir=macedonian ir=hellenistic ir=syracusan ir=thracian @ir_greek_cultures irRegion = moesia_region irRegion = macedonia_salutaris_area irRegion = moesia_s_region irRegion = thracia_area }
 
 # TFE
 link = { ck3 = pontic ir = greco_pontic }
 link = { ck3 = syrian ir=macedonian ir=hellenistic ir=syracusan ir=thracian @ir_greek_cultures @culture_splitting_region_N  }
 link = { ck3 = aegyptian ir=macedonian ir=hellenistic ir=syracusan ir=thracian @ir_greek_cultures @culture_splitting_region_O }
 link = { ck3 = syrian ir = syriote }
+
+# The Glory of Rome - Needs to be bellow modded regional cultures for them to work
+link = { ck3 = greek @ir_greek_cultures @roman_tags } # Modified cultures so base game greek represents the Romanized-Greeks
+link = { ck3 = greek ir = romano_hellenic ir = helleno_roman } # From "Terra Europea - Terra Indomita Sub-Mod". Both represent a sort of Roman-Hellenic hybridized culture, which, as of now, best matches the base game greek culture, so will map to that for now until a better mapping is determined.
+
+
 # Vanilla CK3
 link = { ck3=cretan @ir_cretan_cultures }
 link = { ck3=italiote ir=syracusan ir=italiotian }
@@ -584,8 +636,6 @@ link = { ck3 = norman ir = norman } # https://steamcommunity.com/sharedfiles/fil
 @picenian_cultures = "ir = south_picena ir = north_picena" # Terra-Indomita cultures, easier to group together since they should be mapped together
 @ir_antiquitas_italic_cultures = "ir = latins ir = volsci ir = capuan"
 @ir_latin_cultures = "ir = roman ir = osco_umbrian ir = umbrian ir = samnite ir = ligurian ir = lucanian ir = bruttian ir = sardonian @sicilian_cultures @picenian_cultures @ir_antiquitas_italic_cultures"
-# The Glory of Rome
-link = { ck3 = roman @ir_latin_cultures @roman_tags }
 
 # TFE -splitting according to regions
 link = { ck3 = hiberno_roman @ir_latin_cultures @culture_splitting_region_A } 
@@ -610,6 +660,26 @@ link = { ck3 = hispano_roman @ir_latin_cultures
 }
 link = { ck3 = mauro_roman @ir_latin_cultures irRegion = mauretainia_region irRegion = atlas_region irRegion = numidia_region }
 link = { ck3 = afro_roman @ir_latin_cultures @culture_splitting_region_O }
+
+# WTWSMS
+link = { ck3 = corsican @ir_latin_cultures irRegion = corsica_area } 
+link = { ck3 = sardinian @ir_latin_cultures @culture_splitting_region_S } 
+link = { ck3 = romano_noric @ir_latin_cultures ck3Region = k_noricum }
+link = { ck3 = romano_raetian @ir_latin_cultures irRegion = rhaetia_region }
+link = { ck3 = romano_gallic @ir_latin_cultures @culture_splitting_region_E @culture_splitting_region_F }
+link = { ck3 = romano_african @ir_latin_cultures @culture_splitting_region_O }
+link = { ck3 = romano_british @ir_latin_cultures @culture_splitting_region_C @culture_splitting_region_B @culture_splitting_region_A }
+link = { ck3 = romano_thracian @ir_latin_cultures @culture_splitting_region_K1 }
+link = { ck3 = romano_illyrian @ir_latin_cultures @culture_splitting_region_J1 } 
+link = { ck3 = romano_pannonian @ir_latin_cultures @culture_splitting_region_J2 } 
+link = { ck3 = romano_hispanic @ir_latin_cultures @culture_splitting_region_T @culture_splitting_region_U @culture_splitting_region_V @culture_splitting_region_W @culture_splitting_region_X @culture_splitting_region_Y }
+link = { ck3 = romano_dacian @ir_latin_cultures @culture_splitting_region_K2 }
+link = { ck3 = romano_aramean @ir_latin_cultures @culture_splitting_region_N }
+link = { ck3 = romano_gothic @ir_latin_cultures @culture_splitting_region_H }
+link = { ck3 = romano_punic ir = carthaginian @roman_tags }
+
+# The Glory of Rome
+link = { ck3 = roman @ir_latin_cultures @roman_tags } # Needs to be bellow modded regional cultures for them to work
 
 # Default
 link = { ck3 = ligustic ir = ligurian }
@@ -671,6 +741,8 @@ link = { ck3 = niwt_ipt ir = niwt_ipt }
 ## Numidian
 link = { ck3 = baranis ir = baranis } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
 link = { ck3 = butr ir = butr } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
+# WTWSMS
+link = { ck3 = mauri ir = numidian }
 # TFE
 link = { ck3 = garamantian ir = nasamonian ir = macaean ir = psyllic ir = garamantic ir = libyan ir = berber ir = phazani ir = lotophagoi ir = gyzantian ir = atarantian ir = atlantean }
 link = { ck3 = autoleles ir = nectiberean ir = autolalean ir = cetianian }
@@ -733,6 +805,9 @@ link = { ck3 = basque ir = cantabrian ir = ilergetian ir = autrigonian ir = vasc
 link = { ck3 = nuragic ir = nuragic ir = corsian ir = talaiotic }
 
 ## Scythian
+# WTWSMS
+link = { ck3 = iazyges ir = sarmatian historicalTag=IAZ }
+link = { ck3 = dahi_scythian ir = derbiccan }
 # TFE
 link = { ck3 = roxolan ir = sarmatian historicalTag=ROX }
 link = { ck3 = yazige ir = sarmatian historicalTag=IAZ } # https://en.wikipedia.org/wiki/Iazyges#:~:text=The%20Iazyges%27%20name,sacrifices.%5B22%5D
@@ -780,6 +855,15 @@ link = { ck3 = bedouin ir = bedouin } # https://steamcommunity.com/sharedfiles/f
 link = { ck3 = egyptian ir = egyptians } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
 link = { ck3 = levantine ir = mashriqi } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
 link = { ck3 = yemeni ir = yemen } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
+# WTWSMS
+link = { ck3 = tribal_arab ir = hadhrami ir = himjar ir = minaean ir = qatabanian ir = sheban ir = samad ir = adite ir = kindite irRegion = aromata_area }
+link = { ck3 = hadhramaut ir = hadhrami }
+link = { ck3 = sabaean ir = sheban }
+link = { ck3 = minaean ir = minaean ir = kindite }
+link = { ck3 = khalan ir = samad ir = makan }
+link = { ck3 = qatarye ir = gerrhan }
+link = { ck3 = yathribi ir = taif ir = thamudi }
+link = { ck3 = himyarite ir = himjar ir = qatabanian }
 # TFE
 link = { ck3 = himyarite ir = himjar ir = minaean ir = qatabanian ir = sheban ir = kindite }
 link = { ck3 = south_arabian ir = adite ir = samad ir = hadhrami }
@@ -818,6 +902,9 @@ link = { ck3 = bodpa ir = yarlung }
 link = { ck3 = tsangpa ir = tsang }
 
 ## West Levantine
+# WTWSMS
+link = { ck3 = juhuro ir = hebrew @culture_splitting_region_M }
+link = { ck3 = kochinim ir = hebrew irRegion = karnata_region irRegion = dravida_region }
 # TFE
 link = { ck3 = punic ir = carthaginian }
 # Vanilla CK3
