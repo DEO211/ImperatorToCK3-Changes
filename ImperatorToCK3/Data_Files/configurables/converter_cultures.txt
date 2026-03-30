@@ -2540,6 +2540,7 @@ scythian = {
 sarmatian = {
     INVALIDATED_BY = {
 		tfe = { sarmatian }
+		wtwsms = { sarmatian }
 		vanilla_ck3 = { sarmatian }
 	}
     
@@ -3160,6 +3161,7 @@ roman = {
 hunnic = { # Should now replace base game Hunnic
 	INVALIDATED_BY = {
 		tfe = { hunnic hun }
+		wtwsms = { hunnic hun }
 		vanilla_ck3 = { hun }
 	}
     
