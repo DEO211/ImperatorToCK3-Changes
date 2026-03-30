@@ -439,6 +439,19 @@ link = { ck3 = cheruscii @ir_irminonic_cultures @ir_frankish_cultures historical
 link = { ck3 = old_frankish @ir_frankish_cultures }
 link = { ck3 = old_frisian @ir_frisian_cultures }
 
+# Przeworsk
+link = { ck3 = gustow @ir_irminonic_cultures @ir_vandilian_cultures ck3Province = 2811 ck3Province = 2817 }
+link = { ck3 = gustow @ir_irminonic_cultures historicalTag=RGG } # Rugii expeled by Goths and merged with Elbe Germans
+link = { ck3 = rygir @ir_vandilian_cultures historicalTag=RGG } 
+link = { ck3 = denziner @ir_vandilian_cultures @ir_irminonic_cultures historicalTag=LVA } # Said to be migration age rementants of Lemovii, shown as mix of the elbe Lebus tribe so they count too.
+link = { ck3 = burgundian @ir_vandilian_cultures historicalTag=BUR }
+link = { ck3 = rugian ir = rugian } 
+link = { ck3 = denziner ir = lemovian } 
+link = { ck3 = Vidivarii @ir_vandilian_cultures ck3Region = d_pomerelia ck3Region = k_lithuania } # Balt / Germanic mix
+link = { ck3 = wielbark @ir_gothic_cultures irRegion = vistulia_region irRegion = venedia_region } 
+link = { ck3 = przeworsk ir = vandal irRegion = vistulia_region irRegion = venedia_region } 
+link = { ck3 = vandalic ir = vandal } 
+
 # Saxon
 link = { ck3 = warnic @ir_ingvaeonic_cultures @ir_irminonic_cultures historicalTag=VRI historicalTag=NUI historicalTag=SUA } # Saxon heritage and irminonic language, so use both. Nuithoni and Suarini replace Varini in Invictus but were also said to be part of the saxon confederation so it still fits.
 
@@ -449,25 +462,12 @@ link = { ck3 = heruli ir = herulian }
 link = { ck3 = thracian_gothic @ir_gothic_cultures @culture_splitting_region_K1 @culture_splitting_region_L2 @culture_splitting_region_R } # Also exist as minorites in anatolia 
 link = { ck3 = crimean_gothic @ir_gothic_cultures irRegion = taurica_region }
 
-# Przeworsk
-link = { ck3 = gustow @ir_irminonic_cultures @ir_vandilian_cultures ck3Province = 2811 ck3Province = 2817 }
-link = { ck3 = gustow @ir_irminonic_cultures historicalTag=RGG } # Rugii expeled by Goths and merged with Elbe Germans
-link = { ck3 = rygir @ir_vandilian_cultures historicalTag=RGG } 
-link = { ck3 = denziner @ir_vandilian_cultures @ir_irminonic_cultures historicalTag=LVA } # Said to be migration age rementants of Lemovii, shown as mix of the elbe Lebus tribe so they count too.
-link = { ck3 = burgundian @ir_vandilian_cultures historicalTag=BUR }
-link = { ck3 = rugian ir = rugian } 
-link = { ck3 = denziner ir = lemovian } 
-link = { ck3 = Vidivarii @ir_vandilian_cultures ck3Region = d_ostpommern ck3Region = k_lithuania } # Balt / Germanic mix
-link = { ck3 = wielbark @ir_gothic_cultures irRegion = vistulia_region irRegion = venedia_region } 
-link = { ck3 = przeworsk ir = vandal irRegion = vistulia_region irRegion = venedia_region } 
-link = { ck3 = vandalic ir = vandal } 
-
 # Suebic
 link = { ck3 = marcomanni @ir_irminonic_cultures historicalTag=MCM } 
 link = { ck3 = alamannian @ir_irminonic_cultures irRegion = germania_superior_region ck3Region = k_vindelica }
 link = { ck3 = danubian_suebi @ir_irminonic_cultures irRegion = rhaetia_region }
-link = { ck3 = lebus @ir_irminonic_cultures ck3Region = k_germania_slavica_prima }
-link = { ck3 = thuringian @ir_irminonic_cultures ck3Region = k_germania }
+link = { ck3 = lebus @ir_irminonic_cultures ck3Region = k_sorbia ck3Region = d_amhalt }
+link = { ck3 = thuringian @ir_irminonic_cultures ck3Region = d_thuringia ck3Region = d_east_franconia ck3Region = d_nordgau }
 
 # East Germanic mappings
 # Tag culture first so they don't get overwritten
@@ -664,7 +664,7 @@ link = { ck3 = afro_roman @ir_latin_cultures @culture_splitting_region_O }
 # WTWSMS
 link = { ck3 = corsican @ir_latin_cultures irRegion = corsica_area } 
 link = { ck3 = sardinian @ir_latin_cultures @culture_splitting_region_S } 
-link = { ck3 = romano_noric @ir_latin_cultures ck3Region = k_noricum }
+link = { ck3 = romano_noric @ir_latin_cultures ck3Region = d_tyrol ck3Region = d_salzburg ck3Region = d_carinthia ck3Region = d_steyermark ck3Region = d_osterreich }
 link = { ck3 = romano_raetian @ir_latin_cultures irRegion = rhaetia_region }
 link = { ck3 = romano_gallic @ir_latin_cultures @culture_splitting_region_E @culture_splitting_region_F }
 link = { ck3 = romano_african @ir_latin_cultures @culture_splitting_region_O }
