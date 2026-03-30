@@ -816,6 +816,7 @@ phrygian = {
 nabatean = { # https://en.wikipedia.org/wiki/Nabataeans
     INVALIDATED_BY = {
 		tfe = { nabatean }
+		wtwsms = { nabatean }
 		vanilla_ck3 = { nabatean }
 	}
     
@@ -2706,6 +2707,7 @@ alan = { # override of vanilla culture
 hebrew = { # https://en.wikipedia.org/wiki/Hebrews
     INVALIDATED_BY = {
 		tfe = { hebrew }
+		wtwsms = { hebrew }
 		vanilla_ck3 = { hebrew }
 	}
     
