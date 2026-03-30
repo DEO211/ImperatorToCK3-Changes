@@ -61,6 +61,7 @@ heritage_anatolian = {
 # TFE added their own version of this heritage, but left out the heritage family parameter, so adding it here to get rid of converter error until TFE fixes it.
 heritage_gaulish = {
     REPLACED_BY = {
+		wtwsms = { heritage_continental_celtic }
 		vanilla_ck3 = { heritage_gaulish }
 	}
 	MOD_DEPENDENT = {
@@ -88,6 +89,7 @@ heritage_gaulish = {
 heritage_iberian_celtic = { # https://en.wikipedia.org/wiki/List_of_ancient_Celtic_peoples_and_tribes#Hispano-Celts_/_Celts_of_Hispania
     REPLACED_BY = {
 		tfe = { heritage_celtiberian }
+		wtwsms = { heritage_continental_celtic }
 		vanilla_ck3 = { heritage_iberian_celtic }
 	}
 	MOD_DEPENDENT = {
