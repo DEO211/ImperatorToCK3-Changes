@@ -186,6 +186,9 @@ link = { ck3 = hindustani ir = kosala ir = kuru }
 link = { ck3=sinhala ir=dhivehi }
 
 ## Bactrian
+# WTWSMS
+link = { ck3 = pamiri ir = phryni }
+# Vanilla CK3
 link = { ck3 = bactrian ir = bactrian }
 link = { ck3 = sogdian ir = sogdian ir = tayuan }
 link = {
@@ -318,12 +321,12 @@ link = { ck3 = georgian ir = albanian ir = ibero @ir_georgian_cultures }
 # WTWSMS
 link = { ck3 = astures ir = asturian }
 link = { ck3 = gallaecian ir = callaecian }
-# link = { ck3 = lusitanian ir = lusitanian ir = vettonian }  WTWSMS conflicts with TFE, Needs fix
+link = { ck3 = lusitanian ir = lusitanian ir = vettonian }  # WTWSMS conflicts with TFE, Needs fix
 # TFE
 link = { ck3 = aquitanian ir = caristian ir = vardulian ir = sedetanian }
 link = { ck3 = asturian ir = asturian }
 link = { ck3 = castran ir = callaecian }
-link = { ck3 = cantabrian ir = vaccaeian ir = lobetanian ir = celtiberian ir = celtician ir = carpetanian ir = oppidanian ir = cantabrian ir = elesycian }
+link = { ck3 = cantabrian ir = cantabrian ir = vaccaeian }
 # Vanilla CK3
 link = { ck3 = basque ir = basque } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
 link = { ck3 = basque ir = caristian ir = vardulian }
@@ -461,6 +464,7 @@ link = { ck3 = heruli @ir_vandilian_cultures historicalTag=HRE }
 link = { ck3 = heruli ir = herulian }
 link = { ck3 = thracian_gothic @ir_gothic_cultures @culture_splitting_region_K1 @culture_splitting_region_L2 @culture_splitting_region_R } # Also exist as minorites in anatolia 
 link = { ck3 = crimean_gothic @ir_gothic_cultures irRegion = taurica_region }
+link = { ck3 = skirian ir = bastarnae }
 
 # Suebic
 link = { ck3 = marcomanni @ir_irminonic_cultures historicalTag=MCM } 
@@ -742,7 +746,12 @@ link = { ck3 = niwt_ipt ir = niwt_ipt }
 link = { ck3 = baranis ir = baranis } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
 link = { ck3 = butr ir = butr } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
 # WTWSMS
-link = { ck3 = mauri ir = numidian }
+link = { ck3 = mauritanian ir = numidian ir = gaetulian ir = melanogaetulian ir = socossian ir = massaesylian ir = massylian ir = autolalean ir = lixitoi ir = perorsian ir = canarian ir = nectiberean ir = daphnitaean ir = capariensian ir = abannaean ir = cetianian ir = pharusian ir = nigirtean @roman_tags }
+link = { ck3 = mauri ir = numidian ir = nectiberean ir = autolalean }
+link = { ck3 = numidian ir = massaesylian ir = massylian }
+link = { ck3 = zaghawa ir = daphnitaean ir = nigirtean ir = canarian ir = pharusian ir = perorsian ir = lixitoi }
+link = { ck3 = gaetulian ir = capariensian ir = abannaean ir = gaetulian }
+link = { ck3 = libyan ir = libyan ir = nasamonian ir = psyllic ir = phazani ir = macaean ir = lotophagoi ir = gyzantian }
 # TFE
 link = { ck3 = garamantian ir = nasamonian ir = macaean ir = psyllic ir = garamantic ir = libyan ir = berber ir = phazani ir = lotophagoi ir = gyzantian ir = atarantian ir = atlantean }
 link = { ck3 = autoleles ir = nectiberean ir = autolalean ir = cetianian }
@@ -761,6 +770,14 @@ link = { ck3=butr ir=gyzantian ir=psyllic ir=nasamonian ir=perorsian ir=phazani 
 link = { ck3=numidian ir=capariensian ir=lotophagoi ir=abannaean }
 
 ## Persian and Iranian
+# WTWSMS
+link = { ck3 = adhari ir = median irRegion = armenia_region irRegion = albania_region irRegion = media_atropatene_area irRegion = kadousioi_area }
+link = { ck3 = cyrtian ir = cossian }
+link = { ck3 = daylamite ir = cadusian }
+link = { ck3 = mazanderani ir = amardian }
+link = { ck3 = sistani ir = sagartian }
+link = { ck3 = brahui ir = carmanian }
+link = { ck3 = dranganian ir = parthian irRegion = ariana_region }
 # TFE
 link = { ck3 = median ir = median }
 # vanilla CK3
@@ -798,6 +815,8 @@ link = { ck3 = oriya ir = savara }
 link = { ck3 = nepali ir = kasi ir = vrji ir = malla }
 
 ## Proto European
+# WTWSMS
+link = { ck3 = aquitani ir = aquitani }
 # TFE
 link = { ck3 = aquitanian ir = cantabrian ir = ilergetian ir = autrigonian ir = vasconian ir = aquitani }
 # Vanilla CK3
@@ -808,6 +827,8 @@ link = { ck3 = nuragic ir = nuragic ir = corsian ir = talaiotic }
 # WTWSMS
 link = { ck3 = iazyges ir = sarmatian historicalTag=IAZ }
 link = { ck3 = dahi_scythian ir = derbiccan }
+link = { ck3 = hunas ir = huna }
+link = { ck3 = khotanese ir = khotanese }
 # TFE
 link = { ck3 = roxolan ir = sarmatian historicalTag=ROX }
 link = { ck3 = yazige ir = sarmatian historicalTag=IAZ } # https://en.wikipedia.org/wiki/Iazyges#:~:text=The%20Iazyges%27%20name,sacrifices.%5B22%5D
