@@ -747,7 +747,7 @@ link = { ck3 = baranis ir = baranis } # https://steamcommunity.com/sharedfiles/f
 link = { ck3 = butr ir = butr } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
 # WTWSMS
 link = { ck3 = mauritanian ir = numidian ir = gaetulian ir = melanogaetulian ir = socossian ir = massaesylian ir = massylian ir = autolalean ir = lixitoi ir = perorsian ir = canarian ir = nectiberean ir = daphnitaean ir = capariensian ir = abannaean ir = cetianian ir = pharusian ir = nigirtean @roman_tags }
-link = { ck3 = mauri ir = numidian ir = nectiberean ir = autolalean }
+link = { ck3 = mauri ir = berber ir = nectiberean ir = autolalean }
 link = { ck3 = numidian ir = massaesylian ir = massylian }
 link = { ck3 = zaghawa ir = daphnitaean ir = nigirtean ir = canarian ir = pharusian ir = perorsian ir = lixitoi }
 link = { ck3 = gaetulian ir = capariensian ir = abannaean ir = gaetulian }
