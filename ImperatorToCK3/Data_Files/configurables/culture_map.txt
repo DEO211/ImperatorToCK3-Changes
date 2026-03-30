@@ -903,6 +903,8 @@ link = { ck3 = tsangpa ir = tsang }
 
 ## West Levantine
 # WTWSMS
+link = { ck3 = judean ir = hebrew historicalTag=JUD } # Historical assimilation
+link = { ck3 = samaritan_culture ir = hebrew historicalTag=SMA } # Historical assimilation
 link = { ck3 = juhuro ir = hebrew @culture_splitting_region_M }
 link = { ck3 = kochinim ir = hebrew irRegion = karnata_region irRegion = dravida_region }
 # TFE
