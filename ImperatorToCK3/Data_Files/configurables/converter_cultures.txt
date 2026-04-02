@@ -2191,8 +2191,6 @@ celtiberian = {
 
 	color = hsv { 0.2 0.8 0.6 }
 
-	heritage = heritage_iberian_celtic
-	language = language_gaulish
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 	house_coa_frame = house_frame_24
