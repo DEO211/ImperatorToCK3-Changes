@@ -210,6 +210,7 @@ heritage_east_germanic = {
 heritage_thracian = {
     REPLACED_BY = {
 		tfe = { heritage_daco_thracian }
+		wtwsms = { heritage_albanian }
 		vanilla_ck3 = { heritage_thracian }
 	}
 	MOD_DEPENDENT = {
