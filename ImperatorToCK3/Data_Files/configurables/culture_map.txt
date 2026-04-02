@@ -162,11 +162,18 @@ link = { ck3 = galatian ir = galatian ir = tylian } # Tylian represent Celts tha
 
 ## Aryan
 @ir_aryan_cultures = "ir=vidharban ir=mulaka ir=saurashtran ir=kaccha ir=lankan ir=maharashtran ir=rathikan ir=gandhari ir=sivi ir=shauraseni ir=kosala ir=kuru ir=avanti ir=matsya ir=cedi ir=dhivehi ir=sindhi ir=dardic ir=purus ir=mitanni"
+# WTWSMS
+link = { ck3 = kaikanan ir = sindhi ck3Province = 4479 ck3Province = 4513 ck3Province = 4517 }
+link = { ck3 = jat ir = sindhi irRegion = aouth_sindhu_area irProvince = 4375 irProvince = 4377 irProvince = 4386 }
+link = { ck3 = konkani ir = maharashtran }
+link = { ck3 = bhil ir = cedi }
+link = { ck3 = awadhi ir = shauraseni }
+link = { ck3 = braj ir = kuru }
 # TFE
 link = { ck3 = med @ir_aryan_cultures @culture_splitting_region_M }
 link = { ck3 = saurashtri ir = saurashtran }
 link = { ck3 = gandhari ir = gandhari }
-link = { ck3 = nuristani ir = dardic }
+link = { ck3 = malvi ir = matsya }
 # Vanilla CK3
 link = { ck3 = marathi ir = vidharban ir = maharashtran }
 link = { ck3 = gujarati ir = saurashtran }
@@ -194,6 +201,7 @@ link = { ck3 = sogdian ir = sogdian ir = tayuan }
 link = {
 	ck3 = saka
 	ir = saka
+	ir = sakan
 	ir = shule
 	# Invictus mod
 	ir = massagetaean
@@ -429,7 +437,7 @@ link = { ck3 = gutnish ir = scandian ir = raumarician @ir_gothic_cultures irProv
 link = { ck3 = geatish ir = raumarician @ir_gothic_cultures @culture_splitting_region_D } 
 link = { ck3 = dane ir = herulian @culture_splitting_region_D } 
 link = { ck3 = norse ir = rugian @culture_splitting_region_D } 
-link = { ck3 = dane ir = scandian ck3Region = k_cimrii ck3Region = d_skane } 
+link = { ck3 = dane ir = scandian irRegion = cimbrica_superioris_area irRegion = cimbrica_inferioris_area irRegion = scamdoa_insula_area ck3Province = 70 ck3Province = 74 ck3Province = 78 ck3Province = 77 } 
 link = { ck3 = geatish ir = scandian ck3Region = d_vastergotland ck3Region = d_ostergotland } 
 link = { ck3 = auiones ir = scandian ck3Region = d_smaland } 
 link = { ck3 = swede ir = scandian ck3Region = d_svealand ck3Region = d_bergslagen }
@@ -448,10 +456,10 @@ link = { ck3 = gustow @ir_irminonic_cultures historicalTag=RGG } # Rugii expeled
 link = { ck3 = rygir @ir_vandilian_cultures historicalTag=RGG } 
 link = { ck3 = denziner @ir_vandilian_cultures @ir_irminonic_cultures historicalTag=LVA } # Said to be migration age rementants of Lemovii, shown as mix of the elbe Lebus tribe so they count too.
 link = { ck3 = burgundian @ir_vandilian_cultures historicalTag=BUR }
+link = { ck3 = vidivarii @ir_vandilian_cultures ck3Region = d_pomerelia ck3Region = k_lithuania } # Balt / Germanic mix
+link = { ck3 = wielbark @ir_gothic_cultures irRegion = vistulia_region irRegion = venedia_region } 
 link = { ck3 = rugian ir = rugian } 
 link = { ck3 = denziner ir = lemovian } 
-link = { ck3 = Vidivarii @ir_vandilian_cultures ck3Region = d_pomerelia ck3Region = k_lithuania } # Balt / Germanic mix
-link = { ck3 = wielbark @ir_gothic_cultures irRegion = vistulia_region irRegion = venedia_region } 
 link = { ck3 = przeworsk ir = vandal irRegion = vistulia_region irRegion = venedia_region } 
 link = { ck3 = vandalic ir = vandal } 
 
@@ -468,10 +476,10 @@ link = { ck3 = skirian ir = bastarnae }
 
 # Suebic
 link = { ck3 = marcomanni @ir_irminonic_cultures historicalTag=MCM } 
-link = { ck3 = alamannian @ir_irminonic_cultures irRegion = germania_superior_region ck3Region = k_vindelica }
+link = { ck3 = alamannian @ir_irminonic_cultures irRegion = germania_superior_region irRegion = helvetica_inferioris_area irRegion = turonia_area }
 link = { ck3 = danubian_suebi @ir_irminonic_cultures irRegion = rhaetia_region }
-link = { ck3 = lebus @ir_irminonic_cultures ck3Region = k_sorbia ck3Region = d_amhalt }
-link = { ck3 = thuringian @ir_irminonic_cultures ck3Region = d_thuringia ck3Region = d_east_franconia ck3Region = d_nordgau }
+link = { ck3 = lebus @ir_irminonic_cultures irRegion = buria_area irRegion = semnonia_are }
+link = { ck3 = thuringian @ir_irminonic_cultures irRegion = chattia_orientalis_area irRegion = caluconia_area irRegion = marcomannia_maiores_area }
 
 # East Germanic mappings
 # Tag culture first so they don't get overwritten
@@ -668,7 +676,7 @@ link = { ck3 = afro_roman @ir_latin_cultures @culture_splitting_region_O }
 # WTWSMS
 link = { ck3 = corsican @ir_latin_cultures irRegion = corsica_area } 
 link = { ck3 = sardinian @ir_latin_cultures @culture_splitting_region_S } 
-link = { ck3 = romano_noric @ir_latin_cultures ck3Region = d_tyrol ck3Region = d_salzburg ck3Region = d_carinthia ck3Region = d_steyermark ck3Region = d_osterreich }
+link = { ck3 = romano_noric @ir_latin_cultures irRegion = alpes_raetiae_orientalis irRegion = noricum_mediterranum_area irRegion = lauriacum_area irRegion = helvetia_orientalis_area }
 link = { ck3 = romano_raetian @ir_latin_cultures irRegion = rhaetia_region }
 link = { ck3 = romano_gallic @ir_latin_cultures @culture_splitting_region_E @culture_splitting_region_F }
 link = { ck3 = romano_african @ir_latin_cultures @culture_splitting_region_O }
@@ -747,7 +755,7 @@ link = { ck3 = baranis ir = baranis } # https://steamcommunity.com/sharedfiles/f
 link = { ck3 = butr ir = butr } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
 # WTWSMS
 link = { ck3 = mauritanian ir = numidian ir = gaetulian ir = melanogaetulian ir = socossian ir = massaesylian ir = massylian ir = autolalean ir = lixitoi ir = perorsian ir = canarian ir = nectiberean ir = daphnitaean ir = capariensian ir = abannaean ir = cetianian ir = pharusian ir = nigirtean @roman_tags }
-link = { ck3 = mauri ir = berber ir = nectiberean ir = autolalean }
+link = { ck3 = mauri ir = socossian ir = nectiberean ir = autolalean }
 link = { ck3 = numidian ir = massaesylian ir = massylian }
 link = { ck3 = zaghawa ir = daphnitaean ir = nigirtean ir = canarian ir = pharusian ir = perorsian ir = lixitoi }
 link = { ck3 = gaetulian ir = capariensian ir = abannaean ir = gaetulian }
@@ -798,6 +806,14 @@ link = { ck3 = elamite ir = elamite }
 link = { ck3 = afghan ir = afghan } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
 
 ## Pracyan
+# WTWSMS
+link = { ck3 = old_kamrupan ir = kamarupi }
+link = { ck3 = maithil ir = magadhi } 
+link = { ck3 = bihari ir = malla ir = vrji }
+link = { ck3 = nagpuri ir = kasi } 
+link = { ck3 = sambalpuri ir = savara }
+link = { ck3 = khas ir = nepali } # Pre-migration ancestors of Nepali.
+link = { ck3 = gond ir = atavi } # Though Pracyan in IR, the Atavi were a Dravidian speaking group and the ancestors of the Scheduled Tribes of the area of which the Gondi are included.
 # TFE
 link = { ck3 = radhi ir = vanga }
 link = { ck3 = varendri ir = pandra }
@@ -847,8 +863,8 @@ link = {
 	ir = alani
 }
 link = { ck3 = alan ir = scythian ir = derbiccan ir = sakan ir = agathyrsian ir = sarmatian ir = legian ir = thyssagetaen ir = maeotian ir = sindi ir = siraci ck3Province = 5299 ck3Province = 603 ck3Province = 5296 }
-link = { ck3 = khwarezmian ir = kharesmian }
-link = { ck3 = scythian ir = scythian ir = derbiccan ir = sakan ir = agathyrsian }
+link = { ck3 = khwarezmian ir = kharesmian ir = derbiccan }
+link = { ck3 = scythian ir = scythian ir = agathyrsian }
 link = {
 	ck3 = sarmatian
 	ir = sarmatian
