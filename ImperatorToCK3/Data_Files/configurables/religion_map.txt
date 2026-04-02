@@ -26,6 +26,9 @@
 # link = { ck3=belgae @germ_religions irProvince=1 }
 # link = { ck3=delgae @germ_religions irProvince=2 }
 
+## Roman Cultures
+@roman_cultures = "ck3Culture = roman ck3Culture = corsican ck3Culture = sardinian ck3Culture = romano_raetian ck3Culture = romano_noric ck3Culture = romano_gallic ck3Culture = romano_african ck3Culture = romano_british ck3Culture = romano_thracian ck3Culture = romano_illyrian ck3Culture = romano_pannonian ck3Culture = romano_hispanic ck3Culture = romano_dacian ck3Culture = romano_aramean ck3Culture = romano_gothic"
+
 ## Mainland China Imperator Regions
 @china_regions = "irRegion = xu_region irRegion = yang_region irRegion = yi_region irRegion = yong_region irRegion = you_region irRegion = yu_region irRegion = shuofang_region irRegion = qing_region irRegion = nanzhong_region irRegion = liang_region irRegion = jing_region irRegion = jiao_region irRegion = ji_region irRegion = bing_region"
 
@@ -116,6 +119,8 @@ link = { ck3 = eastern_tengri ir = hu_religions ir = hunnic_huna_animism ir = ea
 link = { ck3 = tengri_pagan ir = hu_religions ir = hunnic_huna_animism ir = eastern_animism } # Rajas seems to use tengri_pagan (renamed to Goktanrist) to represent the Tengri beliefs of anyone outside of cultures like those mapped above
 link = { ck3 = tengri_pagan ir = tengri } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
 
+# Celtic - WTWSMS
+link = { ck3 = romano_celtic_pagan ir = druidism @roman_cultures }
 # Celtic - TFE
 link = { ck3 = briton_pagan ir = druidism irRegion = britain_region irRegion = scandinavia_region }
 link = { ck3 = irish_druidism ir = druidism ck3Province = 9 ck3Province = 10 ck3Province = 11 ck3Province = 12 ck3Province = 13 ck3Province = 14 ck3Province = 15 ck3Province = 16 ck3Province = 17 ck3Province = 18 ck3Province = 19 ck3Province = 20 ck3Province = 21 ck3Province = 22 ck3Province = 23 ck3Province = 24 ck3Province = 25 ck3Province = 26 ck3Province = 27 ck3Province = 28 ck3Province = 29 ck3Province = 30 ck3Province = 31 ck3Province = 32 ck3Province = 33 ck3Province = 34 ck3Province = 36 ck3Province = 37 ck3Province = 38 ck3Province = 39 ck3Province = 40 ck3Province = 41  ck3Province = 42 ck3Province = 43 ck3Province = 44 ck3Province = 45 ck3Province = 46 ck3Province = 47 ck3Province = 48 ck3Province = 49 ck3Province = 50 ck3Province = 51 ck3Province = 52 ck3Province = 53 ck3Province = 54 }
@@ -139,6 +144,14 @@ link = { ck3 = rabbinism ir = judaism }
 
 # Germanic
 link = { ck3 = finnish_pagan ir = germanic_religion irProvince = 5976 } #Finnish first to prevent overwrite
+# WTWSMS
+link = { ck3 = frankish_pagan ir = germanic_religion ck3Culture = old_frankish ck3Culture = chatti ck3Culture = old_frisian ck3Culture = cheruscii }
+link = { ck3 = przeworsk_pagan ir = germanic_religion ck3Culture = gustow ck3Culture = rygir ck3Culture = przeworsk ck3Culture = vandalic ck3Culture = burgundian ck3Culture = wielbark ck3Culture = denziner ck3Culture = vidivarii } 
+link = { ck3 = irimonic_pagan ir = germanic_religion ck3Culture = marcomanni ck3Culture = danubian_suebi ck3Culture = buri ck3Culture = juthungi ck3Culture = suebi ck3Culture = langobard ck3Culture = thuringian ck3Culture = alamannian ck3Culture = lebus }
+link = { ck3 = anglo_pagan ir = germanic_religion ck3Culture = anglo ck3Culture = jute ck3Culture = reudignian }
+link = { ck3 = saxon_pagan ir = germanic_religion ck3Culture = warnic }
+link = { ck3 = gothic_pagan ir = germanic_religion ck3Culture = heruli ck3Culture = taifal ck3Culture = thracian_gothic ck3Culture = crimean_gothic ck3Culture = skirian ck3Culture = carpodaci }
+link = { ck3 = norse_pagan ir = germanic_religion ck3Culture = gutnish ck3Culture = dane ck3Culture = auiones ck3Culture = swede ck3Culture = geatish }
 # TFE
 link = { ck3 = gothic_pagan ir = germanic_religion ck3Culture = vandal ck3Culture = przeworsk ck3Culture = gothonic ck3Culture = gothic ck3Culture = visigothic ck3Culture = ostrogothic ck3Culture = gepid ck3Culture = herulian ck3Culture = scirian ck3Culture = rugian ck3Culture = varinian ck3Culture = bastarnian ck3Culture = burgundian }
 link = { ck3 = saxon_pagan ir = germanic_religion ck3Culture = angle ck3Culture = jute ck3Culture = old_saxon ck3Culture = frisa ck3Culture = anglo_saxon ck3Culture = frisian ck3Culture = saxon }
