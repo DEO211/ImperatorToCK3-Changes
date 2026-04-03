@@ -253,13 +253,33 @@ link = { ck3 = armenian_apostolic ir = apostolic } # https://steamcommunity.com/
 link = { ck3 = priscillianism ir = christianity heresiesInHistoricalAreas=yes ck3Province = 1831 ck3Province = 1912 ck3Province = 1919 ck3Province = 1954 irRegion = lusitania_region }
 link = { ck3 = valentinianism ir = christianity heresiesInHistoricalAreas=yes irRegion = decapolis_area irRegion = peraea_area irRegion = arabia_petrea_area irRegion = sinai_area }
 link = { ck3 = arianism ir = christianity irRegion = germania_superior_region irRegion = bohemia_area irRegion = germania_region irRegion = pannonia_region irRegion = dacia_region irRegion = moesia_region irRegion = sarmatia_europea_region irRegion = vistulia_region irRegion = venedia_region } # TFE
-link = { ck3 = donatism ir = christianity irRegion = africa_region } # TFE
+link = { ck3 = donatism ir = christianity irRegion = africa_region irRegion = atlas_region } # TFE / WTWSMS
 link = { ck3 = macedonianism ir = christianity irRegion = macedonia_region } # TFE
 link = { ck3 = adamites ir = christianity ck3Province = 4648 ck3Province = 4649 ck3Province = 4650 ck3Province = 4651 ck3Province = 4652 ck3Province = 4653 ck3Province = 4654 } # TFE
+link = { ck3 = melchisdechianism ir = christianity heresiesInHistoricalAreas=yes ck3Province = 750 ck3Province = 742 ck3Province = 5569 ck3Province = 5565 }
+link = { ck3 = marcionism ir = christianity heresiesInHistoricalAreas=yes ck3Province = 736 ck3Province = 4893 ck3Province = 4894 ck3Province = 707 ck3Province = 5604 ck3Province = 735 ck3Province = 5703 ck3Province = 706 ck3Province = 5602 ck3Province = 737 ck3Province = 702 ck3Province = 5707 ck3Province = 4546 ck3Province = 4325 ck3Province = 4001 ck3Province = 4543 ck3Province = 4534 }
+link = { ck3 = pneumatomachianism ir = christianity heresiesInHistoricalAreas=yes ck3Province = 744 ck3Province = 495 ck3Province = 487 ck3Province = 5531 ck3Province = 5552 ck3Province = 492 }
+link = { ck3 = apollinarism ir = christianity heresiesInHistoricalAreas=yes ck3Province = 5920 ck3Province = 5918 ck3Province = 5910 }
+link = { ck3 = montanism ir = christianity heresiesInHistoricalAreas=yes irRegion = galatia_region }
+link = { ck3 = pelagianism ir = christianity heresiesInHistoricalAreas=yes irRegion = dalmatia_centralis_area irRegion = dalmatia_occidentalis_area irRegion = asculum_area irRegion = allobrogia_area irRegion = alpes_maritimae_two_area irRegion = hibernia_septentrionalis_area }
+link = { ck3 = patripassianism ir = christianity heresiesInHistoricalAreas=yes irRegion = apamene_area }
+link = { ck3 = audianism ir = christianity heresiesInHistoricalAreas=yes irRegion = cyrenaica_region }
 ## general or with heresiesInHistoricalAreas disabled
 link = { ck3 = armenian_apostolic ir = christianity @after_chalcedon irRegion = armenia_region }
 link = { ck3 = armenian_apostolic ir = christianity @after_chalcedon historicalTag=ARM }
 link = { ck3 = insular_celtic ir = christianity irRegion = caledonia_region irRegion = britain_region }
+link = { ck3 = mozarabic_church ir = christianity ck3Culture = romano_hispanic } # WTWSMS
+link = { ck3 = african_church ir = christianity ck3Culture = romano_african } # WTWSMS
+link = { ck3 = gallican_church ir = christianity ck3Culture = romano_gallic } # WTWSMS
+link = { ck3 = insular_celtic ir = christianity ck3Culture = romano_british } # WTWSMS
+link = { ck3 = maronite_church ir = christianity ck3Culture = romano_aramean ck3Culture = phoenician } # WTWSMS
+link = { ck3 = cypriot_church ir = christianity irRegion = cyprus_area } # WTWSMS
+link = { ck3 = georgian_orthodox ir = christianity ck3Culture = lazic ck3Culture = tzani ck3Culture = georgian ck3Culture = svan ck3Culture = colchiscan ck3Culture = abaza ck3Culture = adyghes } # WTWSMS - Also used for nortwest caucasian as it's the only christian faith they have in the mod.
+link = { ck3 = syrian_orthodox ir = christianity ck3Culture = aramean ck3Culture = syriac } # WTWSMS
+link = { ck3 = albanian_apostolic ir = christianity ck3Culture = caucasian_albanian ck3Culture = nakh ck3Culture = awaral ck3Culture = balasakan } # WTWSMS
+link = { ck3 = ethiopian_orthodox ir = christianity ck3Culture = ethiopian } # WTWSMS
+link = { ck3 = ebionite ir = christianity ck3Culture = nabatean ck3Culture = hebrew ck3Culture = samaritan_culture ck3Culture = judean ck3Culture = juhuro ck3Culture = kochinim } # WTWSMS - Though it's the jewish christain faith, Nabatean use it too
+link = { ck3 = monophysitism ir = christianity ck3Culture = adnanite ck3Culture = yathribi ck3Culture = himyarite ck3Culture = sabaean ck3Culture = minaean ck3Culture = hadhramaut ck3Culture = tribal_arab ck3Culture = khalan ck3Culture = qatarye } # WTWSMS - Said to be the form of christianity used by Arabs in description
 link = { ck3 = coptic ir = christianity @after_chalcedon irRegion = arabia_felix_region irRegion = arabia_region irRegion = cyrenaica_region irRegion = fezzan_region irRegion = lower_egypt_region irRegion = nubia_region irRegion = lower_nubia_region irRegion = punt_region irRegion = upper_egypt_region }
 link = { ck3 = circassian_christianity ir = christianity @after_nestorian_schism irRegion = taurica_region irRegion = scythia_region irRegion = sarmatia_asiatica_region } # Rajas faith; Not actually related to the Nestorian schism, from Wikipedia: Christianity likely entered Circassia between the 3rd and 5th century.
 # indian_catholic only exists in Rajas of India, so use nestorian as fallback for its regions
