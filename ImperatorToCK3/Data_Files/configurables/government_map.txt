@@ -69,7 +69,7 @@ link = {
 ## Administrative
 # Base Game Admin should take precedence over TFE's imperial_government.
 # WTWSMS
-link = { ck3 = roman_dynastic_government ir = dictatorship ir = despotic_monarchy ir = aristocratic_monarchy ir = stratocratic_monarchy ir = theocratic_monarchy ir = plutocratic_monarchy ir = imperium ir = spartan_imperium ir = imperial_cult ir = spartan_imperial_cult ir = judean_empire ir = indian_empire ir = chinese_empire ir = yamato_empire irCulture = roman ck3_title_rank = e }
+link = { ck3 = roman_dynastic_government ir = dictatorship ir = despotic_monarchy ir = aristocratic_monarchy ir = stratocratic_monarchy ir = theocratic_monarchy ir = plutocratic_monarchy ir = imperium ir = spartan_imperium ir = imperial_cult ir = spartan_imperial_cult ir = judean_empire ir = indian_empire ir = chinese_empire ir = yamato_empire irCulture = roman ck3_title_rank = eh }
 link = { ck3 = subroman_dynastic_government ir = dictatorship ir = despotic_monarchy ir = aristocratic_monarchy ir = stratocratic_monarchy ir = theocratic_monarchy ir = plutocratic_monarchy ir = imperium ir = spartan_imperium ir = imperial_cult ir = spartan_imperial_cult ir = judean_empire ir = indian_empire ir = chinese_empire ir = yamato_empire irCulture = roman }
 link = {
 	ck3 = administrative_government
