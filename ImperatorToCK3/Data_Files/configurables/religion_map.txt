@@ -78,6 +78,7 @@ link = { ck3 = kitebacilweism ir = mithra_religion }
 link = { ck3 = mithra_religion ir = mithra_religion }
 
 # Arabic
+link = { ck3 = semitic_pagan ir = arabian_pantheon }
 link = { ck3 = aksumite_pagan ir = arabian_pantheon irRegion = punt_region } # TFE
 link = { # TFE
     ck3 = nabataean_pagan
