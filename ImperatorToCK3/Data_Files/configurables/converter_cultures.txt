@@ -2501,6 +2501,14 @@ scythian = {
 		tfe = { scythian }
 		vanilla_ck3 = { scythian }
 	}
+
+	MOD_DEPENDENT = {
+		IF wtwsms = {
+			heritage = heritage_sarmatian
+		} ELSE = {
+			heritage = heritage_iranian
+		}
+	}
     
 	color = hsv { 0.2 0.5 0.8 }
 
@@ -2510,7 +2518,6 @@ scythian = {
 		7 = arab
 		5 = mediterranean
 	}
-	heritage = heritage_iranian
 	language = language_scythian
 
 	ethos = ethos_bellicose
