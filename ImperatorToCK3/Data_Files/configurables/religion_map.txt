@@ -34,7 +34,7 @@
 
 ## Pagan
 # WTWSMS
-link = { ck3 = dacian_pagan ir = shamanism ck3Culture = thracian }
+link = { ck3 = thracian_pagan ir = shamanism ck3Culture = thracian }
 # TFE
 link = { ck3 = guanche_pagan ir = berber_religion ck3Province = 8713 ck3Province = 8714 ck3Province = 8715 ck3Province = 8716 ck3Province = 849 }
 link = { ck3 = amazigh_pagan ir = berber_religion }
@@ -90,6 +90,8 @@ link = { ck3 = druze ir = arabian_pantheon ck3Province = 5925 ck3Province = 5926
 link = { ck3 = druze ir = judaism ck3Province = 5925 ck3Province = 5926 ck3Province = 5937 }
 link = { ck3 = yazidi ir = arabian_pantheon ck3Province = 4773 ck3Province = 4774 ck3Province = 4775 ck3Province = 4776 ck3Province = 4777 ck3Province = 4808 ck3Province = 4809 ck3Province = 4810 ck3Province = 4811 ck3Province = 4812 ck3Province = 4836 ck3Province = 4837 ck3Province = 4838 ck3Province = 4839 ck3Province = 4840 ck3Province = 4841 }
 link = { ck3 = arabic_pagan ir = arabian_pantheon }
+# Hellenic - WTWSMS
+link = { ck3 = romano_celtic_pagan ir = italic_pantheon ir = greek_pantheon ir = roman_pantheon ck3Culture = gallic ck3Culture = galatian ck3Culture = astures ck3Culture = gallaecian ck3Culture = cantabrian ck3Culture = lusitanian ck3Culture = armorican ck3Culture = celtic_pannonian ck3Culture = celtiberian ck3Culture = belgae ck3Culture = lusoiberian ck3Culture = pictish ck3Culture = briton ck3Culture = gaelic ck3Culture = irish ck3Culture = cumbrian ck3Culture = cornish ck3Culture = breton ck3Culture = welsh }
 # Hellenic - TFE
 link = { ck3 = roman_pagan ir = italic_pantheon }
 link = { ck3 = hellenic_pagan ir = greek_pantheon } # greek_pantheon is from the I:R Antiquitas mod
@@ -122,7 +124,7 @@ link = { ck3 = tengri_pagan ir = hu_religions ir = hunnic_huna_animism ir = east
 link = { ck3 = tengri_pagan ir = tengri } # https://steamcommunity.com/sharedfiles/filedetails/?id=3098496649
 
 # Celtic - WTWSMS
-link = { ck3 = romano_celtic_pagan ir = druidism @roman_cultures }
+link = { ck3 = romano_celtic_pagan ir = druidism ck3Culture = roman ck3Culture = corsican ck3Culture = sardinian ck3Culture = romano_raetian ck3Culture = romano_noric ck3Culture = romano_gallic ck3Culture = romano_african ck3Culture = romano_british ck3Culture = romano_thracian ck3Culture = romano_illyrian ck3Culture = romano_pannonian ck3Culture = romano_hispanic ck3Culture = romano_dacian ck3Culture = romano_aramean ck3Culture = romano_gothic }
 # Celtic - TFE
 link = { ck3 = briton_pagan ir = druidism irRegion = britain_region irRegion = scandinavia_region }
 link = { ck3 = irish_druidism ir = druidism ck3Province = 9 ck3Province = 10 ck3Province = 11 ck3Province = 12 ck3Province = 13 ck3Province = 14 ck3Province = 15 ck3Province = 16 ck3Province = 17 ck3Province = 18 ck3Province = 19 ck3Province = 20 ck3Province = 21 ck3Province = 22 ck3Province = 23 ck3Province = 24 ck3Province = 25 ck3Province = 26 ck3Province = 27 ck3Province = 28 ck3Province = 29 ck3Province = 30 ck3Province = 31 ck3Province = 32 ck3Province = 33 ck3Province = 34 ck3Province = 36 ck3Province = 37 ck3Province = 38 ck3Province = 39 ck3Province = 40 ck3Province = 41  ck3Province = 42 ck3Province = 43 ck3Province = 44 ck3Province = 45 ck3Province = 46 ck3Province = 47 ck3Province = 48 ck3Province = 49 ck3Province = 50 ck3Province = 51 ck3Province = 52 ck3Province = 53 ck3Province = 54 }
