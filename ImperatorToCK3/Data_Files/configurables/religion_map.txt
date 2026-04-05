@@ -35,6 +35,8 @@
 ## Pagan
 # WTWSMS
 link = { ck3 = thracian_pagan ir = shamanism ck3Culture = thracian }
+link = { ck3 = caucasian_religion ir = caucasian_religion ir = circassian_pantheon }
+link = { ck3 = gurzil ir = berber_religion ck3Culture = libyan ck3Culture = garamantian }
 # TFE
 link = { ck3 = guanche_pagan ir = berber_religion ck3Province = 8713 ck3Province = 8714 ck3Province = 8715 ck3Province = 8716 ck3Province = 849 }
 link = { ck3 = amazigh_pagan ir = berber_religion }
@@ -188,6 +190,9 @@ link = { # quote from Izn who added the religion to Invictus: "voxite closest to
     ir = vaksh_religion # Voxite
 }
 # Simple Timeline Extender mod
+link = { ck3 = sabianism ir = manichaeism heresiesInHistoricalAreas=yes ck3Province = 4870 } # WTWSMS
+link = { ck3 = mandeaism ir = manichaeism ck3Culture = chaldean } # WTWSMS
+link = { ck3 = valentinianism ir = manichaeism heresiesInHistoricalAreas=yes irRegion = mauretainia_region } # WTWSMS
 link = { ck3 = mandeaism ir = manichaeism irRegion = palestine_region } # TFE
 link = { ck3 = priscillianism ir = manichaeism heresiesInHistoricalAreas=yes irRegion = lusitania_region irRegion = gallaecia_region irRegion = baetica_region irRegion = tarraconensis_region irRegion = contestania_region irRegion = aquitaine_region }
 link = { ck3 = mingism ir = manichaeism @china_regions }
@@ -258,7 +263,7 @@ link = { ck3 = armenian_apostolic ir = apostolic } # https://steamcommunity.com/
 link = { ck3 = priscillianism ir = christianity heresiesInHistoricalAreas=yes ck3Province = 1831 ck3Province = 1912 ck3Province = 1919 ck3Province = 1954 irRegion = lusitania_region }
 link = { ck3 = valentinianism ir = christianity heresiesInHistoricalAreas=yes irRegion = decapolis_area irRegion = peraea_area irRegion = arabia_petrea_area irRegion = sinai_area }
 link = { ck3 = arianism ir = christianity irRegion = germania_superior_region irRegion = bohemia_area irRegion = germania_region irRegion = pannonia_region irRegion = dacia_region irRegion = moesia_region irRegion = sarmatia_europea_region irRegion = vistulia_region irRegion = venedia_region } # TFE
-link = { ck3 = donatism ir = christianity irRegion = africa_region irRegion = atlas_region } # TFE / WTWSMS
+link = { ck3 = donatism ir = christianity irRegion = atlas_region } # TFE / WTWSMS
 link = { ck3 = macedonianism ir = christianity irRegion = macedonia_region } # TFE
 link = { ck3 = adamites ir = christianity ck3Province = 4648 ck3Province = 4649 ck3Province = 4650 ck3Province = 4651 ck3Province = 4652 ck3Province = 4653 ck3Province = 4654 } # TFE
 link = { ck3 = melchisdechianism ir = christianity heresiesInHistoricalAreas=yes ck3Province = 750 ck3Province = 742 ck3Province = 5569 ck3Province = 5565 }
