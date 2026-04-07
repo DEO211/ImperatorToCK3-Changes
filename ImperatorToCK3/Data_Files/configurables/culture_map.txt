@@ -50,7 +50,7 @@
 @culture_splitting_region_I = "irRegion = rhaetia_region irRegion = cisalpine_gaul_region irRegion = histria_area" # Added histria_area to better match the image provided for region breakdown
 ## J:
 @culture_splitting_region_J1 = "irRegion=illyria_region irRegion=moesia_s_region"
-@culture_splitting_region_J2 = "irRegion=pannonia_region"
+@culture_splitting_region_J2 = "irRegion=pannonia_region irRegion=celamantia_area irRegion=transcarpathia_centralis_area"
 @culture_splitting_region_J = "@culture_splitting_region_J1 @culture_splitting_region_J2"
 ## K:
 @culture_splitting_region_K1 = "irRegion=moesia_region irRegion=thrace_region irRegion=macedonia_region"
