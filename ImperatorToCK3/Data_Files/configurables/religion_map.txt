@@ -142,6 +142,9 @@ link = { ck3 = celtiberian_paganism ir = druidism irRegion = tarraconensis_regio
 link = { ck3 = celtic_pagan ir = druidism } # Fallback
 
 #Jewish
+link = { ck3 = ebionite ir = judaism ck3Culture = nabatean } # Mixed Jewish Christian faith - Used for the Nabatean
+link = { ck3 = tzadikite ir = judaism irRegion = iberia_region } # WTWSMS
+link = { ck3 = samaritan ir = judaism ck3Culture = samaritan_culture }
 link = { ck3 = haymanot ir = judaism irRegion = punt_region }
 link = { ck3 = kabarism ir = judaism irRegion = sarmatia_asiatica_region irRegion = taurica_region irRegion = colchis_region irRegion = bithynia_region irRegion = cappadocia_region irRegion = galatia_region irRegion = cilicia_region }
 link = { ck3 = karaism ir = judaism irRegion = assyria_region irRegion = mesopotamia_region }
@@ -288,8 +291,9 @@ link = { ck3 = georgian_orthodox ir = christianity ck3Culture = lazic ck3Culture
 link = { ck3 = syrian_orthodox ir = christianity ck3Culture = aramean ck3Culture = syriac } # WTWSMS
 link = { ck3 = albanian_apostolic ir = christianity ck3Culture = caucasian_albanian ck3Culture = nakh ck3Culture = awaral ck3Culture = balasakan } # WTWSMS
 link = { ck3 = ethiopian_orthodox ir = christianity ck3Culture = ethiopian } # WTWSMS
-link = { ck3 = ebionite ir = christianity ck3Culture = nabatean ck3Culture = hebrew ck3Culture = samaritan_culture ck3Culture = judean ck3Culture = juhuro ck3Culture = kochinim } # WTWSMS - Though it's the jewish christain faith, Nabatean use it too
-link = { ck3 = monophysitism ir = christianity ck3Culture = adnanite ck3Culture = yathribi ck3Culture = himyarite ck3Culture = sabaean ck3Culture = minaean ck3Culture = hadhramaut ck3Culture = tribal_arab ck3Culture = khalan ck3Culture = qatarye } # WTWSMS - Said to be the form of christianity used by Arabs in description
+link = { ck3 = ebionite ir = christianity ck3Culture = hebrew ck3Culture = samaritan_culture ck3Culture = judean ck3Culture = juhuro ck3Culture = kochinim } # WTWSMS - Jewish Christian mixed faith.
+link = { ck3 = conversos ir = christianity ck3Culture = nabatean }
+link = { ck3 = monophysitism ir = christianity ck3Culture = adnanite ck3Culture = yathribi ck3Culture = himyarite ck3Culture = sabaean ck3Culture = minaean ck3Culture = hadhramaut ck3Culture = tribal_arab } # WTWSMS - Said to be the form of christianity used by Arabs in description
 link = { ck3 = coptic ir = christianity @after_chalcedon irRegion = arabia_felix_region irRegion = arabia_region irRegion = cyrenaica_region irRegion = fezzan_region irRegion = lower_egypt_region irRegion = nubia_region irRegion = lower_nubia_region irRegion = punt_region irRegion = upper_egypt_region }
 link = { ck3 = circassian_christianity ir = christianity @after_nestorian_schism irRegion = taurica_region irRegion = scythia_region irRegion = sarmatia_asiatica_region } # Rajas faith; Not actually related to the Nestorian schism, from Wikipedia: Christianity likely entered Circassia between the 3rd and 5th century.
 # indian_catholic only exists in Rajas of India, so use nestorian as fallback for its regions
