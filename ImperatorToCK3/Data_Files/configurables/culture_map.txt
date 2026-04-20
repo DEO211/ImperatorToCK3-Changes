@@ -660,11 +660,7 @@ link = { ck3 = helleno_roman @ir_latin_cultures irRegion = europa_area irRegion 
 link = { ck3 = dacio_roman @ir_latin_cultures @culture_splitting_region_K2 } 
 link = { ck3 = thracio_roman @ir_latin_cultures @culture_splitting_region_K1 irRegion = dardania_inferioris_area }
 link = { ck3 = illyro_roman @ir_latin_cultures @culture_splitting_region_J } 
-link = { ck3 = gallo_roman @ir_latin_cultures
-    @culture_splitting_region_E
-    @culture_splitting_region_F
-    @culture_splitting_region_G
-}
+link = { ck3 = gallo_roman @ir_latin_cultures @culture_splitting_region_E @culture_splitting_region_F }
 link = { ck3 = hispano_roman @ir_latin_cultures
     @culture_splitting_region_T
     @culture_splitting_region_U
