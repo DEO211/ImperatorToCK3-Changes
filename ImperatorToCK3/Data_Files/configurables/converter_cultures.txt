@@ -2505,6 +2505,8 @@ scythian = {
 	MOD_DEPENDENT = {
 		IF wtwsms = {
 			heritage = heritage_sarmatian
+		} ELSE_IF tfe = {
+			heritage = heritage_sarmatian
 		} ELSE = {
 			heritage = heritage_iranian
 		}
@@ -2548,6 +2550,16 @@ sarmatian = {
 		wtwsms = { sarmatian }
 		vanilla_ck3 = { sarmatian }
 	}
+
+	MOD_DEPENDENT = {
+		IF wtwsms = {
+			heritage = heritage_sarmatian
+		} ELSE_IF tfe = {
+			heritage = heritage_sarmatian
+		} ELSE = {
+			heritage = heritage_iranian
+		}
+	}
     
 	color = rgb { 222 124 28 }
 
@@ -2560,7 +2572,6 @@ sarmatian = {
 
 	ethos = ethos_stoic
 
-	heritage = heritage_iranian
 	language = language_scythian
 
 	coa_gfx = { steppe_coa_gfx volga_finnic_group_coa_gfx }
