@@ -650,13 +650,16 @@ link = { ck3 = norman ir = norman } # https://steamcommunity.com/sharedfiles/fil
 @ir_latin_cultures = "ir = roman ir = osco_umbrian ir = umbrian ir = samnite ir = ligurian ir = lucanian ir = bruttian ir = sardonian @sicilian_cultures @picenian_cultures @ir_antiquitas_italic_cultures"
 
 # TFE -splitting according to regions
+link = { ck3 = sardino_roman @ir_latin_cultures @culture_splitting_region_S }
 link = { ck3 = hiberno_roman @ir_latin_cultures @culture_splitting_region_A } 
 link = { ck3 = caledo_roman @ir_latin_cultures @culture_splitting_region_B } # hiberno and caledo roman have been commented out
 link = { ck3 = britano_roman @ir_latin_cultures @culture_splitting_region_C @culture_splitting_region_B @culture_splitting_region_A }
 link = { ck3 = rhaetio_roman @ir_latin_cultures irRegion = rhaetia_region }
-link = { ck3 = illyro_roman @ir_latin_cultures @culture_splitting_region_J1 } 
-link = { ck3 = dacio_roman @ir_latin_cultures @culture_splitting_region_J2 } 
-link = { ck3 = thracio_roman @ir_latin_cultures @culture_splitting_region_K1 }
+link = { ck3 = helleno_roman @ir_latin_cultures irRegion = europa_area irRegion = rhodope_area irRegion = chalkidiki_area irRegion = macedonia_area irRegion = thessaly_area } 
+link = { ck3 = dacio_roman @ir_latin_cultures @culture_splitting_region_K2 } 
+link = { ck3 = thracio_roman @ir_latin_cultures @culture_splitting_region_K1 irRegion = dardania_inferioris_area }
+link = { ck3 = illyro_roman @ir_latin_cultures @culture_splitting_region_J } 
+link = { ck3 = germano_roman @ir_latin_cultures @culture_splitting_region_G }
 link = { ck3 = gallo_roman @ir_latin_cultures
     @culture_splitting_region_E
     @culture_splitting_region_F
@@ -670,6 +673,7 @@ link = { ck3 = hispano_roman @ir_latin_cultures
     @culture_splitting_region_X
     @culture_splitting_region_Y
 }
+link = { ck3 = afro_roman @ir_latin_cultures irRegion = numidia_centralis_area irRegion = gaetulia_septentrionalis_area irRegion = gaetulia_centralis_area }
 link = { ck3 = mauro_roman @ir_latin_cultures irRegion = mauretainia_region irRegion = atlas_region irRegion = numidia_region }
 link = { ck3 = afro_roman @ir_latin_cultures @culture_splitting_region_O }
 
