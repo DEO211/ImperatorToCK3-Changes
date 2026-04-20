@@ -32,7 +32,7 @@ heritage_nuragic = {
 
 heritage_anatolian = {
     REPLACED_BY = {
-		tfe = { heritage_anatolian }
+		tfe = { heritage_hellenistic }
 		wtwsms = { heritage_anatolian }
 		vanilla_ck3 = { heritage_anatolian }
 	}
