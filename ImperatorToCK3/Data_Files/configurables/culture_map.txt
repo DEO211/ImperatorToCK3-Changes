@@ -656,7 +656,7 @@ link = { ck3 = hiberno_roman @ir_latin_cultures @culture_splitting_region_A }
 link = { ck3 = caledo_roman @ir_latin_cultures @culture_splitting_region_B } # hiberno and caledo roman have been commented out
 link = { ck3 = britano_roman @ir_latin_cultures @culture_splitting_region_C @culture_splitting_region_B @culture_splitting_region_A }
 link = { ck3 = rhaetio_roman @ir_latin_cultures irRegion = rhaetia_region }
-link = { ck3 = helleno_roman @ir_latin_cultures irRegion = europa_area irRegion = rhodope_area irRegion = chalkidiki_area irRegion = macedonia_area irRegion = thessaly_area @culture_splitting_region_K2 } 
+link = { ck3 = helleno_roman @ir_latin_cultures irRegion = europa_area irRegion = rhodope_area irRegion = chalkidiki_area irRegion = macedonia_area irRegion = thessaly_area @culture_splitting_region_R } 
 link = { ck3 = dacio_roman @ir_latin_cultures @culture_splitting_region_K2 } 
 link = { ck3 = thracio_roman @ir_latin_cultures @culture_splitting_region_K1 irRegion = dardania_inferioris_area }
 link = { ck3 = illyro_roman @ir_latin_cultures @culture_splitting_region_J } 
