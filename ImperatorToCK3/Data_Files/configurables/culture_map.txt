@@ -434,6 +434,7 @@ link = { ck3 = reudignian ir = reudingian }
 link = { ck3 = auiones ir = suiones irRegion = herulia_area } # Linked to auiones in wtwsms culture file
 link = { ck3 = swede ir = suiones }
 link = { ck3 = gutnish ir = scandian ir = raumarician @ir_gothic_cultures irProvince = 6010 } 
+link = { ck3 = gutish ir = scandian ir = raumarician @ir_gothic_cultures irProvince = 6010 } 
 link = { ck3 = geatish ir = raumarician @ir_gothic_cultures @culture_splitting_region_D } 
 link = { ck3 = dane ir = herulian @culture_splitting_region_D } 
 link = { ck3 = norse ir = rugian @culture_splitting_region_D } 
@@ -465,6 +466,7 @@ link = { ck3 = vandalic ir = vandal }
 
 # Saxon
 link = { ck3 = warnic @ir_ingvaeonic_cultures @ir_irminonic_cultures historicalTag=VRI historicalTag=NUI historicalTag=SUA } # Saxon heritage and irminonic language, so use both. Nuithoni and Suarini replace Varini in Invictus but were also said to be part of the saxon confederation so it still fits.
+link = { ck3 = varinian @ir_vandilian_cultures @ir_irminonic_cultures historicalTag=VRI } # TFE - Central Germanic in Imperator yet East Germanic in CK3, so use both. Moved here to prevent overide
 
 # Gothic
 link = { ck3 = skirian @ir_vandal_cultures @ir_gothic_cultures ir = bastarnae historicalTag=SCI } # Vandal in base imp, Bastarne in Invictus, Gothic in WTWSMS, so all 3
@@ -484,7 +486,6 @@ link = { ck3 = thuringian @ir_irminonic_cultures irRegion = chattia_orientalis_a
 # East Germanic mappings
 # Tag culture first so they don't get overwritten
 link = { ck3 = scirian @ir_vandilian_cultures historicalTag=SCI } # TFE 
-link = { ck3 = varinian @ir_vandilian_cultures @ir_irminonic_cultures historicalTag=VRI } # TFE - Central Germanic in Imperator yet East Germanic in CK3, so use both
 link = { ck3 = rugian @ir_vandilian_cultures historicalTag=RGG } # TFE
 link = { ck3 = herulian @ir_vandilian_cultures historicalTag=HRE } # TFE
 link = { ck3 = herulian ir = herulian } # TFE
@@ -846,6 +847,7 @@ link = { ck3 = nuragic ir = nuragic ir = corsian ir = talaiotic }
 ## Scythian
 # WTWSMS
 link = { ck3 = iazyges ir = sarmatian historicalTag=IAZ }
+link = { ck3 = western_alan ir = scythian ir = derbiccan ir = sakan ir = agathyrsian ir = sarmatian ir = legian ir = thyssagetaen ir = maeotian ir = sindi ir = siraci ir = alani @roman_tags }
 link = { ck3 = dahi_scythian ir = derbiccan }
 link = { ck3 = hunas ir = huna }
 link = { ck3 = khotanese ir = khotanese }
