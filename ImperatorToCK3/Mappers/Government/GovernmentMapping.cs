@@ -22,6 +22,12 @@ internal sealed class GovernmentMapping {
 			var ranksToAdd = reader.GetString().ToCharArray().Select(TitleRankUtils.CharToTitleRank);
 			titleRanks.AddRange(ranksToAdd);
 		});
+		parser.RegisterRegex(CommonRegexes.Variable, (reader, variableName) => {
+			var variableValue = reader.ResolveVariable(variableName)?.ToString() ?? string.Empty;
+			var variableReader = new BufferedReader(variableValue);
+			variableReader.CopyVariables(reader);
+			parser.ParseStream(variableReader);
+		});
 		parser.RegisterKeyword("has_ck3_dlc", reader => RequiredCK3Dlcs.Add(reader.GetString()));
 		parser.IgnoreAndLogUnregisteredItems();
 
