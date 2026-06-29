@@ -1156,7 +1156,7 @@ language_punic = {
 			language_punic
 			language_phoenician # TFE uses language_phoenician for the punic culture.
 		}
-		wtwsms = { language_punic }
+		wtwsms = { language_punic language_carthaginian }
 		vanilla_ck3 = { language_punic }
 	}
     
