@@ -3329,6 +3329,7 @@ palaungic = {  # from AsiaExtended mod https://steamcommunity.com/sharedfiles/fi
 carthaginian = {
     INVALIDATED_BY = {
 		tfe = { carthaginian punic }
+		wtwsms = { carthaginian punic }
 		vanilla_ck3 = { carthaginian punic }
 	}
     
