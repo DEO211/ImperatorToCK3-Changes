@@ -355,9 +355,9 @@ link = { ck3 = thracian ir = triballoi ir = moesi ir = odrysi ir = paeonian }
 ## East Levantine
 # WTWSMS
 link = { ck3 = chaldean ir = babylonian }
+link = { ck3 = judean ir = aramaic ir = phoenician historicalTag=JUD } # Historical assimilation
+link = { ck3 = samaritan_culture ir = aramaic ir = phoenician historicalTag=SMA } # Historical assimilation
 link = { ck3 = syriac ir = aramaic }
-link = { ck3 = judean ir = aramaic historicalTag=JUD } # Historical assimilation
-link = { ck3 = samaritan_culture ir = aramaic historicalTag=SMA } # Historical assimilation
 # TFE
 link = { ck3 = aramean ir = aramaic }
 # Vanilla CK3
@@ -946,6 +946,8 @@ link = { ck3 = judean ir = hebrew historicalTag=JUD } # Historical assimilation
 link = { ck3 = samaritan_culture ir = hebrew historicalTag=SMA } # Historical assimilation
 link = { ck3 = juhuro ir = hebrew @culture_splitting_region_M }
 link = { ck3 = kochinim ir = hebrew irRegion = karnata_region irRegion = dravida_region }
+link = { ck3 = tzarfati ir = hebrew @culture_splitting_region_E @culture_splitting_region_F }
+link = { ck3 = romaniote ir = hebrew @culture_splitting_region_R @culture_splitting_region_K1 @culture_splitting_region_L2 }
 # TFE
 link = { ck3 = punic ir = carthaginian }
 # Vanilla CK3
