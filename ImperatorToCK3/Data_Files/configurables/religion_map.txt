@@ -94,7 +94,7 @@ link = { ck3 = druze ir = judaism ck3Province = 5925 ck3Province = 5926 ck3Provi
 link = { ck3 = yazidi ir = arabian_pantheon ck3Province = 4773 ck3Province = 4774 ck3Province = 4775 ck3Province = 4776 ck3Province = 4777 ck3Province = 4808 ck3Province = 4809 ck3Province = 4810 ck3Province = 4811 ck3Province = 4812 ck3Province = 4836 ck3Province = 4837 ck3Province = 4838 ck3Province = 4839 ck3Province = 4840 ck3Province = 4841 }
 link = { ck3 = arabic_pagan ir = arabian_pantheon }
 # Hellenic - WTWSMS
-link = { ck3 = romano_celtic_pagan ir = italic_pantheon ir = greek_pantheon ir = roman_pantheon ck3Culture = gallic ck3Culture = galatian ck3Culture = astures ck3Culture = gallaecian ck3Culture = cantabrian ck3Culture = lusitanian ck3Culture = armorican ck3Culture = celtic_pannonian ck3Culture = celtiberian ck3Culture = belgae ck3Culture = lusoiberian ck3Culture = pictish ck3Culture = briton ck3Culture = gaelic ck3Culture = irish ck3Culture = cumbrian ck3Culture = cornish ck3Culture = breton ck3Culture = welsh }
+# link = { ck3 = romano_celtic_pagan ir = italic_pantheon ir = greek_pantheon ir = roman_pantheon ck3Culture = gallic ck3Culture = galatian ck3Culture = astures ck3Culture = gallaecian ck3Culture = cantabrian ck3Culture = lusitanian ck3Culture = armorican ck3Culture = celtic_pannonian ck3Culture = celtiberian ck3Culture = belgae ck3Culture = lusoiberian ck3Culture = pictish ck3Culture = briton ck3Culture = gaelic ck3Culture = irish ck3Culture = cumbrian ck3Culture = cornish ck3Culture = breton ck3Culture = welsh }
 # Hellenic - TFE
 link = { ck3 = roman_pagan ir = italic_pantheon }
 link = { ck3 = hellenic_pagan ir = greek_pantheon } # greek_pantheon is from the I:R Antiquitas mod
