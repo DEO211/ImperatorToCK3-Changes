@@ -3366,6 +3366,7 @@ carthaginian = {
 phoenician = {
     INVALIDATED_BY = {
 		tfe = { phoenician }
+		wtwsms = { phoenician }
 		vanilla_ck3 = { phoenician }
 	}
     
