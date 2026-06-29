@@ -112,6 +112,7 @@ heritage_iberian_celtic = { # https://en.wikipedia.org/wiki/List_of_ancient_Celt
 heritage_punic = {
     REPLACED_BY = {
 		tfe = { heritage_punic }
+		wtwsms = { heritage_punic heritage_phoenician }
 		vanilla_ck3 = { heritage_punic }
 	}
 	MOD_DEPENDENT = {
